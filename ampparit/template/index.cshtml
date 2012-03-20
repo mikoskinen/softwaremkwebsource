@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>@Model.Title - @Model.Description</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="@Model.MetaDescription">
+    <meta name="keywords" content="@Model.MetaKeywords">
+    <meta name="author" content="@Model.Publisher.Publisher">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le styles -->
+    <link href="@Model.Assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="@Model.Assets/css/docs.css" rel="stylesheet">
+    <link href="@Model.Assets/css/grazewp7.css" rel="stylesheet">
+    <link href="@Model.Assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="@Model.Assets/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="@Model.Assets/ico/bootstrap-apple-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="@Model.Assets/ico/bootstrap-apple-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="@Model.Assets/ico/bootstrap-apple-114x114.png">
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '@Model.GoogleAnalytics']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</head>
+<body data-spy="scroll" data-target=".subnav" data-offset="50" id="home">
+    @Model.TopNavigation
+    <div class="container">
+        <div class="inner">
+            <div class="row" id="mobileheader">
+                <div class="jumbotron masthead">
+                    <h2 class="pagination-centered jumbotron">@Model.Title</h2>
+                    <p>@Model.Description</p>
+                    <p class="download-info">
+                        <a href="@Model.Assets/download.html?source=largebutton&id=@Model.ApplicationId" target="_blank" class="btn btn-primary btn-small">@Model.Download</a>
+                    </p>
+                    <div id="myModalMini" class="modal hide fade">
+                        <div class="modal-header">
+                            <a class="close" data-dismiss="modal">&times;</a>
+                            <h3>Esittely</h3>
+                        </div>
+                        <div class="modal-body">
+                            @Model.IntroductionVideoMini
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="btn" data-dismiss="modal">Sulje</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subnav subnav-fixed">
+                <ul class="nav nav-pills">
+                    <li>
+                        <a href="#home"><i class="icon-home"></i> Koti</a>
+                    </li>
+                    <li>
+                        <a href="#reviews"><i class="icon-star"></i> Arvosteluja</a>
+                    </li>
+                    <li>
+                        <a href="#features"><i class="icon-check"></i> Ominaisuuksia</a>
+                    </li>
+                    <li>
+                        <a href="#help"><i class="icon-question-sign"></i> Vinkkej&auml;</a>
+                    </li>
+                    <li>
+                        <a href="#news"><i class="icon-inbox"></i> Uutisia</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="span5">
+                    <div id="screenshotarea">
+                        <div id="phones">
+                            <div id="phone">
+                                <div id="screens">
+                                    <div id="slider">
+                                        <ul>
+                                            @foreach (var screenshot in Model.Screenshots)
+                                            {
+                                                <li>
+                                                    <img src="assets/shots/@screenshot.screenshot" alt="@screenshot.alt" />
+                                                </li>
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="smallPhone">
+                                <img src="assets/shots/@Model.StaticScreenshot.StaticScreenshot" alt="@Model.StaticScreenshot.alt" ></div>
+                            <a data-toggle="modal" href="#myModal">
+                            <h6 class="videolink"><i class="icon-play-circle"></i>Katso video!</h6>
+                            </a>
+                            <div id="myModal" class="modal hide fade">
+                                <div class="modal-header">
+                                    <a class="close" data-dismiss="modal">&times;</a>
+                                    <h3>Esittely</h3>
+                                </div>
+                                <div class="modal-body">
+                                    @Model.IntroductionVideo
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#" class="btn" data-dismiss="modal">Sulje</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span7">
+                    <header id="normalheader" class="jumbotron masthead topheading">
+                        <h2 class="pagination-centered jumbotron">@Model.Title</h2>
+                        <h1 class="topheading">@Model.Subtitle</h1>
+                        <p>@Model.Description</p>
+                        <p class="download-info">
+                            <a href="@Model.Assets/download.html?source=largebutton&id=@Model.ApplicationId" target="_blank" class="btn btn-primary btn-large">@Model.Download</a>
+                        </p>
+                    </header>
+                    <div class="marketing" id="reviews">
+                        <p class="marketing-byline">@Model.ReviewsTitle</p>
+                        <div class="row">
+                            @foreach (var review in Model.Reviews)
+                            {
+                                <div class="span3">
+                                    <h2>
+                                        @{
+                                var maxRating = 5;
+                                var rating = int.Parse(review.rating);
+                                var fromMaximum = maxRating - rating;
+                                        }
+                                        @for (var i = 0; i < rating; i++)
+                                        {
+                                            <i class="icon-star"></i>
+                                        }
+                                        @for (var i = 0; i < fromMaximum; i++)
+                                        {
+                                            <i class="icon-star-empty"></i>
+                                        }
+                                    </h2>
+                                    <blockquote>
+                                        @review.Review
+                                        <small>@review.author</small> </blockquote>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="pull-right">
+                <a href="#">Takaisin alkuun</a></p>
+            <section id="features">
+                <div class="page-header">
+                    <h2>Ominaisuuksia <small>@Model.FeaturesSubtitle</small></h2>
+                </div>
+                <div class="row marketing">
+                    @foreach (var feature in Model.Features)
+                    {
+                        <div class="span4">
+                            <img alt="Feature icon" class="bs-icon" src="@feature.Image">
+                            <h3>@feature.Title</h3>
+                            <p>@feature.Feature</p>
+                        </div>
+                        
+                    }
+                </div>
+                <p class="pull-right">
+                    <a href="#">Takaisin alkuun</a></p>
+            </section>
+            <section class="row">
+                <div class="span8">
+                    <section id="help">
+                        <div class="page-header">
+                            <h2>Vinkkej&auml; <small>
+                                <a href="@Model.Contact" target="_blank">Ota yhteytt&auml;</a>
+                                @Model.HelpSubtitle</small></h2>
+                        </div>
+                        @Model.Help
+                    </section>
+                    <p class="pull-right">
+                        <a href="#">Takaisin alkuun</a></p>
+                    <section id="news">
+                        <div class="page-header">
+                            <h2>Uutisia <small>@Model.NewsSubtitle</small></h2>
+                        </div>
+                        @Model.News
+                    </section>
+                    <p class="pull-right">
+                        <a href="#">Takaisin alkuun</a></p>
+                </div>
+                <div class="span4">
+                    <section id="about">
+                        <div class="page-header">
+                            <h2>Tietoja <small>@Model.AboutSubtitle</small></h2>
+                        </div>
+                        <img src="assets/shots/marketplace_99.png" alt="logo" class="pull-right" />
+                        <h4>Current version:</h4>
+                        @Model.CurrentVersion
+                        <h4>First release:</h4>
+                        @Model.FirstRelease
+                        <h4>Average rating:</h4>
+                        @Model.AverageRating
+                    </section>
+                    <section id="feedback">
+                        <div class="page-header">
+                            <h2>Palaute <small>Arvostamme palautettasi!</small></h2>
+                        </div>
+                        <p>@Model.Feedback</p>
+                    </section>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <p class="pull-right">
+                <a href="#">Takaisin alkuun</a></p>
+            <p>Copyright
+                <a href="@Model.Publisher.HomePage" target="_blank">@Model.Publisher.Publisher
+                </a>
+                2012 </p>
+            <h6>Created with
+                <a href="@Model.WP7Graze.Link">@Model.WP7Graze.WP7Graze</a>
+                using the
+                <a href="@Model.Graze.Link">@Model.Graze.Graze.</a>
+            </h6>
+        </footer>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="@Model.Assets/js/bootstrap.min.js"></script>
+    <script src="@Model.Assets/js/easySlider1.7.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            showSlider();
+            showScreenshots();
+        });
+
+        function showSlider() {
+            $("#slider").easySlider({
+                auto: true,
+                continuous: true,
+                pause: 5000,
+                controlsShow: false
+            });
+        }
+
+        function showScreenshots() {
+            $("#screenshotarea").css("visibility", "visible");
+        }
+        
+    </script>
+</body>
+</html>

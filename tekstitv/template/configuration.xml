@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <site>
+    <Title>Teletext Finland</Title>
+    <Description>Teksti-tv Windows puhelimeesi</Description>
+    <ApplicationId>a995e1eb-9015-e011-9264-00237de2db9e</ApplicationId>
+    <Subtitle>Suomen suosituin teksti-tv sovellus Windows Phone -puhelimiin!</Subtitle>
+    <Download>Lataa ilmaiseksi</Download>
+    <Contact>http://softwaremk.org/index.php/contact/</Contact>
+    <CompanyInfo>http://softwaremk.org/index.php/services</CompanyInfo>
+    <MetaDescription>Teletext Finland on Windows Phone markkinapaikan suosituin ja monipuolisin tekstit-tv. Mukana mm. live-tiilet, suosikit, helppo navigointi ja ylittämätön nopeus. Teletext Finland on suomalaisille käyttäjille kokonaan suomenkielinen ja se tarjoaa suosittujen suomalaisten kanavien teksti-tv:t ja niiden tarjoman sisällön, kuten uutiset ja urheilutulokset. Teletext Finland on erinomainen valinta suomalaisen teksti-tv:n ystävälle!.</MetaDescription>
+    <MetaKeywords>wp7, windows phone, windows puhelin, windows phone apps, window phone app, apps, teksti-tv, tekstitv, tv, uutiset, urheilu, yle, mtv3, nelonen</MetaKeywords>
+    <GoogleAnalytics>UA-4901211-8</GoogleAnalytics>
+    <CurrentVersion>3.4</CurrentVersion>
+    <AverageRating>4.5 (perustuu on 115 arvosteluun)</AverageRating>
+    <Publisher HomePage="http://www.softwaremk.org">SoftwareMK</Publisher>
+    <ReviewsTitle>Katso mitä muut ovat mieltä.</ReviewsTitle>
+    <Reviews>
+      <Review author="Player306591072" rating="5">Erittäin hyvin toimiva!</Review>
+      <Review author="HKeskiva" rating="5">Loistava uutisapp!</Review>
+      <Review author="Player796476899" rating="5">Loistava ohjelma niille, jotka haluaa lukea uutiset samasta paikasta. Hyvä ja helppo käyttää</Review>
+      <Review author="Player651632291" rating="5">Näppärä apuohjelma, tiedät mitä maailmalla tapahtuu nopeasti</Review>
+    </Reviews>
+    <Screenshots>
+      <screenshot alt="My screenshot 1">100.PNG</screenshot>
+      <screenshot alt="My screenshot 2">160mtv3.PNG</screenshot>
+      <screenshot alt="My screenshot 3">alapalkki.PNG</screenshot>
+      <screenshot alt="My screenshot 4">Capture.PNG</screenshot>
+      <screenshot alt="My screenshot 5">kanavat.PNG</screenshot>
+      <screenshot alt="My screenshot 6">konteksti.PNG</screenshot>
+      <screenshot alt="My screenshot 7">koti.PNG</screenshot>
+    </Screenshots>
+    <StaticScreenshot alt="Logo">startti.PNG</StaticScreenshot>
+    <Features>
+      <Feature Image="assets/img/glyphicons/glyphicons_155_show_thumbnails.png" Title="Live tiilet">Kiinnitä suosikkisi puhelimen käynnistysvalikkoon. Käynnistysvalikko päivittyy tasaisin väliajoin näyttämään päivitettyä teksti-tv sivua.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Helppo navigointi">Sivunsyöttö aukeaa helposti tuplakoskettamalla nykyistä sivua.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_266_book_open.png" Title="Suosikit">Valitse suosikkiaiheesi ja tee niistä mukautettu uutiskategoria. Kategoriassa näkyy vain ne uutiset, jotka sinua kiinnostavat.</Feature>
+    </Features>
+    <FeaturesSubtitle>Helppokäyttöinen ja nopea teksti-tv appis Windows puhelimeen</FeaturesSubtitle>
+    <HelpSubtitle>jos sinulla on murheita tämän Windows Phone teksti-tv sovelluksen kanssa</HelpSubtitle>
+    <AboutSubtitle>Teletext Finland - Teksti-tv Windows puhelimessasi</AboutSubtitle>
+    <NewsSubtitle>Uutisia teksti-tv sovelluksen kehityksestä</NewsSubtitle>
+    <Feedback>Otathan yhteyttä, jos sinulla on murheita tai uusia ideoita sovelluksen kehittämiseksi. Arvostamme palautetta suuresti!</Feedback>
+    <FirstRelease>7/2011</FirstRelease>
+    <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
+    <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
+    <Assets>http://mikoskinen.github.com/softwaremkassets</Assets>
+  </site>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="250" Height="141">IntroductionVideoMini</Youtube>
+  <Html Url="http://irc.softwaremk.org/navigation.html">TopNavigation</Html>
+  <Markdown Location="pages/help.md">Help</Markdown>
+  <Markdown Location="pages/news.md">News</Markdown>
+</data>
