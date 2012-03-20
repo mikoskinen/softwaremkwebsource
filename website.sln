@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "irc", "irc\irc.csproj", "{2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ampparit", "ampparit\ampparit.csproj", "{5E7FC2DC-F5AA-4452-A3A0-AC86B5D13109}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tekstitv", "tekstitv\tekstitv.csproj", "{BEA7F176-4A9D-406A-A8D7-AA8EAC7F65CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{5E7FC2DC-F5AA-4452-A3A0-AC86B5D13109}.Debug|x86.Build.0 = Debug|x86
 		{5E7FC2DC-F5AA-4452-A3A0-AC86B5D13109}.Release|x86.ActiveCfg = Release|x86
 		{5E7FC2DC-F5AA-4452-A3A0-AC86B5D13109}.Release|x86.Build.0 = Release|x86
+		{BEA7F176-4A9D-406A-A8D7-AA8EAC7F65CD}.Debug|x86.ActiveCfg = Debug|x86
+		{BEA7F176-4A9D-406A-A8D7-AA8EAC7F65CD}.Debug|x86.Build.0 = Debug|x86
+		{BEA7F176-4A9D-406A-A8D7-AA8EAC7F65CD}.Release|x86.ActiveCfg = Release|x86
+		{BEA7F176-4A9D-406A-A8D7-AA8EAC7F65CD}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
