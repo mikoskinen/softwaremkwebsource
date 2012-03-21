@@ -39,7 +39,7 @@
     <None Include="template\index.cshtml" />
     <None Include="template\pages\services.md" />
     <None Include="template\pages\help.md" />
-    <None Include="template\pages\stack.md" />
+    <None Include="template\pages\news.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="extras\graze.contracts.dll" />
