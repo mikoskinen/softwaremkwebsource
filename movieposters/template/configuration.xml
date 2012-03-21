@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <site>
+    <Title>Movie Posters</Title>
+    <Description>Find Great Movie Posters with Your Windows Phone!</Description>
+    <ApplicationId>ce965250-1031-4de0-92b0-0d9bcdab69cb</ApplicationId>
+    <Subtitle>Excellent Windows Phone 7 app for finding High Quality Wallpapers!</Subtitle>
+    <Contact>http://softwaremk.org/index.php/contact/</Contact>
+    <CompanyInfo>http://softwaremk.org/index.php/services</CompanyInfo>
+    <MetaDescription>Windows Phone 7 app for finding great wallpapers with Movie Posters. Just enter the name of the movie and you will get a high resolution poster provided by the extensive TMDb. Simple and fast to use.</MetaDescription>
+    <MetaKeywords>wp7, windows phone, windows phone 7, wp7 apps, windows phone 7 apps, movies, movie posters, posters, poster, movie poster</MetaKeywords>
+    <GoogleAnalytics>UA-30222266-1</GoogleAnalytics>
+    <CurrentVersion>1.0</CurrentVersion>
+    <AverageRating>Not yet reviewed.</AverageRating>
+    <Publisher HomePage="http://www.softwaremk.org">SoftwareMK</Publisher>
+    <ReviewsTitle>See what others are saying.</ReviewsTitle>
+    <Download>Download Free</Download>
+    <Reviews>
+      <Review author="" rating="0">Not yet reviewed, be first!</Review>
+      <Review author="" rating="0">Not yet reviewed, be first!</Review>
+    </Reviews>
+    <Screenshots>
+      <screenshot alt="My screenshot 1">en_main.PNG</screenshot>
+      <screenshot alt="My screenshot 2">en_menu.PNG</screenshot>
+      <screenshot alt="My screenshot 3">en_appbar.PNG</screenshot>
+    </Screenshots>
+    <StaticScreenshot alt="My screenshot 5">en_start.PNG</StaticScreenshot>
+    <Features>
+      <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Extensive Selection">Search through millions of high quality movie posters. Posters are provided by TMDb.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_155_show_thumbnails.png" Title="Wallpapers">Use Movie Posters to find great wallpapers for your phone. Save your favourite to your phone's gallery and make it the wallpaper.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_266_book_open.png" Title="Sharing">Share your favourite posters with your friends.</Feature>
+    </Features>
+    <FeaturesSubtitle>Find HQ Windows Phone Wallpapers easily</FeaturesSubtitle>
+    <AboutSubtitle>Movie Posters - HQ Windows Phone Wallpapers</AboutSubtitle>
+    <Feedback>Please, contact us if you have any problems or if you have ideas about how to make this Windows Phone app better. </Feedback>
+    <FirstRelease>2/2012</FirstRelease>
+    <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
+    <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
+    <Assets>http://assets.softwaremk.org</Assets>
+  </site>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="250" Height="141">IntroductionVideoMini</Youtube>
+  <Html Url="http://assets.softwaremk.org/navigation.html">TopNavigation</Html>
+  <Markdown Location="pages/help.md">Help</Markdown>
+  <Markdown Location="pages/news.md">News</Markdown>
+</data>

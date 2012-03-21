@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <site>
+    <Title>IRC7</Title>
+    <Description>The IRC Chat app for WP7</Description>
+    <ApplicationId>345e96da-fa2a-457f-95ce-f09e6f3b28a3</ApplicationId>
+    <Subtitle>The Most Popular Windows Phone IRC Chat Client!</Subtitle>
+    <Contact>http://softwaremk.org/index.php/contact/</Contact>
+    <CompanyInfo>http://softwaremk.org/index.php/services</CompanyInfo>
+    <MetaDescription>IRC chat app for Windows Phone. IRC7 is an IRC client which is easy to get started but rich with features. Windows Phone 7 IRC chat client doesn't get better than this.</MetaDescription>
+    <MetaKeywords>irc, internet relay chat, wp7, windows phone, wp7 irc, windows phone irc, irc wp7, irc windows phone 7, irc app, chat app, irc client, irc apps wp7, windows phone 7 irc, windows phone 7 irc client, client irc wp7</MetaKeywords>
+    <GoogleAnalytics>UA-4901211-8</GoogleAnalytics>
+    <CurrentVersion>1.7</CurrentVersion>
+    <AverageRating>4 (based on 79 reviews)</AverageRating>
+    <Publisher HomePage="http://www.softwaremk.org">SoftwareMK</Publisher>
+    <ReviewsTitle>See what others are saying.</ReviewsTitle>
+    <Download>Download Free Trial</Download>
+    <Reviews>
+      <Review author="PierrTr" rating="5">Top IRC App. Ũbersichtlich und schnell.</Review>
+      <Review author="Jyae 31" rating="5">Fast, responsive and reliable.</Review>
+      <Review author="sstrangerwp7" rating="5">Great app to connect to my favourite channel (PowerShell) on chat.eu.freenode.net.</Review>
+      <Review author="HanniLiger" rating="5">Works really good. Hope they add a background agent so I stay logged in when minimizing. :)     </Review>
+      <Review author="jason404z" rating="5">Very good. I think this is just about as good as an IRC client can be on a phone, and now it event has support for secure connections!</Review>
+      <Review author="Player734311397" rating="5">Very short trial almost put me off but works great. Desperately needed well done creators.</Review>
+    </Reviews>
+    <Screenshots>
+      <screenshot alt="Chat">chat_small.PNG</screenshot>
+      <screenshot alt="Frontpage">frontpage.PNG</screenshot>
+      <screenshot alt="Activity view">activity.PNG</screenshot>
+      <screenshot alt="Private message notification">newprivate.PNG</screenshot>
+    </Screenshots>
+    <StaticScreenshot alt="Logo">static.png</StaticScreenshot>
+    <Features>
+      <Feature Image="http://mikoskinen.github.com/softwaremkassets/img/glyphicons/glyphicons_009_magic.png" Title="Feature1">If you know the basics of IRC chat (Internet Relay Chat), you can get started in few seconds. Chat with thousands of other IRC users with this IM for Windows Phone app.</Feature>
+      <Feature Image="http://mikoskinen.github.com/softwaremkassets/img/glyphicons/glyphicons_009_magic.png" Title="Feature2">With this IRC chat app you’re not limited to only one server. Want to connect to both the QuakeNet and the IRCNet, simultaneously? IRC7 can do that for you. </Feature>
+      <Feature Image="http://mikoskinen.github.com/softwaremkassets/img/glyphicons/glyphicons_009_magic.png" Title="Feature3">Don't miss important messages. Your nick is always highlighted and you can open links directly from the chat window.</Feature>
+      <Feature Image="http://mikoskinen.github.com/softwaremkassets/img/glyphicons/glyphicons_009_magic.png" Title="Feature4">Op, kick and send private messages from a easy-to-use user management window.</Feature>
+      <Feature Image="http://mikoskinen.github.com/softwaremkassets/img/glyphicons/glyphicons_009_magic.png" Title="Feature5">Even though this IRC client is rich with features, it doesn't stress your phone.</Feature>
+      <Feature Image="http://mikoskinen.github.com/softwaremkassets/img/glyphicons/glyphicons_009_magic.png" Title="Feature6">IRC7 defaults to UTF-8 encoding. This works in most of the situations, but if this IRC app notices problems with someone’s messages, it automatically reverts to ISO 8859-1. </Feature>
+    </Features>
+    <FeaturesSubtitle>The most secure and feature rich IRC app for Windows Phone</FeaturesSubtitle>
+    <HelpSubtitle>if you have any worries with this IRC client</HelpSubtitle>
+    <AboutSubtitle>IRC7 - The IRC client for WP7</AboutSubtitle>
+    <NewsSubtitle>The latest info about IRC7. What's in future of this IRC app?</NewsSubtitle>
+    <Feedback>We use UserVoice to collect your great ideas and valuable feedback. Please, let us know if there's a way to make this IRC app better. </Feedback>
+    <FirstRelease>9/2011</FirstRelease>
+    <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
+    <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
+    <Assets>assets</Assets>
+  </site>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="250" Height="141">IntroductionVideoMini</Youtube>
+  <Html Url="http://irc.softwaremk.org/navigation.html">TopNavigation</Html>
+  <Markdown Location="pages/help.md">Help</Markdown>
+  <Markdown Location="pages/news.md">News</Markdown>
+</data>

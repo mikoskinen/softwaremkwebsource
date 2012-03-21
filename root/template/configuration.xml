@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <site>
+    <Title>SoftwareMK</Title>
+    <Description>High quality Windows Phone apps, ranging from the world's most popular IRC-client to a news apps tailored for Finnish users.</Description>
+    <Subtitle>At SoftwareMK, we have passion for making high quality and polished apps for Windows Platforms.</Subtitle>
+    <Contact>http://company.softwaremk.org/index.php/contact/</Contact>
+    <CompanyInfo>http://company.softwaremk.org/index.php/services</CompanyInfo>
+    <MetaDescription>High quality Windows Phone applications, ranging from the world's most popular IRC-client to a news apps tailored for Finnish users. Windows Phone, Windows 8, ASP.NET and Silverlight development with passion.</MetaDescription>
+    <MetaKeywords>windows phone, wp7, wp7 apps, windows phone apps, wp7 irc, windows 8, silverlight, asp.net</MetaKeywords>
+    <GoogleAnalytics>UA-30222266-1</GoogleAnalytics>
+    <Publisher HomePage="http://www.softwaremk.org">SoftwareMK</Publisher>
+    <Download>Download Free Trial</Download>
+    <Reviews>
+      <Review author="PierrTr" rating="5">Top IRC App. Ũbersichtlich und schnell.</Review>
+      <Review author="Jyae 31" rating="5">Fast, responsive and reliable.</Review>
+      <Review author="sstrangerwp7" rating="5">Great app to connect to my favourite channel (PowerShell) on chat.eu.freenode.net.</Review>
+      <Review author="HanniLiger" rating="5">Works really good. Hope they add a background agent so I stay logged in when minimizing. :)     </Review>
+      <Review author="jason404z" rating="5">Very good. I think this is just about as good as an IRC client can be on a phone, and now it event has support for secure connections!</Review>
+      <Review author="Player734311397" rating="5">Very short trial almost put me off but works great. Desperately needed well done creators.</Review>
+    </Reviews>
+    <Screenshots>
+      <screenshot alt="Chat">chat_small.PNG</screenshot>
+      <screenshot alt="Frontpage">frontpage.PNG</screenshot>
+      <screenshot alt="Activity view">activity.PNG</screenshot>
+      <screenshot alt="Private message notification">newprivate.PNG</screenshot>
+    </Screenshots>
+    <StaticScreenshot alt="Logo">static.png</StaticScreenshot>
+    <Apps>
+      <App Image="assets/shots/irc7.png" Link="http://www.softwaremk.org/irc" Title="IRC7">IRC7 is the long waited IRC-client for Windows Phone 7. IRC7 uses the pieces provided by the Windows Phone 7 Mango-update to provide you the ultimate IRC-client for Windows Phone 7.</App>
+      <App Image="assets/shots/ipsnoop.png" Link="http://www.softwaremk.org/ipsnoop" Title="IP Snoop">What is my IP? IP Snoop answers this question. This light-weight app for Windows Phone 7 shows your current IP-address. Supporting live tiles, IP Snoop allows you to keep up-to-date about your current IP-address.</App>
+      <App Image="assets/shots/movieposters.png" Link="http://www.softwaremk.org/movieposters" Title="Movie Posters">Find great wallpapers with Movie Posters. Just enter the name of the movie and you will get a high resolution poster provided by the extensive TMDb. Simple and fast to use.</App>
+      <App Image="assets/shots/ampparit.png" Link="http://www.softwaremk.org/ampparit" Title="Ampparit.com Reader">Finnish app: Ampparit.com Reader tuo suositun Ampparit.com -palvelun sisällön Windows Phone 7 -puhelimeesi. Urheilu, IT ja paikalliset uutiset ovat kaikki mukana tässä WP7-sovelluksessa ja mikä parasta, Ampparit.com Reader on täysin ilmainen.</App>
+      <App Image="assets/shots/tekstitv.png" Link="http://www.softwaremk.org/tekstitv" Title="Teletext Finland">Finnish app: Nopein, toimivin ja suosituin WP7 teksti-tv. Teletext Finland on erinomainen valinta suomalaisen teksti-tv:n ystävälle.</App>
+      <App Image="assets/shots/viihde.png" Link="http://www.softwaremk.org/viihde" Title="Viihde Manager">Finnish app: Viihde Manager tuo Elisa Viihde -palvelun Windows Phone 7 -puhelimeesi. Ohjelman avulla voit tehdä ajastukset ja selata monipuolista ohjelmaopasta mistä tahansa.</App>
+    </Apps>
+    <AppsSubtitle>Our High quality Windows Phone apps.</AppsSubtitle>
+    <ServicesSubtitle>High Quality App Development for Windows Platforms</ServicesSubtitle>
+    <StackSubtitle>How We Build Our Apps</StackSubtitle>
+    <NewsSubtitle>The latest info about IRC7. What's in future of this IRC app?</NewsSubtitle>
+    <Feedback>We use UserVoice to collect your great ideas and valuable feedback. Please, let us know if there's a way to make this IRC app better. </Feedback>
+    <FirstRelease>9/2011</FirstRelease>
+    <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
+    <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
+    <Assets>http://assets.softwaremk.org</Assets>
+    <Email>info@ohjelmistot.org</Email>
+    <Address>Hietatie 34, 40530 Jyväskyla, Finland</Address>
+    <Phone>(358) 40 592 8946</Phone>
+  </site>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="250" Height="141">IntroductionVideoMini</Youtube>
+  <Html Url="http://assets.softwaremk.org/navigation.html">TopNavigation</Html>
+  <Markdown Location="pages/services.md">Services</Markdown>
+  <Markdown Location="pages/stack.md">Stack</Markdown>
+</data>

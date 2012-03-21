@@ -10,7 +10,7 @@
     <CompanyInfo>http://softwaremk.org/index.php/services</CompanyInfo>
     <MetaDescription>Ampparit.com -lukija Windows Phone 7 puhelimessa. Uutiset ja urheilutulokset helposti suoraan Windows puhelimeesi.</MetaDescription>
     <MetaKeywords>wp7, windows phone, windows puhelin, windows phone apps, window phone app, apps, ampparit, ampparit.com, sovellus, windows puhelin sovellus</MetaKeywords>
-    <GoogleAnalytics>UA-4901211-8</GoogleAnalytics>
+    <GoogleAnalytics>UA-30222266-1</GoogleAnalytics>
     <CurrentVersion>2.6</CurrentVersion>
     <AverageRating>4 (perustuu 258 arvosteluun)</AverageRating>
     <Publisher HomePage="http://www.softwaremk.org">SoftwareMK</Publisher>
@@ -44,11 +44,11 @@
     <FirstRelease>7/2011</FirstRelease>
     <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
     <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
-    <Assets>http://mikoskinen.github.com/softwaremkassets</Assets>
+    <Assets>http://assets.softwaremk.org</Assets>
   </site>
   <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>
   <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="250" Height="141">IntroductionVideoMini</Youtube>
-  <Html Url="http://irc.softwaremk.org/navigation.html">TopNavigation</Html>  
+  <Html Url="http://assets.softwaremk.org/navigation.html">TopNavigation</Html>  
   <Markdown Location="pages/help.md">Help</Markdown>
   <Markdown Location="pages/news.md">News</Markdown>
 </data>

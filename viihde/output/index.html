@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Viihde Manager - Elisa Viihde Windows puhelimessasi!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Viihde Manager tuo Elisa Viihde -palvelun Windows Phone 7 -puhelimeesi. Ohjelman avulla voit tehdä ajastukset ja selata monipuolista ohjelmaopasta mistä tahansa.">
+    <meta name="keywords" content="wp7, windows phone, windows puhelin, windows phone apps, window phone app, apps, viihde, viihde manager, elisa, elisa viihde, elisa viihde wp7, sovellus, windows puhelin sovellus">
+    <meta name="author" content="SoftwareMK">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le styles -->
+    <link href="http://assets.softwaremk.org/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="http://assets.softwaremk.org/css/docs.css" rel="stylesheet">
+    <link href="http://assets.softwaremk.org/css/grazewp7.css" rel="stylesheet">
+    <link href="http://assets.softwaremk.org/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="http://assets.softwaremk.org/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="http://assets.softwaremk.org/ico/bootstrap-apple-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://assets.softwaremk.org/ico/bootstrap-apple-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://assets.softwaremk.org/ico/bootstrap-apple-114x114.png">
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-30222266-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</head>
+<body data-spy="scroll" data-target=".subnav" data-offset="50" id="home">
+        <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand pull-left" href="http://softwaremk.org" target="_blank">SoftwareMK</a>
+                <div class="nav-collapse">
+                    <ul class="nav pull-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Windows Phone 7 apps <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                    <li class="active">
+                                        <a href="#" >IRC7</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://ipsnoop.softwaremk.org">IP Snoop</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://movieposters.softwaremk.org">Movie Posters</a>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="http://softwaremk.org/index.php/contact" target="_blank" ><i class="icon-inbox"></i> Email</a>
+                                    <a href="http://softwaremk.org/index.php/services"  target="_blank" ><i class="icon-home"></i> Company Information</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="inner">
+            <div class="row" id="mobileheader">
+                <div class="jumbotron masthead">
+                    <h2 class="pagination-centered jumbotron">Viihde Manager</h2>
+                    <p>Elisa Viihde Windows puhelimessasi!</p>
+                    <p class="download-info">
+                        <a href="http://assets.softwaremk.org/download.html?source=largebutton&id=7546eadb-164b-4bf5-98bf-4be4b3d8912d" target="_blank" class="btn btn-primary btn-small">Lataa ilmaiseksi</a>
+                    </p>
+                    <div id="myModalMini" class="modal hide fade">
+                        <div class="modal-header">
+                            <a class="close" data-dismiss="modal">&times;</a>
+                            <h3>Esittely</h3>
+                        </div>
+                        <div class="modal-body">
+                            <iframe width="250" height="141" src="http://www.youtube.com/embed/fenMJV6RFLw" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="btn" data-dismiss="modal">Sulje</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subnav subnav-fixed">
+                <ul class="nav nav-pills">
+                    <li>
+                        <a href="#home"><i class="icon-home"></i> Koti</a>
+                    </li>
+                    <li>
+                        <a href="#reviews"><i class="icon-star"></i> Arvosteluja</a>
+                    </li>
+                    <li>
+                        <a href="#features"><i class="icon-check"></i> Ominaisuuksia</a>
+                    </li>
+                    <li>
+                        <a href="#help"><i class="icon-question-sign"></i> Vinkkej&auml;</a>
+                    </li>
+                    <li>
+                        <a href="#news"><i class="icon-inbox"></i> Uutisia</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="span5">
+                    <div id="screenshotarea">
+                        <div id="phones">
+                            <div id="phone">
+                                <div id="screens">
+                                    <div id="slider">
+                                        <ul>
+                                                <li>
+                                                    <img src="assets/shots/suosituimmat.PNG" alt="My screenshot 1" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/ohjelmaopas.PNG" alt="My screenshot 2" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/kanavan_opas.PNG" alt="My screenshot 3" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/ohjelmatiedot.PNG" alt="My screenshot 4" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/tallennekansion.PNG" alt="My screenshot 5" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/saanto.PNG" alt="My screenshot 6" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/videoplayer.PNG" alt="My screenshot 7" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/ajastukset.PNG" alt="My screenshot 8" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/newfrontpage.PNG" alt="My screenshot 9" />
+                                                </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="smallPhone">
+                                <img src="assets/shots/starttivalikko.PNG" alt="Logo" ></div>
+                            <a data-toggle="modal" href="#myModal">
+                            <h6 class="videolink"><i class="icon-play-circle"></i>Katso video!</h6>
+                            </a>
+                            <div id="myModal" class="modal hide fade">
+                                <div class="modal-header">
+                                    <a class="close" data-dismiss="modal">&times;</a>
+                                    <h3>Esittely</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="520" height="293" src="http://www.youtube.com/embed/fenMJV6RFLw" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#" class="btn" data-dismiss="modal">Sulje</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span7">
+                    <header id="normalheader" class="jumbotron masthead topheading">
+                        <h2 class="pagination-centered jumbotron">Viihde Manager</h2>
+                        <h1 class="topheading">Viihde Manager tarjoaa Elisa Viihde -palvelun Windows Phone -puhelimeesi.</h1>
+                        <p>Elisa Viihde Windows puhelimessasi!</p>
+                        <p class="download-info">
+                            <a href="http://assets.softwaremk.org/download.html?source=largebutton&id=7546eadb-164b-4bf5-98bf-4be4b3d8912d" target="_blank" class="btn btn-primary btn-large">Lataa ilmaiseksi</a>
+                        </p>
+                    </header>
+                    <div class="marketing" id="reviews">
+                        <p class="marketing-byline">Katso mitä muut ovat mieltä.</p>
+                        <div class="row">
+                                <div class="span3">
+                                    <h2>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                    </h2>
+                                    <blockquote>
+                                        Kätevä softa
+                                        <small>dBirch7</small> </blockquote>
+                                </div>
+                                <div class="span3">
+                                    <h2>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                    </h2>
+                                    <blockquote>
+                                        Parempi, kuin Elisa TV.
+                                        <small>mleiman</small> </blockquote>
+                                </div>
+                                <div class="span3">
+                                    <h2>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star-empty"></i>
+                                    </h2>
+                                    <blockquote>
+                                        Selkeät valikot, miellyttävä ulkoasu, kätevä käyttää
+                                        <small>Player20948035</small> </blockquote>
+                                </div>
+                                <div class="span3">
+                                    <h2>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star-empty"></i>
+                                            <i class="icon-star-empty"></i>
+                                    </h2>
+                                    <blockquote>
+                                        Muuten tosi hyvä, mutta ei voi toistaa nauhoituksia laitteessa. Tuolla lisäyksellä ansaitsisi 6 tähteä
+                                        <small>juzug</small> </blockquote>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="pull-right">
+                <a href="#">Takaisin alkuun</a></p>
+            <section id="features">
+                <div class="page-header">
+                    <h2>Ominaisuuksia <small>Monipuolinen Elisa Viihde appis Windows puhelimeen</small></h2>
+                </div>
+                <div class="row marketing">
+                        <div class="span4">
+                            <img alt="Feature icon" class="bs-icon" src="assets/img/glyphicons/glyphicons_009_magic.png">
+                            <h3>Kanavaopas</h3>
+                            <p>Sekä 24h että 7pv:n ohjelmaopas. 7pv:n ohjelmaopas toimii myös offline-tilassa.</p>
+                        </div>
+                        <div class="span4">
+                            <img alt="Feature icon" class="bs-icon" src="assets/img/glyphicons/glyphicons_266_book_open.png">
+                            <h3>Tallenteiden lisääminen</h3>
+                            <p>Voit lisätä yksittäisiä tallenteita sekä tallennussääntöjä.</p>
+                        </div>
+                        <div class="span4">
+                            <img alt="Feature icon" class="bs-icon" src="assets/img/glyphicons/glyphicons_155_show_thumbnails.png">
+                            <h3>Live tiilet</h3>
+                            <p>Kiinnitä sovellus käynnistysvalikkoosi, jolloin tiili näyttää automaattisesti päivän suosituimman ohjelman tiedot.</p>
+                        </div>
+                        <div class="span4">
+                            <img alt="Feature icon" class="bs-icon" src="assets/img/glyphicons/glyphicons_155_show_thumbnails.png">
+                            <h3>Videosoitin</h3>
+                            <p>Voit lähettää tallennetun ohjelman toistettavaksi HTPC-koneesi kautta asentamalla siihen VLC-sovelluksen.</p>
+                        </div>
+                        <div class="span4">
+                            <img alt="Feature icon" class="bs-icon" src="assets/img/glyphicons/glyphicons_266_book_open.png">
+                            <h3>Muistutukset</h3>
+                            <p>Älä enää missaa suoria lähetyksiä muistutusten avulla. Voit lisätä ohjelmasta muistutuksen, joka näytetään sinulle automaattisesti hetkeä ennen ohjelman alkua. </p>
+                        </div>
+                        <div class="span4">
+                            <img alt="Feature icon" class="bs-icon" src="assets/img/glyphicons/glyphicons_009_magic.png">
+                            <h3>Tallenteiden selaus</h3>
+                            <p>Voit käydä läpi Elisa Viihde -tilillesi lisättyjä tallenteita ja katsella niiden tietoja..</p>
+                        </div>
+                </div>
+                <p class="pull-right">
+                    <a href="#">Takaisin alkuun</a></p>
+            </section>
+            <section class="row">
+                <div class="span8">
+                    <section id="help">
+                        <div class="page-header">
+                            <h2>Vinkkej&auml; <small>
+                                <a href="http://softwaremk.org/index.php/contact/" target="_blank">Ota yhteytt&auml;</a>
+                                jos sinulla on murheita tämän Elisa Viihde sovelluksen kanssa</small></h2>
+                        </div>
+                        <h3>Kuinka Viihde Manager voidaan yhdistää tietokoneen VLC-sovellukseen</h3>
+
+<p>Viihde Manager on Windows Phone 7 –sovellus, jolla hallitaan Elisa Viihde –tiliä. Viihde Manager versio 1.1 tarjoaa uutena ominaisuutena videosoittimen, jonka avulla on mahdollista lähettää valittu tallenne tietokoneella olevan VLC-videotoistimen näytettäväksi.</p>
+
+<h4>Vaatimukset</h4>
+
+<ul>
+<li>Viihde Manager 1.1 tai uudempi </li>
+<li>VLC-ohjelma tietokoneessa: <a href="http://www.videolan.org/">http://www.videolan.org/</a> </li>
+<li>Windows Phone 7 –puhelin ja tietokone samassa verkossa</li>
+</ul>
+
+<h4>VLC:n asetukset</h4>
+
+<p>VLC-soittimessa on asetettava päälle tila, joka mahdollistaa soittimen ohjaamisen HTTP-yhteyden yli. Tämä tapahtuu VLC:n asetusvalikosta Tools – Preferences – Show settings All – Interface – Main interfaces – HTTP remote control interface. Kun asetus on päällä, VLC täytyy käynnistää uudelleen.</p>
+
+<h4>Viihde Managerin asetukset</h4>
+
+<p>Viihde Managerin puolella riittää, että osoite-kenttään syötetään tietokoneen IP-osoite. Tämän jälkeen kannattaa varmistaa yhteyden toimivuus Testaa-napin avulla.</p>
+
+                    </section>
+                    <p class="pull-right">
+                        <a href="#">Takaisin alkuun</a></p>
+                    <section id="news">
+                        <div class="page-header">
+                            <h2>Uutisia <small>Uutisia Viihde Manager -sovelluksen kehityksestä</small></h2>
+                        </div>
+                        <h3>Uuden version kehitys</h3>
+
+<h6>21.3.2012</h6>
+
+<p>Kuten monet ovat huomanneet, Viihde Manageriin ei ole julkaistu hetkeen päivityksiä. Tämä johtuu osittain siitä, että Elisa on tällä välin tuonut markkinapaikalle virallisen Elisa Viihde sovelluksen, mutta myös osittain siitä, että olemme olleet kiireisiä muiden Windows Phone -appisten kanssa. Mutta, työ Viihde Managerin kanssa ei ole loppunut ja olemme pyöritelleet pieniä parannuksia nykyiseen sovellukseen. </p>
+
+<p>Työlistalla on seuraavanlaisia pointteja:<br/>
+* Hieman viilattu ulkoasu<br/>
+* Mahdollisuus kansioiden perustamiseen<br/>
+* Enemmän suosittuja sovelluksia etusivulle</p>
+
+                    </section>
+                    <p class="pull-right">
+                        <a href="#">Takaisin alkuun</a></p>
+                </div>
+                <div class="span4">
+                    <section id="about">
+                        <div class="page-header">
+                            <h2>Tietoja <small>Viihde Manager - Elisa Viihde puhelimessasi</small></h2>
+                        </div>
+                        <img src="assets/shots/marketplace_99.png" alt="logo" class="pull-right" />
+                        <h4>Nykyinen versio:</h4>
+                        2.1
+                        <h4>Julkaisup&auml;iv&auml;:</h4>
+                        7/2011
+                        <h4>Arvostelut:</h4>
+                        4 (perustuu 13 arvosteluun)
+                    </section>
+                    <section id="feedback">
+                        <div class="page-header">
+                            <h2>Palaute <small>Arvostamme palautettasi!</small></h2>
+                        </div>
+                        <p>Otathan yhteyttä, jos sinulla on murheita tai uusia ideoita sovelluksen kehittämiseksi. Arvostamme palautetta suuresti!</p>
+                    </section>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <p class="pull-right">
+                <a href="#">Takaisin alkuun</a></p>
+            <p>Copyright
+                <a href="http://www.softwaremk.org" target="_blank">SoftwareMK
+                </a>
+                2012 </p>
+            <h6>Created with
+                <a href="https://github.com/mikoskinen/grazewp7">GrazeWP7</a>
+                using the
+                <a href="https://github.com/mikoskinen/graze">Graze templating engine.</a>
+            </h6>
+        </footer>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://assets.softwaremk.org/js/bootstrap.min.js"></script>
+    <script src="http://assets.softwaremk.org/js/easySlider1.7.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            showSlider();
+            showScreenshots();
+        });
+
+        function showSlider() {
+            $("#slider").easySlider({
+                auto: true,
+                continuous: true,
+                pause: 5000,
+                controlsShow: false
+            });
+        }
+
+        function showScreenshots() {
+            $("#screenshotarea").css("visibility", "visible");
+        }
+        
+    </script>
+</body>
+</html>

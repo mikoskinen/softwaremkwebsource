@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <site>
+    <Title>Viihde Manager</Title>
+    <Description>Elisa Viihde Windows puhelimessasi!</Description>
+    <ApplicationId>7546eadb-164b-4bf5-98bf-4be4b3d8912d</ApplicationId>
+    <Subtitle>Viihde Manager tarjoaa Elisa Viihde -palvelun Windows Phone -puhelimeesi.</Subtitle>
+    <Download>Lataa ilmaiseksi</Download>
+    <Contact>http://softwaremk.org/index.php/contact/</Contact>
+    <CompanyInfo>http://softwaremk.org/index.php/services</CompanyInfo>
+    <MetaDescription>Viihde Manager tuo Elisa Viihde -palvelun Windows Phone 7 -puhelimeesi. Ohjelman avulla voit tehdä ajastukset ja selata monipuolista ohjelmaopasta mistä tahansa.</MetaDescription>
+    <MetaKeywords>wp7, windows phone, windows puhelin, windows phone apps, window phone app, apps, viihde, viihde manager, elisa, elisa viihde, elisa viihde wp7, sovellus, windows puhelin sovellus</MetaKeywords>
+    <GoogleAnalytics>UA-30222266-1</GoogleAnalytics>
+    <CurrentVersion>2.1</CurrentVersion>
+    <AverageRating>4 (perustuu 13 arvosteluun)</AverageRating>
+    <Publisher HomePage="http://www.softwaremk.org">SoftwareMK</Publisher>
+    <ReviewsTitle>Katso mitä muut ovat mieltä.</ReviewsTitle>
+    <Reviews>
+      <Review author="dBirch7" rating="5">Kätevä softa</Review>
+      <Review author="mleiman" rating="5">Parempi, kuin Elisa TV.</Review>
+      <Review author="Player20948035" rating="4">Selkeät valikot, miellyttävä ulkoasu, kätevä käyttää</Review>
+      <Review author="juzug" rating="3">Muuten tosi hyvä, mutta ei voi toistaa nauhoituksia laitteessa. Tuolla lisäyksellä ansaitsisi 6 tähteä</Review>
+    </Reviews>
+    <Screenshots>
+      <screenshot alt="My screenshot 1">suosituimmat.PNG</screenshot>
+      <screenshot alt="My screenshot 2">ohjelmaopas.PNG</screenshot>
+      <screenshot alt="My screenshot 3">kanavan_opas.PNG</screenshot>
+      <screenshot alt="My screenshot 4">ohjelmatiedot.PNG</screenshot>
+      <screenshot alt="My screenshot 5">tallennekansion.PNG</screenshot>
+      <screenshot alt="My screenshot 6">saanto.PNG</screenshot>
+      <screenshot alt="My screenshot 7">videoplayer.PNG</screenshot>
+      <screenshot alt="My screenshot 8">ajastukset.PNG</screenshot>
+      <screenshot alt="My screenshot 9">newfrontpage.PNG</screenshot>
+    </Screenshots>
+    <StaticScreenshot alt="Logo">starttivalikko.PNG</StaticScreenshot>
+    <Features>
+      <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Kanavaopas">Sekä 24h että 7pv:n ohjelmaopas. 7pv:n ohjelmaopas toimii myös offline-tilassa.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_266_book_open.png" Title="Tallenteiden lisääminen">Voit lisätä yksittäisiä tallenteita sekä tallennussääntöjä.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_155_show_thumbnails.png" Title="Live tiilet">Kiinnitä sovellus käynnistysvalikkoosi, jolloin tiili näyttää automaattisesti päivän suosituimman ohjelman tiedot.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_155_show_thumbnails.png" Title="Videosoitin">Voit lähettää tallennetun ohjelman toistettavaksi HTPC-koneesi kautta asentamalla siihen VLC-sovelluksen.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_266_book_open.png" Title="Muistutukset">Älä enää missaa suoria lähetyksiä muistutusten avulla. Voit lisätä ohjelmasta muistutuksen, joka näytetään sinulle automaattisesti hetkeä ennen ohjelman alkua. </Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Tallenteiden selaus">Voit käydä läpi Elisa Viihde -tilillesi lisättyjä tallenteita ja katsella niiden tietoja..</Feature>
+    </Features>
+    <FeaturesSubtitle>Monipuolinen Elisa Viihde appis Windows puhelimeen</FeaturesSubtitle>
+    <HelpSubtitle>jos sinulla on murheita tämän Elisa Viihde sovelluksen kanssa</HelpSubtitle>
+    <AboutSubtitle>Viihde Manager - Elisa Viihde puhelimessasi</AboutSubtitle>
+    <NewsSubtitle>Uutisia Viihde Manager -sovelluksen kehityksestä</NewsSubtitle>
+    <Feedback>Otathan yhteyttä, jos sinulla on murheita tai uusia ideoita sovelluksen kehittämiseksi. Arvostamme palautetta suuresti!</Feedback>
+    <FirstRelease>7/2011</FirstRelease>
+    <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
+    <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
+    <Assets>http://assets.softwaremk.org</Assets>
+  </site>
+  <Youtube Url="http://www.youtube.com/embed/fenMJV6RFLw" Width="520" Height="293">IntroductionVideo</Youtube>
+  <Youtube Url="http://www.youtube.com/embed/fenMJV6RFLw" Width="250" Height="141">IntroductionVideoMini</Youtube>
+  <Html Url="http://assets.softwaremk.org/navigation.html">TopNavigation</Html>
+  <Markdown Location="pages/help.md">Help</Markdown>
+  <Markdown Location="pages/news.md">News</Markdown>
+</data>

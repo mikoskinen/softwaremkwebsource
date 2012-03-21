@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ampparit", "ampparit\amppar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tekstitv", "tekstitv\tekstitv.csproj", "{BEA7F176-4A9D-406A-A8D7-AA8EAC7F65CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ipsnoop", "ipsnoop\ipsnoop.csproj", "{2E197380-55DB-4460-B2EA-17750E2AA7F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movieposters", "movieposters\movieposters.csproj", "{1300B073-5EA9-4CEF-A59F-293565E88F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "root", "root\root.csproj", "{DAABF832-22C5-464E-AABF-D264AD89C305}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,6 +31,18 @@ Global
 		{BEA7F176-4A9D-406A-A8D7-AA8EAC7F65CD}.Debug|x86.Build.0 = Debug|x86
 		{BEA7F176-4A9D-406A-A8D7-AA8EAC7F65CD}.Release|x86.ActiveCfg = Release|x86
 		{BEA7F176-4A9D-406A-A8D7-AA8EAC7F65CD}.Release|x86.Build.0 = Release|x86
+		{2E197380-55DB-4460-B2EA-17750E2AA7F2}.Debug|x86.ActiveCfg = Debug|x86
+		{2E197380-55DB-4460-B2EA-17750E2AA7F2}.Debug|x86.Build.0 = Debug|x86
+		{2E197380-55DB-4460-B2EA-17750E2AA7F2}.Release|x86.ActiveCfg = Release|x86
+		{2E197380-55DB-4460-B2EA-17750E2AA7F2}.Release|x86.Build.0 = Release|x86
+		{1300B073-5EA9-4CEF-A59F-293565E88F11}.Debug|x86.ActiveCfg = Debug|x86
+		{1300B073-5EA9-4CEF-A59F-293565E88F11}.Debug|x86.Build.0 = Debug|x86
+		{1300B073-5EA9-4CEF-A59F-293565E88F11}.Release|x86.ActiveCfg = Release|x86
+		{1300B073-5EA9-4CEF-A59F-293565E88F11}.Release|x86.Build.0 = Release|x86
+		{DAABF832-22C5-464E-AABF-D264AD89C305}.Debug|x86.ActiveCfg = Debug|x86
+		{DAABF832-22C5-464E-AABF-D264AD89C305}.Debug|x86.Build.0 = Debug|x86
+		{DAABF832-22C5-464E-AABF-D264AD89C305}.Release|x86.ActiveCfg = Release|x86
+		{DAABF832-22C5-464E-AABF-D264AD89C305}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

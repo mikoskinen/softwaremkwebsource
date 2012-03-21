@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <site>
+    <Title>IP Snoop</Title>
+    <Description>What is my IP? IP Snoop answers this question.</Description>
+    <ApplicationId>317f8e9a-ac9f-4f33-ad2c-1e59e4e34783</ApplicationId>
+    <Subtitle>This light-weight app for Windows Phone 7 shows your current IP-address.</Subtitle>
+    <ReviewsTitle>See what others are saying.</ReviewsTitle>
+    <Contact>http://softwaremk.org/index.php/contact/</Contact>
+    <CompanyInfo>http://softwaremk.org/index.php/services</CompanyInfo>
+    <MetaDescription>The Windows Phone app which shows your current IP address.</MetaDescription>
+    <MetaKeywords>ip, ip address, wp7, windows phone, wp7 ip address, windows phone, ip address app, wp7 apps</MetaKeywords>
+    <GoogleAnalytics>UA-30222266-1</GoogleAnalytics>
+    <CurrentVersion>1.0</CurrentVersion>
+    <AverageRating>Not yet reviewd</AverageRating>
+    <Publisher HomePage="http://www.softwaremk.org">SoftwareMK</Publisher>
+    <Download>Download Free</Download>
+    <Reviews>
+      <Review author="" rating="0">Not yet reviewed, be first!</Review>
+      <Review author="" rating="0">Not yet reviewed, be first!</Review>
+    </Reviews>
+    <Screenshots>
+      <screenshot alt="My screenshot 1">main.png</screenshot>
+      <screenshot alt="My screenshot 3">pinemail.PNG</screenshot>
+    </Screenshots>
+    <StaticScreenshot alt="Logo">livetile.PNG</StaticScreenshot>
+    <Features>
+      <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="IP-Address">See your current IP-address and other network related information. IP Snoop is fast and light-weight.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_155_show_thumbnails.png" Title="Live Tiles">IP Snoop has a live tile support. The tile updates automatically to show your current IP.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_266_book_open.png" Title="Email">Easily share your IP-address with others by using the built-in email sending.</Feature>
+    </Features>
+    <FeaturesSubtitle>Easy-to-use app to see your current IP with Windows Phone 7</FeaturesSubtitle>
+    <HelpSubtitle>if you have any worries with this Windows Phone app</HelpSubtitle>
+    <AboutSubtitle>IP Snoop - What's your IP?</AboutSubtitle>
+    <NewsSubtitle>The latest info about IRC7. What's in future of this IRC app?</NewsSubtitle>
+    <Feedback>Please, contact us if you have any problems or if you have ideas about how to make this Windows Phone app better. </Feedback>
+    <FirstRelease>2/2012</FirstRelease>
+    <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
+    <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
+    <Assets>http://assets.softwaremk.org</Assets>
+  </site>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="250" Height="141">IntroductionVideoMini</Youtube>
+  <Html Url="http://assets.softwaremk.org/navigation.html">TopNavigation</Html>
+  <Markdown Location="pages/help.md">Help</Markdown>
+  <Markdown Location="pages/news.md">News</Markdown>
+</data>

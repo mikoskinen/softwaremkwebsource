@@ -1,9 +1,13 @@
 $ErrorActionPreference = "Stop"
 . .\gen.ps1
 
-$sites = ("irc\template","public\irc"),
+$sites = ("root\template","public"),
+		 ("irc\template","public\irc"),
 		 ("ampparit\template","public\ampparit"),
-		 ("tekstitv\template","public\tekstitv")
+		 ("ipsnoop\template","public\ipsnoop"),
+		 ("tekstitv\template","public\tekstitv"),
+		 ("movieposters\template","public\movieposters"), 
+		 ("viihde\template","public\viihde")
 	
 try {
 

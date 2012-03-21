@@ -100,7 +100,7 @@
                             <div id="smallPhone">
                                 <img src="assets/shots/@Model.StaticScreenshot.StaticScreenshot" alt="@Model.StaticScreenshot.alt" ></div>
                             <a data-toggle="modal" href="#myModal">
-                            <h6 class="videolink"><i class="icon-play-circle"></i>Katso video!</h6>
+                            @*<h6 class="videolink"><i class="icon-play-circle"></i>Katso video!</h6>*@
                             </a>
                             <div id="myModal" class="modal hide fade">
                                 <div class="modal-header">
@@ -120,7 +120,7 @@
                 <div class="span7">
                     <header id="normalheader" class="jumbotron masthead topheading">
                         <h2 class="pagination-centered jumbotron">@Model.Title</h2>
-                        <h1 class="topheading">@Model.Subtitle</h1>
+                        <h1>@Model.Subtitle</h1>
                         <p>@Model.Description</p>
                         <p class="download-info">
                             <a href="@Model.Assets/download.html?source=largebutton&id=@Model.ApplicationId" target="_blank" class="btn btn-primary btn-large">@Model.Download</a>
@@ -203,14 +203,13 @@
                             <h2>Tietoja <small>@Model.AboutSubtitle</small></h2>
                         </div>
                         <img src="assets/shots/marketplace_99.png" alt="logo" class="pull-right" />
-                        <h4>Current version:</h4>
+                        <h4>Nykyinen versio:</h4>
                         @Model.CurrentVersion
-                        <h4>First release:</h4>
+                        <h4>Julkaisup&auml;iv&auml;:</h4>
                         @Model.FirstRelease
-                        <h4>Average rating:</h4>
+                        <h4>Arvostelut:</h4>
                         @Model.AverageRating
-                    </section>
-                    <section id="feedback">
+                    </section>                    <section id="feedback">
                         <div class="page-header">
                             <h2>Palaute <small>Arvostamme palautettasi!</small></h2>
                         </div>

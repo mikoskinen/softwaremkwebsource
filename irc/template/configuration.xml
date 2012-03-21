@@ -9,7 +9,7 @@
     <CompanyInfo>http://softwaremk.org/index.php/services</CompanyInfo>
     <MetaDescription>IRC chat app for Windows Phone. IRC7 is an IRC client which is easy to get started but rich with features. Windows Phone 7 IRC chat client doesn't get better than this.</MetaDescription>
     <MetaKeywords>irc, internet relay chat, wp7, windows phone, wp7 irc, windows phone irc, irc wp7, irc windows phone 7, irc app, chat app, irc client, irc apps wp7, windows phone 7 irc, windows phone 7 irc client, client irc wp7</MetaKeywords>
-    <GoogleAnalytics>UA-4901211-8</GoogleAnalytics>
+    <GoogleAnalytics>UA-30222266-1</GoogleAnalytics>
     <CurrentVersion>1.7</CurrentVersion>
     <AverageRating>4 (based on 79 reviews)</AverageRating>
     <Publisher HomePage="http://www.softwaremk.org">SoftwareMK</Publisher>
@@ -49,11 +49,11 @@
     <FirstRelease>9/2011</FirstRelease>
     <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
     <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
-    <Assets>assets</Assets>
+    <Assets>http://assets.softwaremk.org</Assets>
   </site>
   <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>
   <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="250" Height="141">IntroductionVideoMini</Youtube>
-  <Html Url="http://irc.softwaremk.org/navigation.html">TopNavigation</Html>
+  <Html Url="http://assets.softwaremk.org/navigation.html">TopNavigation</Html>
   <Markdown Location="pages/help.md">Help</Markdown>
   <Rss Url="http://feeds.feedburner.com/windowsphoneirc">News</Rss>
 </data>
