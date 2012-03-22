@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.softwaremk.org/</loc>
+  <lastmod>2012-03-22T18:02:52+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.softwaremk.org/irc/</loc>
+  <lastmod>2012-03-22T18:02:44+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.softwaremk.org/ipsnoop/</loc>
+  <lastmod>2012-03-22T18:02:48+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.softwaremk.org/movieposters/</loc>
+  <lastmod>2012-03-22T18:02:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.softwaremk.org/ampparit/</loc>
+  <lastmod>2012-03-22T18:02:46+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.softwaremk.org/tekstitv/</loc>
+  <lastmod>2012-03-22T18:02:52+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.softwaremk.org/viihde/</loc>
+  <lastmod>2012-03-22T18:02:55+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.softwaremk.org/index.html</loc>
+  <lastmod>2012-03-22T18:02:52+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>

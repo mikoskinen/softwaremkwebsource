@@ -21,6 +21,8 @@ try {
 
 	echo "All sites generated succesfully"
 
+	copy sitemap.xml public
+
 	exit 0 # Success
 } catch {
 	echo "Generating sites failed"
