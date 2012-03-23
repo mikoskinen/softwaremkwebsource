@@ -24,9 +24,22 @@ try {
 	copy sitemap.xml public
 
 	.\graze.exe -t .\root\template -tf .\root\template\404.cshtml -of .\public\404.html
-
+	if ($? -eq $False)
+	{
+		echo "Generating site failed. Throwing..."
+		throw "Error"
+	}
+	
+	.\graze.exe -t .\root\template -tf .\root\template\index_spotlight.cshtml -of .\public\index_spotlight.html
+	if ($? -eq $False)
+	{
+		echo "Generating site failed. Throwing..."
+		throw "Error"
+	}
+	
 	exit 0 # Success
 } catch {
 	echo "Generating sites failed"
+	echo ##teamcity[buildStatus status='FAILURE' text='{build.status.text} in compilation']
 	exit 1 # Failure
 }

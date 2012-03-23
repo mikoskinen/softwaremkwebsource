@@ -1,5 +1,5 @@
 ### We are available for hire ###
-SoftwareMK is a micro-isv founded by [Mikael Koskinen](http://mikaelkoskinen.net) and we're available for hire. We are located in Finland and offer our services in Finnish and English. SoftwareMK is a Microsoft Bizspark company and we have over a decade of experience working with Microsoft technologies. Our company was established in 2008.
+SoftwareMK is a micro-isv founded by [Mikael Koskinen](http://mikaelkoskinen.net) and we're **available for hire**. We are located in Finland and offer our services in Finnish and English. SoftwareMK is a Microsoft Bizspark company and we have over a decade of experience working with Microsoft technologies. Our company was established in 2008.
 
 Blog: [mikaelkoskinen.net](http://mikaelkoskinen.net)
 

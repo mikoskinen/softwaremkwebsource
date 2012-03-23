@@ -62,10 +62,21 @@
                 </ul>
             </div>
             <div class="row">
-                <div class="span12">
+                <div class="span10">
                     <header id="normalheader" class="jumbotron masthead topheading">
                         <h1>@Model.Subtitle</h1>
                         <p>@Model.Description</p>
+                    </header>
+                </div>
+                <div class="span2">
+                    <header class="masthead" style="padding-top: 50px;">
+                        <div class="pull-right">
+                            <h3 class="pagination-centered">App Spotlight</h3>
+                            <div class="masthead">
+                                <a href="@Model.Apps[0].Link"><img alt="IRC7 logo" src="assets/shots/irc7_99.png" style="width: 109px;margin-top: -20px;" /></a><br />
+                                <a href="@Model.Assets/download.html?source=spotlight&id=@Model.SpotlightApplicationId"><img alt="Download IRC7" src="assets/shots/Download-EN-Small.png" style="margin-top: 10px;" /></a>
+                            </div>
+                        </div>
                     </header>
                 </div>
             </div>

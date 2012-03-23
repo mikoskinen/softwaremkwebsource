@@ -37,6 +37,7 @@
     <None Include="packages.config" />
     <None Include="template\assets\js\README.md" />
     <None Include="template\404.cshtml" />
+    <None Include="template\index_spotlight.cshtml" />
     <None Include="template\index.cshtml" />
     <None Include="template\pages\services.md" />
     <None Include="template\pages\stack.md" />
@@ -131,19 +132,16 @@
     <Content Include="template\assets\phonelayouts\radar.png" />
     <Content Include="template\assets\phonelayouts\titan.png" />
     <Content Include="template\assets\readme.txt" />
-    <Content Include="template\assets\shots\activity.PNG" />
-    <Content Include="template\assets\shots\aliases.PNG" />
-    <Content Include="template\assets\shots\chat5on5.PNG" />
-    <Content Include="template\assets\shots\chat_small.PNG" />
-    <Content Include="template\assets\shots\easySlider1.7.min.js" />
-    <Content Include="template\assets\shots\frontpage.PNG" />
-    <Content Include="template\assets\shots\joinchannel.PNG" />
-    <Content Include="template\assets\shots\marketplace_200.png" />
-    <Content Include="template\assets\shots\marketplace_99.png" />
-    <Content Include="template\assets\shots\newconnection.PNG" />
-    <Content Include="template\assets\shots\newprivate.PNG" />
-    <Content Include="template\assets\shots\static.png" />
-    <Content Include="template\assets\shots\usermanagement.PNG" />
+    <Content Include="template\assets\shots\ampparit.png" />
+    <Content Include="template\assets\shots\bizsparklogo.jpg" />
+    <Content Include="template\assets\shots\Download-EN-Small.png" />
+    <Content Include="template\assets\shots\ipsnoop.png" />
+    <Content Include="template\assets\shots\irc7.png" />
+    <Content Include="template\assets\shots\mcplogo.png" />
+    <Content Include="template\assets\shots\movieposters.png" />
+    <Content Include="template\assets\shots\tekstitv.png" />
+    <Content Include="template\assets\shots\viihde.png" />
+    <Content Include="template\assets\shots\wplogo.jpg" />
     <Content Include="template\configuration.xml">
       <SubType>Designer</SubType>
     </Content>
