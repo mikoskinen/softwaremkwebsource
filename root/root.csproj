@@ -143,7 +143,9 @@
     <Content Include="template\assets\shots\newprivate.PNG" />
     <Content Include="template\assets\shots\static.png" />
     <Content Include="template\assets\shots\usermanagement.PNG" />
-    <Content Include="template\configuration.xml" />
+    <Content Include="template\configuration.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
