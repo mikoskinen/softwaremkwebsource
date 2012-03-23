@@ -36,6 +36,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="template\assets\js\README.md" />
+    <None Include="template\404.cshtml" />
     <None Include="template\index.cshtml" />
     <None Include="template\pages\services.md" />
     <None Include="template\pages\stack.md" />
