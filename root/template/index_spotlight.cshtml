@@ -73,8 +73,11 @@
                         <div class="pull-right">
                             <h3 class="pagination-centered">App Spotlight</h3>
                             <div class="masthead">
-                                <a href="@Model.Apps[0].Link"><img alt="IRC7 logo" src="assets/shots/irc7_99.png" style="width: 109px;margin-top: -20px;" /></a><br />
-                                <a href="@Model.Assets/download.html?source=spotlight&id=@Model.SpotlightApplicationId"><img alt="Download IRC7" src="assets/shots/Download-EN-Small.png" style="margin-top: 10px;" /></a>
+                                @{
+                                    var spotlightApp = Model.Apps[0];
+                                }
+                                <a href="@spotlightApp.Link"><img alt="@spotlightApp.Title logo" src="@spotlightApp.ImageSmall" style="width: 109px;margin-top: -20px;" /></a><br />
+                                <a href="@Model.Assets/download.html?source=spotlight&id=@spotlightApp.Id"><img alt="Download @spotlightApp.Title" src="@Model.Assets/ico/downloadlogo.png" style="margin-top: 10px;" /></a>
                             </div>
                         </div>
                     </header>

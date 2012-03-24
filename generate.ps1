@@ -17,6 +17,11 @@ try {
 	foreach ($element in $sites)
 	{
 		Generate $element[0] $element[1]
+		if ($? -eq $False)
+		{
+			echo "Generating site failed. Throwing..."
+			throw "Error"
+		}		
 	}
 
 	echo "All sites generated succesfully"
@@ -40,6 +45,6 @@ try {
 	exit 0 # Success
 } catch {
 	echo "Generating sites failed"
-	echo ##teamcity[buildStatus status='FAILURE' text='{build.status.text} in compilation']
+	echo "##teamcity[buildStatus status='FAILURE' text='{build.status.text} in compilation']"
 	exit 1 # Failure
 }
