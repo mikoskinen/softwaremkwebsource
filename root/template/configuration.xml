@@ -43,7 +43,7 @@
     <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
     <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
     <Assets>http://assets.softwaremk.org</Assets>
-    <Email>info@ohjelmistot.org</Email>
+    <Email>mikael@softwaremk.org</Email>
     <Address>Hietatie 34, 40530 Jyväskyla, Finland</Address>
     <Phone>(358) 40 592 8946</Phone>
   </site>
