@@ -43,6 +43,7 @@
     <None Include="template\pages\stack.md" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="template\download.html" />
     <Content Include="extras\graze.contracts.dll" />
     <Content Include="extras\graze.extra.html.dll" />
     <Content Include="extras\graze.extra.markdown.dll" />

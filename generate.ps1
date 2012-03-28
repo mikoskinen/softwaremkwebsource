@@ -27,6 +27,7 @@ try {
 	echo "All sites generated succesfully"
 
 	copy sitemap.xml public
+	copy root\template\download.html public
 
 	.\graze.exe -t .\root\template -tf .\root\template\404.cshtml -of .\public\404.html
 	if ($? -eq $False)
