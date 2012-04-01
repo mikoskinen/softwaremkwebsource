@@ -28,6 +28,7 @@ try {
 
 	copy sitemap.xml public
 	copy root\template\download.html public
+	copy root\template\viihde_esittely.docx public
 
 	.\graze.exe -t .\root\template -tf .\root\template\404.cshtml -of .\public\404.html
 	if ($? -eq $False)
