@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>@Model.Title - @Model.Description</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="@Model.MetaDescription">
-    <meta name="keywords" content="@Model.MetaKeywords">
-    <meta name="author" content="@Model.Publisher.Publisher">
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- Le styles -->
-    <link href="@Model.Assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="@Model.Assets/css/docs.css" rel="stylesheet">
-    <link href="@Model.Assets/css/grazewp7.css" rel="stylesheet">
-    <link href="@Model.Assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="@Model.Assets/ico/favicon.ico">
-    <link rel="apple-touch-icon" href="@Model.Assets/ico/bootstrap-apple-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="@Model.Assets/ico/bootstrap-apple-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="@Model.Assets/ico/bootstrap-apple-114x114.png">
-    <script type="text/javascript">
+    <head>
+        <!-- Google Website Optimizer Tracking Script -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['gwo._setAccount', 'UA-4901211-9']);
+    _gaq.push(['gwo._trackPageview', '/2638783224/goal']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<!-- End of Google Website Optimizer Tracking Script -->
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', '@Model.GoogleAnalytics']);
-        _gaq.push(['_trackPageview']);
+        <meta charset="utf-8">
+        <title>@Model.Title - @Model.Description</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="@Model.MetaDescription">
+        <meta name="keywords" content="@Model.MetaKeywords">
+        <meta name="author" content="@Model.Publisher.Publisher">
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <!-- Le styles -->
+        <link href="@Model.Assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="@Model.Assets/css/docs.css" rel="stylesheet">
+        <link href="@Model.Assets/css/grazewp7.css" rel="stylesheet">
+        <link href="@Model.Assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="@Model.Assets/ico/favicon.ico">
+        <link rel="apple-touch-icon" href="@Model.Assets/ico/bootstrap-apple-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="@Model.Assets/ico/bootstrap-apple-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="@Model.Assets/ico/bootstrap-apple-114x114.png">
+        <script type="text/javascript">
 
-        (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', '@Model.GoogleAnalytics']);
+            _gaq.push(['_trackPageview']);
 
-    </script>
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
     
-    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-    <script type="text/javascript">    stLight.options({ publisher: "7904eca5-3d12-407f-b8ca-bc1689bf461a" }); </script>
-</head>
+        <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript">    stLight.options({ publisher: "7904eca5-3d12-407f-b8ca-bc1689bf461a" }); </script>
+    </head>
 <body data-spy="scroll" data-target=".subnav" data-offset="50" id="home">
     @Model.TopNavigation
     <div class="container">
