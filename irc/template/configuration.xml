@@ -4,6 +4,7 @@
     <Title>IRC7</Title>
     <Description>The IRC Chat app for WP7</Description>
     <ApplicationId>345e96da-fa2a-457f-95ce-f09e6f3b28a3</ApplicationId>
+    <ApplicationIdFree>a82de281-34b6-47d8-afe5-a329c4b2395d</ApplicationIdFree>
     <Subtitle>The Most Popular Windows Phone IRC Chat Client!</Subtitle>
     <Contact>http://company.softwaremk.org/index.php/contact/</Contact>
     <CompanyInfo>http://softwaremk.org/index.php/services</CompanyInfo>
@@ -14,7 +15,8 @@
     <AverageRating>4 (based on 79 reviews)</AverageRating>
     <Publisher HomePage="http://www.softwaremk.org">SoftwareMK</Publisher>
     <ReviewsTitle>See what others are saying.</ReviewsTitle>
-    <Download>Download Free Trial</Download>
+    <Download>Download Full</Download>
+    <DownloadFree>Download Free</DownloadFree>
     <Reviews>
       <Review author="PierrTr" rating="5">Top IRC App. Ũbersichtlich und schnell.</Review>
       <Review author="Jyae 31" rating="5">Fast, responsive and reliable.</Review>
