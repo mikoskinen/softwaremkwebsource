@@ -43,6 +43,9 @@ try {
 		echo "Generating site failed. Throwing..."
 		throw "Error"
 	}
+
+	copy irc\template\screenshots.zip public\irc
+	copy irc\template\*.pdf public\irc
 	
 	exit 0 # Success
 } catch {
