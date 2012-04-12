@@ -46,6 +46,7 @@ try {
 
 	copy irc\template\screenshots.zip public\irc
 	copy irc\template\*.pdf public\irc
+	copy irc\template\*.png public\irc
 	
 	exit 0 # Success
 } catch {
