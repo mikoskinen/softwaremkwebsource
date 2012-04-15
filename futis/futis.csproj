@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{58331FE8-34B1-478E-BE93-5B089CD79021}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>empty</RootNamespace>
+    <AssemblyName>empty</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="template\assets\js\README.md" />
+    <None Include="template\index.cshtml" />
+    <None Include="template\pages\help.md" />
+    <None Include="template\pages\news.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="extras\graze.contracts.dll" />
+    <Content Include="extras\graze.extra.html.dll" />
+    <Content Include="extras\graze.extra.markdown.dll" />
+    <Content Include="extras\graze.extra.rss.dll" />
+    <Content Include="extras\graze.extra.youtube.dll" />
+    <Content Include="graze.contracts.dll" />
+    <Content Include="graze.exe" />
+    <Content Include="RazorEngine.dll" />
+    <Content Include="System.Web.Razor.dll" />
+    <Content Include="template\assets\css\bootstrap-responsive.css" />
+    <Content Include="template\assets\css\bootstrap-responsive.min.css" />
+    <Content Include="template\assets\css\bootstrap.css" />
+    <Content Include="template\assets\css\bootstrap.min.css" />
+    <Content Include="template\assets\css\docs.css" />
+    <Content Include="template\assets\css\grazewp7.css" />
+    <Content Include="template\assets\download.html" />
+    <Content Include="template\assets\example\configuration.txt" />
+    <Content Include="template\assets\example\layout.txt" />
+    <Content Include="template\assets\ico\bootstrap-apple-114x114.png" />
+    <Content Include="template\assets\ico\bootstrap-apple-57x57.png" />
+    <Content Include="template\assets\ico\bootstrap-apple-72x72.png" />
+    <Content Include="template\assets\ico\favicon.ico" />
+    <Content Include="template\assets\img\bird.png" />
+    <Content Include="template\assets\img\bootstrap-mdo-sfmoma-01.jpg" />
+    <Content Include="template\assets\img\bootstrap-mdo-sfmoma-02.jpg" />
+    <Content Include="template\assets\img\bootstrap-mdo-sfmoma-03.jpg" />
+    <Content Include="template\assets\img\browsers.png" />
+    <Content Include="template\assets\img\example-diagram-01.png" />
+    <Content Include="template\assets\img\example-diagram-02.png" />
+    <Content Include="template\assets\img\example-diagram-03.png" />
+    <Content Include="template\assets\img\example-sites\bartop.png" />
+    <Content Include="template\assets\img\example-sites\fleetio.png" />
+    <Content Include="template\assets\img\example-sites\jshint.png" />
+    <Content Include="template\assets\img\example-sites\kippt.png" />
+    <Content Include="template\assets\img\example-sites\railwayjs.png" />
+    <Content Include="template\assets\img\example-sites\totalwireframe.png" />
+    <Content Include="template\assets\img\examples\bootstrap-example-fluid.jpg" />
+    <Content Include="template\assets\img\examples\bootstrap-example-hero.jpg" />
+    <Content Include="template\assets\img\examples\bootstrap-example-starter.jpg" />
+    <Content Include="template\assets\img\github-16px.png" />
+    <Content Include="template\assets\img\glyphicons-halflings-white.png" />
+    <Content Include="template\assets\img\glyphicons-halflings.png" />
+    <Content Include="template\assets\img\glyphicons\glyphicons_009_magic.png" />
+    <Content Include="template\assets\img\glyphicons\glyphicons_042_group.png" />
+    <Content Include="template\assets\img\glyphicons\glyphicons_079_podium.png" />
+    <Content Include="template\assets\img\glyphicons\glyphicons_082_roundabout.png" />
+    <Content Include="template\assets\img\glyphicons\glyphicons_155_show_thumbnails.png" />
+    <Content Include="template\assets\img\glyphicons\glyphicons_163_iphone.png" />
+    <Content Include="template\assets\img\glyphicons\glyphicons_214_resize_small.png" />
+    <Content Include="template\assets\img\glyphicons\glyphicons_266_book_open.png" />
+    <Content Include="template\assets\img\grid-18px-masked.png" />
+    <Content Include="template\assets\img\icon-css3.png" />
+    <Content Include="template\assets\img\icon-github.png" />
+    <Content Include="template\assets\img\icon-html5.png" />
+    <Content Include="template\assets\img\icon-twitter.png" />
+    <Content Include="template\assets\img\less-logo-large.png" />
+    <Content Include="template\assets\img\less-small.png" />
+    <Content Include="template\assets\img\responsive-illustrations.png" />
+    <Content Include="template\assets\js\application.js" />
+    <Content Include="template\assets\js\bootstrap-alert.js" />
+    <Content Include="template\assets\js\bootstrap-button.js" />
+    <Content Include="template\assets\js\bootstrap-carousel.js" />
+    <Content Include="template\assets\js\bootstrap-collapse.js" />
+    <Content Include="template\assets\js\bootstrap-dropdown.js" />
+    <Content Include="template\assets\js\bootstrap-modal.js" />
+    <Content Include="template\assets\js\bootstrap-popover.js" />
+    <Content Include="template\assets\js\bootstrap-scrollspy.js" />
+    <Content Include="template\assets\js\bootstrap-tab.js" />
+    <Content Include="template\assets\js\bootstrap-tooltip.js" />
+    <Content Include="template\assets\js\bootstrap-transition.js" />
+    <Content Include="template\assets\js\bootstrap-typeahead.js" />
+    <Content Include="template\assets\js\bootstrap.js" />
+    <Content Include="template\assets\js\bootstrap.min.js" />
+    <Content Include="template\assets\js\easySlider1.7.min.js" />
+    <Content Include="template\assets\js\google-code-prettify\prettify.css" />
+    <Content Include="template\assets\js\google-code-prettify\prettify.js" />
+    <Content Include="template\assets\js\jquery.js" />
+    <Content Include="template\assets\phonelayouts\emulator.png" />
+    <Content Include="template\assets\phonelayouts\focuss.png" />
+    <Content Include="template\assets\phonelayouts\lumia710blackblue.png" />
+    <Content Include="template\assets\phonelayouts\lumia710blackyellow.png" />
+    <Content Include="template\assets\phonelayouts\lumia710whiteblack.png" />
+    <Content Include="template\assets\phonelayouts\lumia710whiteblue.png" />
+    <Content Include="template\assets\phonelayouts\lumia710whitepink.png" />
+    <Content Include="template\assets\phonelayouts\lumia800black.png" />
+    <Content Include="template\assets\phonelayouts\lumia800blue.png" />
+    <Content Include="template\assets\phonelayouts\lumia800pink.png" />
+    <Content Include="template\assets\phonelayouts\radar.png" />
+    <Content Include="template\assets\phonelayouts\titan.png" />
+    <Content Include="template\assets\readme.txt" />
+    <Content Include="template\assets\shots\activity.PNG" />
+    <Content Include="template\assets\shots\aliases.PNG" />
+    <Content Include="template\assets\shots\chat5on5.PNG" />
+    <Content Include="template\assets\shots\chat_small.PNG" />
+    <Content Include="template\assets\shots\easySlider1.7.min.js" />
+    <Content Include="template\assets\shots\frontpage.PNG" />
+    <Content Include="template\assets\shots\joinchannel.PNG" />
+    <Content Include="template\assets\shots\marketplace_200.png" />
+    <Content Include="template\assets\shots\marketplace_99.png" />
+    <Content Include="template\assets\shots\newconnection.PNG" />
+    <Content Include="template\assets\shots\newprivate.PNG" />
+    <Content Include="template\assets\shots\static.png" />
+    <Content Include="template\assets\shots\usermanagement.PNG" />
+    <Content Include="template\configuration.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

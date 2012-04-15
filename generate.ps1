@@ -7,7 +7,8 @@ $sites = ("root\template","public"),
 		 ("ipsnoop\template","public\ipsnoop"),
 		 ("tekstitv\template","public\tekstitv"),
 		 ("movieposters\template","public\movieposters"), 
-		 ("viihde\template","public\viihde")
+		 ("viihde\template","public\viihde"),
+		 ("futis\template","public\futis")
 	
 try {
 

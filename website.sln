@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "root", "root\root.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viihde", "viihde\viihde.csproj", "{5FC1D304-2077-4C49-9D7D-AFE1C405A115}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "futis", "futis\futis.csproj", "{58331FE8-34B1-478E-BE93-5B089CD79021}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -49,6 +51,10 @@ Global
 		{5FC1D304-2077-4C49-9D7D-AFE1C405A115}.Debug|x86.Build.0 = Debug|x86
 		{5FC1D304-2077-4C49-9D7D-AFE1C405A115}.Release|x86.ActiveCfg = Release|x86
 		{5FC1D304-2077-4C49-9D7D-AFE1C405A115}.Release|x86.Build.0 = Release|x86
+		{58331FE8-34B1-478E-BE93-5B089CD79021}.Debug|x86.ActiveCfg = Debug|x86
+		{58331FE8-34B1-478E-BE93-5B089CD79021}.Debug|x86.Build.0 = Debug|x86
+		{58331FE8-34B1-478E-BE93-5B089CD79021}.Release|x86.ActiveCfg = Release|x86
+		{58331FE8-34B1-478E-BE93-5B089CD79021}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

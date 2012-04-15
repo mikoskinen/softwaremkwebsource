@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <site>
+    <Title>SuomiFutis</Title>
+    <Description>Suomalainen huippufutis puhelimessasi!</Description>
+    <ApplicationId>3da629c0-143e-4aeb-8879-cd8bb1ef20ae</ApplicationId>
+    <Subtitle>SuomiFutis tuo suomalaisen pääsarjatason jalkapallon Windows Phone -puhelimeesi.</Subtitle>
+    <Download>Tulossa pian</Download>
+    <Contact>http://www.softwaremk.org/#contact/</Contact>
+    <CompanyInfo>http://www.softwaremk.org/#services</CompanyInfo>
+    <MetaDescription>SuomiFutis tuo suomalaisen pääsarjatason jalkapallon Windows Phone -puhelimeesi. Uutiset, tilastot ja joukkue-esittelyt.</MetaDescription>
+    <MetaKeywords>wp7, windows phone, windows puhelin, windows phone apps, window phone app, apps, veikkausliiga, jalkapallo, suomi, hjk</MetaKeywords>
+    <GoogleAnalytics>UA-30222266-1</GoogleAnalytics>
+    <CurrentVersion>1.1</CurrentVersion>
+    <AverageRating>Ei vielä arvosteltu</AverageRating>
+    <Publisher HomePage="http://www.softwaremk.org">SoftwareMK</Publisher>
+    <ReviewsTitle>Katso mitä muut ovat mieltä.</ReviewsTitle>
+    <Reviews>
+      <Review author=" " rating="5">Ei vielä arvosteluja</Review>
+      <Review author=" " rating="5">Ei vielä arvosteluja</Review>
+    </Reviews>
+    <Screenshots>
+      <screenshot alt="My screenshot 1">teams.PNG</screenshot>
+      <screenshot alt="My screenshot 2">fixtures.PNG</screenshot>
+      <screenshot alt="My screenshot 3">news.PNG</screenshot>
+      <screenshot alt="My screenshot 4">calendar.PNG</screenshot>
+      <screenshot alt="My screenshot 5">match.PNG</screenshot>
+      <screenshot alt="My screenshot 6">stats.PNG</screenshot>
+      <screenshot alt="My screenshot 7">team.PNG</screenshot>
+    </Screenshots>
+    <StaticScreenshot alt="Logo">start.PNG</StaticScreenshot>
+    <Features>
+      <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Seuraa huippufutista">Uutiset, otteluohjelma ja tulokset. SuomiFutis-sovellus tarjoaa kattavan paketin tietoa suomalaisen huippufutiksen seurantaan.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_266_book_open.png" Title="Suosikkisi">Valitse suosikkijoukkueesi ja ja kiinnitä se käynnistysvalikkoon. Käynnistysvalikon tiilen kautta pääset hyppäämään suoraan suosikkijoukkueesi tietoihin.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_155_show_thumbnails.png" Title="Live tiilet">Kiinnitä sovellus puhelimen käynnistysvalikkoon. Tiili päivittyy näyttämään tuoreimpia uutisotsikoita ja päivän otteluita.</Feature>
+    </Features>
+    <FeaturesSubtitle>Suomalainen huippufutis vaivattomasti Windows puhelimeen</FeaturesSubtitle>
+    <HelpSubtitle>jos sinulla on murheita tämän sovelluksen kanssa</HelpSubtitle>
+    <AboutSubtitle>SuomiFutis - Suomalaista huippufitusta Windows puhelimeesi</AboutSubtitle>
+    <NewsSubtitle>Uutisia SuomiFutis -sovellukse kehityksestä</NewsSubtitle>
+    <Feedback>Otathan yhteyttä, jos sinulla on murheita tai uusia ideoita sovelluksen kehittämiseksi. Arvostamme palautetta suuresti!</Feedback>
+    <FirstRelease>4/2012</FirstRelease>
+    <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
+    <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
+    <Assets>http://assets.softwaremk.org</Assets>
+  </site>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="250" Height="141">IntroductionVideoMini</Youtube>
+  <Html Url="http://assets.softwaremk.org/navigation.html">TopNavigation</Html>
+  <Markdown Location="pages/help.md">Help</Markdown>
+  <Markdown Location="pages/news.md">News</Markdown>
+</data>
