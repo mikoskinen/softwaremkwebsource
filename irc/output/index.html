@@ -82,6 +82,9 @@
                                     <li>
                                         <a href="http://www.softwaremk.org/viihde">Viihde Manager</a>
                                     </li>
+                                    <li>
+                                        <a href="http://www.softwaremk.org/futis">SuomiFutis</a>
+                                    </li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -352,10 +355,10 @@
                                 <td>
                                 </td>
                                 <td>
-                                    <a href="/download.html?source=largebutton&id=345e96da-fa2a-457f-95ce-f09e6f3b28a3" target="_blank" class="btn btn-primary btn-small">Download Full</a>  
+                                    <a href="/download.html?source=featurebutton&id=345e96da-fa2a-457f-95ce-f09e6f3b28a3" target="_blank" class="btn btn-primary btn-small">Download Full</a>  
                                  </td>
                                 <td>
-                                    <a href="/download.html?source=largebutton&id=a82de281-34b6-47d8-afe5-a329c4b2395d" target="_blank" class="btn btn-primary btn-small">Download Free</a>                                
+                                    <a href="/download.html?source=featurebutton&id=a82de281-34b6-47d8-afe5-a329c4b2395d" target="_blank" class="btn btn-primary btn-small">Download Free</a>                                
                                 </td>
                             </tr>
                         </tbody>
@@ -469,6 +472,11 @@ DALnet</p>
                         <div class="page-header">
                             <h2>News <small>The latest info about IRC7. What's in future of this IRC app?</small></h2>
                         </div>
+                            <h3>Free version and new pricing</h3>
+                            <p>15.4.2012</p>
+<p>We have just released a completely free version of IRC7. The IRC7 Free offers almost all the same features as the full version, except the support for startup scripts and custom aliases. In addition the free version shows some ads from Microsoft and AdDuplex. Also the full version has now a new price, $1.99.</p>
+<p>The reason behind releasing the free version is simple: Download numbers. Even though much effort has been put into the IRC7, the download numbers have been a little disappointment to us. We’ve seen some spikes, for example when we released the SSL support, but overall the daily downloads haven’t been that high. We recognize that the IRC itself isn’t such a major player in IM as it used to be but we’re interested to see how a free version compares against the commercial version.</p>
+<p>Let us know how you feel about the free version.</p>
                             <h3>We have moved</h3>
                             <p>30.3.2012</p>
 <p>The IRC7 homepage has moved to a new location. From now on it&#8217;s available from <a href="http://www.softwaremk.org/irc">http://www.softwaremk.org/irc</a>. Let us know what you think about the new site. The goal has been to move all our apps into a one site and make it more mobile browsing friendly.</p>
@@ -502,34 +510,6 @@ DALnet</p>
 <li>App review</li>
 </ul>
 <p><a href="http://windowsphone.com/s?appid=345e96da-fa2a-457f-95ce-f09e6f3b28a3" target="_blank">Download link for IRC7.</a></p>
-                            <h3>IRC7 1.5 coming soon with SSL support!</h3>
-                            <p>22.12.2011</p>
-<p>We’re extremely happy to report that the next version of IRC7 will offer support for secure SSL/TLS connections! Windows Phone Mango doesn’t support SSL socket’s out of the box so the implementation has taken some time, but now, with the 1.5 release IRC7 will offer support for secure connections using the TLS 1.0 protocol.</p>
-<p>The 1.5 version has been submitted to <a href="http://windowsphone.com/s?appid=345e96da-fa2a-457f-95ce-f09e6f3b28a3" target="_blank">Marketplace</a> and <strong>it will be available hopefully in just few days.</strong></p>
-<h2>Usage:</h2>
-<p>In order to connect to a secured IRC server, tick the new “Secure(TLS/SSL)” box from the “Connect to Server” –dialog:</p>
-<p><a href="http://irc7.org/wp-content/uploads/2011/12/image1.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://irc7.org/wp-content/uploads/2011/12/image_thumb1.png" width="202" height="339"></a></p>
-<p>After the connection has been established, everything should work similar to a standard connection.</p>
-<h2></h2>
-<h2>Supported protocols:</h2>
-<p>IRC7 1.5 supports the TLS 1.0 (“SSL 3.1”) protocol. To be more precise, the following cipher suits are supported:</p>
-<p>TLS_DHE_RSA_WITH_AES_256_CBC_SHA<br />TLS_DHE_RSA_WITH_AES_128_CBC_SHA<br />TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA<br />TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA<br />TLS_RSA_WITH_AES_256_CBC_SHA<br />TLS_RSA_WITH_AES_128_CBC_SHA<br />TLS_RSA_WITH_3DES_EDE_CBC_SHA</p>
-<p>The client supports the simple TLS handshake where the server but not the client is authenticated.</p>
-<h2>Current status:</h2>
-<p>The current status of SSL support in IRC7 could be called experimental. It has been tested with multiple servers but we haven’t had the chance to run it through a complete test suite. We wanted to get the first version with SSL support out as soon as possible because that’s the only way to know for sure if there’s any problems with out implementation.</p>
-<p>At this point there’s no plans to add support for client-authenticated TLS handshake, because adding new certificates to the phone is not an easy task. </p>
-<p>SSL 3.0 support may be added at a later time. Currently TLS 1.0 is the most supported protocol and most if not all of the IRC servers support it.</p>
-<p>Currently the certificate which the server sends is always accepted. In the future versions it’s likely that we add a support for common validations of the certificate (like the expiration date) and provide a warning popup if there’s any problems with the certificate.</p>
-<p><strong>Please note: </strong>In this release the smart encoding doesn’t work for SSL connections. The encoding is always UTF8.</p>
-<h2>Feedback:</h2>
-<p>We would love to hear back from you. Does the SSL work for you? If not, is there a server which we could test against? Do you need support for some cipher suite we don’t yet provide? Have you encountered any situations where a function works with a standard connection but not with a secure connection?</p>
-<p>To contact us, you can select from the following options:</p>
-<ul>
-<li><a href="http://irc7.org/index.php/contact/">Contact form</a></li>
-<li><a href="http://irc7.uservoice.com/forums/130681-general/suggestions/2224780-ssl-should-be-supported" target="_blank">UserVoice: SSL should be supported</a></li>
-<li>App review</li>
-</ul>
-<p>Have a happy Christmas!</p>
                     </section>
                     <p class="pull-right">
                         <a href="#">Back to top</a></p>
