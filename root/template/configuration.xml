@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <data>
   <site>
-    <Title>SoftwareMK | Windows Apps | Windows Phone Apps | Windows 8 Apps</Title>
-    <Description>SoftwareMK provides &lt;strong&gt;Windows Phone apps&lt;/strong&gt; and Windows application development services for Windows Phone and Windows 8.</Description>
-    <Subtitle>Windows Apps.</Subtitle>
+    <Title>SoftwareMK | Windows Phone Application Development | Windows 8 Development</Title>
+    <Description>SoftwareMK provides &lt;strong&gt;Windows Phone Application Development&lt;/strong&gt; and Windows 8 development services.</Description>
+    <Subtitle>Windows Phone Application Development.</Subtitle>
     <Contact>http://company.softwaremk.org/index.php/contact/</Contact>
     <CompanyInfo>http://company.softwaremk.org/index.php/services</CompanyInfo>
     <MetaDescription>Windows Apps. Windows Phone apps, Windows 8 apps and Windows Azure development.</MetaDescription>
-    <MetaKeywords>windows phone apps, windows apps, windows 8 apps, windows phone, windows azure, azure, windows 8 metro app, metro app, windows phone irc, silverlight, asp.net</MetaKeywords>
+    <MetaKeywords>Windows Phone Application Development, Windows 8 Development, windows phone, windows azure, windows 8 metro app, windows phone irc, silverlight, asp.net</MetaKeywords>
     <GoogleAnalytics>UA-30222266-1</GoogleAnalytics>
     <Publisher HomePage="http://www.softwaremk.org">SoftwareMK</Publisher>
     <Download>Download Free Trial</Download>
@@ -27,7 +27,7 @@
     </Screenshots>
     <StaticScreenshot alt="Logo">static.png</StaticScreenshot>
     <Apps>
-      <App Image="http://assets.softwaremk.org/ico/apps/irc7.png" ImageSmall="http://assets.softwaremk.org/ico/apps/irc7_99.png" Id="345e96da-fa2a-457f-95ce-f09e6f3b28a3" Link="http://www.softwaremk.org/irc" Title="IRC7">IRC7 is the long waited &lt;strong&gt;IRC app for Windows Phone 7&lt;/strong&gt;. IRC7 uses the pieces provided by the Windows Phone 7 Mango-update to provide you the ultimate IRC client for Windows Phone 7.</App>
+      <App Image="http://assets.softwaremk.org/ico/apps/irc7.png" ImageSmall="http://assets.softwaremk.org/ico/apps/irc7_99.png" Id="345e96da-fa2a-457f-95ce-f09e6f3b28a3" Link="http://www.softwaremk.org/irc" Title="IRC7">IRC7 is the long waited &lt;strong&gt;IRC app for Windows Phone&lt;/strong&gt;. IRC7 uses the pieces provided by the Windows Phone 7 Mango-update to provide you the ultimate IRC client for Windows Phone 7.</App>
       <App Image="http://assets.softwaremk.org/ico/apps/movieposters.png" ImageSmall="http://assets.softwaremk.org/ico/apps/movieposters_99.png" Id="ce965250-1031-4de0-92b0-0d9bcdab69cb" Link="http://www.softwaremk.org/movieposters" Title="Movie Posters">Find great wallpapers with Movie Posters. Just enter the name of the movie and you will get a &lt;strong&gt;high resolution posters&lt;/strong&gt; provided by the extensive TMDb. Simple and fast to use.</App>
       <App Image="http://assets.softwaremk.org/ico/apps/ipsnoop.png" ImageSmall="http://assets.softwaremk.org/ico/apps/ipsnoop_99.png" Id="317f8e9a-ac9f-4f33-ad2c-1e59e4e34783" Link="http://www.softwaremk.org/ipsnoop" Title="IP Snoop">What is my IP? IP Snoop answers this question. This light-weight app for Windows Phone 7 shows &lt;strong&gt;your current IP-address&lt;/strong&gt;. Supporting live tiles, IP Snoop allows you to keep up-to-date about your current IP-address.</App>
     </Apps>
@@ -39,11 +39,8 @@
       <App Image="http://assets.softwaremk.org/ico/apps/futis.png" ImageSmall="http://assets.softwaremk.org/ico/apps/futis_99.png" Id="3da629c0-143e-4aeb-8879-cd8bb1ef20ae" Link="http://www.softwaremk.org/futis" Title="SuomiFutis">Voit nyt seurata &lt;strong&gt;jalkapallokauden&lt;/strong&gt; jännittäviä hetkiä SuomiFutis-sovelluksen avulla. SuomiFutis tarjoaa otteluohjelman, tulokset ja uutiset vaivattomasti puhelimeesi.</App>
     </FinnishApps>
     <FinnishAppsSubtitle>The Following Apps Provide Local Content to Finnish Users</FinnishAppsSubtitle>
-    <ServicesSubtitle>High Quality Windows Application Development</ServicesSubtitle>
-    <StackSubtitle>How We Build Our Windows Apps</StackSubtitle>
-    <NewsSubtitle>The latest info about IRC7. What's in future of this IRC app?</NewsSubtitle>
-    <Feedback>We use UserVoice to collect your great ideas and valuable feedback. Please, let us know if there's a way to make this IRC app better. </Feedback>
-    <FirstRelease>9/2011</FirstRelease>
+    <ServicesSubtitle>High Quality Windows Phone Application Development</ServicesSubtitle>
+    <StackSubtitle>How We Build Our Apps</StackSubtitle>
     <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
     <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
     <Assets>http://assets.softwaremk.org</Assets>
