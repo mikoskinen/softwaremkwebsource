@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <data>
   <site>
-    <Title>SoftwareMK</Title>
-    <Description>SoftwareMK provides &lt;strong&gt;Windows Phone apps&lt;/strong&gt;, ranging from the world's most popular IRC-client to a news app tailored for Finnish users.</Description>
-    <Subtitle>Apps for Windows Platforms.</Subtitle>
+    <Title>SoftwareMK | Windows Apps | Windows Phone Apps | Windows 8 Apps</Title>
+    <Description>SoftwareMK provides &lt;strong&gt;Windows Phone apps&lt;/strong&gt; and Windows application development services for Windows Phone and Windows 8.</Description>
+    <Subtitle>Windows Apps.</Subtitle>
     <Contact>http://company.softwaremk.org/index.php/contact/</Contact>
     <CompanyInfo>http://company.softwaremk.org/index.php/services</CompanyInfo>
-    <MetaDescription>Apps for Windows Platforms. Windows Phone, Windows 8 and Windows Azure development.</MetaDescription>
-    <MetaKeywords>windows phone, wp7, wp7 apps, windows azure, azure, windows 8 app, windows 8 metro app, metro app, windows phone apps, wp7 irc, windows 8, silverlight, asp.net</MetaKeywords>
+    <MetaDescription>Windows Apps. Windows Phone apps, Windows 8 apps and Windows Azure development.</MetaDescription>
+    <MetaKeywords>windows phone apps, windows apps, windows 8 apps, windows phone, windows azure, azure, windows 8 metro app, metro app, windows phone irc, silverlight, asp.net</MetaKeywords>
     <GoogleAnalytics>UA-30222266-1</GoogleAnalytics>
     <Publisher HomePage="http://www.softwaremk.org">SoftwareMK</Publisher>
     <Download>Download Free Trial</Download>
@@ -39,8 +39,8 @@
       <App Image="http://assets.softwaremk.org/ico/apps/futis.png" ImageSmall="http://assets.softwaremk.org/ico/apps/futis_99.png" Id="3da629c0-143e-4aeb-8879-cd8bb1ef20ae" Link="http://www.softwaremk.org/futis" Title="SuomiFutis">Voit nyt seurata &lt;strong&gt;jalkapallokauden&lt;/strong&gt; jännittäviä hetkiä SuomiFutis-sovelluksen avulla. SuomiFutis tarjoaa otteluohjelman, tulokset ja uutiset vaivattomasti puhelimeesi.</App>
     </FinnishApps>
     <FinnishAppsSubtitle>The Following Apps Provide Local Content to Finnish Users</FinnishAppsSubtitle>
-    <ServicesSubtitle>High Quality App Development for Windows Platforms</ServicesSubtitle>
-    <StackSubtitle>How We Build Our Apps</StackSubtitle>
+    <ServicesSubtitle>High Quality Windows Application Development</ServicesSubtitle>
+    <StackSubtitle>How We Build Our Windows Apps</StackSubtitle>
     <NewsSubtitle>The latest info about IRC7. What's in future of this IRC app?</NewsSubtitle>
     <Feedback>We use UserVoice to collect your great ideas and valuable feedback. Please, let us know if there's a way to make this IRC app better. </Feedback>
     <FirstRelease>9/2011</FirstRelease>
