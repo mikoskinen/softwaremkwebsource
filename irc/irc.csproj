@@ -36,9 +36,24 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="template\assets\js\README.md" />
+    <None Include="template\help\ssl.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="template\index.cshtml" />
+    <None Include="template\helppagesindex.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="template\pages\help.md" />
+    <None Include="template\helppage.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="template\remove\wp7_index.cshtml" />
+    <None Include="template\tag.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="template\tagsindex.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="extras\graze.contracts.dll" />
