@@ -27,6 +27,7 @@ try {
 
 	echo "All sites generated succesfully"
 
+    .\sitemapgenerator.exe public http://www.softwaremk.org
 	copy sitemap.xml public
 	copy root\template\download.html public
 	copy root\template\viihde_esittely.docx public
