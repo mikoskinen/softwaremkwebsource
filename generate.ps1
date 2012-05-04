@@ -33,7 +33,6 @@ try {
 	copy root\template\viihde_esittely.docx public
 
 	.\graze.exe -t .\root\template -tf .\root\template\404.cshtml -of .\public\404.html
-
 	if ($? -eq $False)
 	{
 		echo "Generating site failed. Throwing..."
@@ -45,7 +44,6 @@ try {
 	copy irc\template\*.png public\irc
 	
 	exit 0 # Success
-
 } catch {
 	echo "Generating sites failed"
 	echo "##teamcity[buildStatus status='FAILURE' text='{build.status.text} in compilation']"

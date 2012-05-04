@@ -3,8 +3,8 @@ title: SSL Support in IRC7
 permalink: windows-phone-irc-client-irc7-ssl-tls-support
 description: This help shows how the Windows Phone IRC app IRC7 supports SSL/TLS.
 layout: helppage.cshtml
-tags: graze, graze blog
-time: 2011-12-22 18:00
+tags: help, ssl, tls
+time: 2011-12-21 18:00
 ---
 ## First Release: ##
 Since the 1.5 release IRC7 has offered support for secure connections using the TLS 1.0 protocol.

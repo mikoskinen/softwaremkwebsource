@@ -36,6 +36,9 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="template\assets\js\README.md" />
+    <None Include="template\help\alias.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="template\help\rawcommands.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
