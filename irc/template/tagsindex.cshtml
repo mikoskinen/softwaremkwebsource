@@ -1,12 +1,93 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>@Model.Title</title>
+    <meta charset="utf-8">
+    <title>IRC7 Help Tags | Windows Phone IRC App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IRC7 Help Tags. @Model.Description">
+    <meta name="keywords" content="IRC7, help, tags">
+    <meta name="author" content="@Model.Publisher.Publisher">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- Le styles -->
+    <link href="@Model.Assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="@Model.Assets/css/docs.css" rel="stylesheet">
+    <link href="@Model.Assets/css/grazewp7.css" rel="stylesheet">
+    <link href="@Model.Assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="@Model.Assets/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="@Model.Assets/ico/bootstrap-apple-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="@Model.Assets/ico/bootstrap-apple-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="@Model.Assets/ico/bootstrap-apple-114x114.png">
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '@Model.GoogleAnalytics']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    </script>
 </head>
-    <body>
-        <h1>All tags</h1>
-        @foreach(var tag in Model.Tags)
-        {
-            <li><a href="@tag.Location">@tag.Name (@tag.Count)</a> </li>
-        }
-    </body>
+<body data-spy="scroll" data-target=".subnav" data-offset="50" id="home">
+    @Model.TopNavigation
+    <div class="container">
+        <div class="inner">
+            <div class="subnav subnav-fixed">
+                <ul class="nav nav-pills">
+                    <li><a href="/irc/#home"><i class="icon-home"></i> Home</a></li>
+                    <li><a href="/irc/#reviews"><i class="icon-star"></i> Testimonials</a></li>
+                    <li><a href="/irc/#options"><i class="icon-ok"></i> Versions</a></li>
+                    <li><a href="/irc/#features"><i class="icon-check"></i> Features</a></li>
+                    <li><a href="/irc/#help"><i class="icon-question-sign"></i> Help</a></li>
+                    <li><a href="/irc/#news"><i class="icon-inbox"></i> News</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="span8">
+                    <header id="normalheader" class="jumbotron masthead topheading">
+                        <h1 class="pagination-centered jumbotron">Help Tags</h1>
+                    </header>
+                    <header id="mobileheader" class="jumbotron masthead topheading">
+                        <h1 class="pagination-centered jumbotron">Help Tags</h1>
+                    </header>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span8">
+                    <div id="content">
+                        @foreach (var tag in Model.Tags)
+                        {
+                            
+                            <h2><a href="@tag.Location">@tag.Name (@tag.Count)</a></h2>
+                        }
+                    </div>
+                </div>
+                <div class="span4">
+                    <div id="links">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p class="pull-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>
+                Copyright <a href="@Model.Publisher.HomePage" target="_blank">@Model.Publisher.Publisher
+                </a>2012
+            </p>
+            <h6>Created with <a href="@Model.WP7Graze.Link">@Model.WP7Graze.WP7Graze</a> using the
+                <a href="@Model.Graze.Link">@Model.Graze.Graze.</a></h6>
+        </footer>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="@Model.Assets/js/bootstrap.min.js"></script>
+</body>
 </html>
