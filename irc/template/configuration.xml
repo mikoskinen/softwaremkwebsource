@@ -58,5 +58,5 @@
   <Html Url="http://assets.softwaremk.org/navigation.html">TopNavigation</Html>
   <Markdown Location="pages/help.md">HelpDocument</Markdown>
   <Rss Url="http://feeds.feedburner.com/windowsphoneirc">News</Rss>
-  <ChildPages Location="help" IndexLayoutFile="helppagesindex.cshtml" TagsIndexLayoutFile="tagsindex.cshtml" TagLayoutFile="tag.cshtml">Help</ChildPages>
+  <ChildPages Location="help" IndexLayoutFile="helppagesindex.cshtml" TagsIndexLayoutFile="tagsindex.cshtml" TagLayoutFile="tag.cshtml" RelativePathPrefix="irc">Help</ChildPages>
 </data>

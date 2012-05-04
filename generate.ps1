@@ -27,6 +27,7 @@ try {
 
 	echo "All sites generated succesfully"
 
+    	.\sitemapgenerator.exe public http://www.softwaremk.org
 	copy sitemap.xml public
 	copy root\template\download.html public
 	copy root\template\viihde_esittely.docx public
@@ -38,13 +39,6 @@ try {
 		throw "Error"
 	}
 	
-	.\graze.exe -t .\root\template -tf .\root\template\index_spotlight.cshtml -of .\public\index_spotlight.html
-	if ($? -eq $False)
-	{
-		echo "Generating site failed. Throwing..."
-		throw "Error"
-	}
-
 	copy irc\template\screenshots.zip public\irc
 	copy irc\template\*.pdf public\irc
 	copy irc\template\*.png public\irc
