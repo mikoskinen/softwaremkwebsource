@@ -31,7 +31,7 @@
       <screenshot alt="Activity view">activity.PNG</screenshot>
       <screenshot alt="Private message notification">newprivate.PNG</screenshot>
     </Screenshots>
-    <StaticScreenshot alt="Logo">static.png</StaticScreenshot>
+    <StaticScreenshot alt="Windows Phone IRC">static.png</StaticScreenshot>
     <Features>
       <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Easy to get started">If you know the basics of IRC chat (Internet Relay Chat), you can get started in few seconds. Chat with thousands of other IRC users with this Windows Phone IRC client.</Feature>
       <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Multi-server support">With this Windows Phone IRC application you’re not limited to only one server. Want to connect to both the QuakeNet and the IRCNet, simultaneously? IRC7 can do that for you. </Feature>
