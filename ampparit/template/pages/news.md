@@ -1,3 +1,14 @@
+### 2.8 versio saatavilla ###
+###### 13.5.2012 ######
+
+Uusi versio Ampparit.com -lukijasta on saatavilla. Uutta tässä versiossa:
+
+* Sovelluksen käynnistystiileen lisätty suosikeista tutut live-tiili ominaisuudet
+* Hieman kevenetty värimaailma
+* Lukittu sovellus portrait-moodiin
+* Pieniä parannuksia mobiililukutilaan
+* Pinch-liikkeellä tapahtuva uutisten ryhmittely otettu toistaiseksi pois käytöstä. Ominaisuus aiheuttaa joillain puhelinmalleilla kaatuilua.
+
 ### 2.7 versio pian saatavilla ###
 ###### 20.3.2012 ######
 Windows Phonen markkinapaikalta on pian ladattavissa Ampparit.com Reader -sovelluksen versio 2.7. 
