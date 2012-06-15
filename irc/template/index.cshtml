@@ -9,8 +9,8 @@
     <meta name="author" content="@Model.Publisher.Publisher">
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <!-- Le styles -->
     <link href="@Model.Assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="@Model.Assets/css/docs.css" rel="stylesheet">
@@ -23,18 +23,20 @@
     <link rel="apple-touch-icon" sizes="114x114" href="@Model.Assets/ico/bootstrap-apple-114x114.png">
     <script type="text/javascript">
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', '@Model.GoogleAnalytics']);
-    _gaq.push(['_trackPageview']);
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '@Model.GoogleAnalytics']);
+        _gaq.push(['_trackPageview']);
 
-    (function () {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
 
     </script>
-
+    
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">    stLight.options({ publisher: "7904eca5-3d12-407f-b8ca-bc1689bf461a" }); </script>
 </head>
 <body data-spy="scroll" data-target=".subnav" data-offset="50" id="home">
     @Model.TopNavigation
@@ -45,12 +47,14 @@
                     <h2 class="pagination-centered jumbotron">@Model.Title</h2>
                     <p>@Model.Description</p>
                     <p class="download-info">
-                        <a href="/download.html?source=largebutton&id=@Model.ApplicationId" target="_blank" class="btn btn-primary btn-small">@Model.Download
-                        </a><a href="/download.html?source=largebutton&id=@Model.ApplicationIdFree" target="_blank" class="btn btn-info btn-small">@Model.DownloadFree
-                        </a>
+                        <a href="/download.html?source=largebutton&id=@Model.ApplicationId" target="_blank" class="btn btn-primary btn-small">@Model.Download</a>
                     </p>
-
-                    <br />
+                    <div id="social" class="pagination-centered">
+                        <span class='st_facebook' displaytext='Facebook'></span>
+                        <span class='st_twitter' displaytext='Tweet'></span>
+                        <span class='st_googleplus' displaytext='Google +1'></span>
+                    </div>
+                    <br/>
                     <div id="myModalMini" class="modal hide fade">
                         <div class="modal-header">
                             <a class="close" data-dismiss="modal">&times;</a>
@@ -67,12 +71,21 @@
             </div>
             <div class="subnav subnav-fixed">
                 <ul class="nav nav-pills">
-                    <li><a href="#home"><i class="icon-home"></i> Home</a></li>
-                    <li><a href="#reviews"><i class="icon-star"></i> Testimonials</a></li>
-                    <li><a href="#options"><i class="icon-ok"></i> Versions</a></li>
-                    <li><a href="#features"><i class="icon-check"></i> Features</a></li>
-                    <li><a href="#help"><i class="icon-question-sign"></i> Help</a></li>
-                    <li><a href="#news"><i class="icon-inbox"></i> News</a></li>
+                    <li>
+                        <a href="#home"><i class="icon-home"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="#reviews"><i class="icon-star"></i> Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#features"><i class="icon-check"></i> Features</a>
+                    </li>
+                    <li>
+                        <a href="#help"><i class="icon-question-sign"></i> Help</a>
+                    </li>
+                    <li>
+                        <a href="#news"><i class="icon-inbox"></i> News</a>
+                    </li>
                 </ul>
             </div>
             <div class="row">
@@ -94,10 +107,9 @@
                                 </div>
                             </div>
                             <div id="smallPhone">
-                                <img src="assets/shots/@Model.StaticScreenshot.StaticScreenshot" alt="@Model.StaticScreenshot.alt" >
-                            </div>
+                                <img src="assets/shots/@Model.StaticScreenshot.StaticScreenshot" alt="@Model.StaticScreenshot.alt" ></div>
                             <a data-toggle="modal" href="#myModal">
-                                <h6 class="videolink"><i class="icon-play-circle"></i>See it in action!</h6>
+                            <h6 class="videolink"><i class="icon-play-circle"></i>See it in action!</h6>
                             </a>
                             <div id="myModal" class="modal hide fade">
                                 <div class="modal-header">
@@ -120,11 +132,13 @@
                         <h1>@Model.Subtitle</h1>
                         <p>@Model.Description</p>
                         <p class="download-info">
-                            <a href="/download.html?source=largebutton&id=@Model.ApplicationId" target="_blank" class="btn btn-primary btn-large">@Model.Download
-                            </a><a href="/download.html?source=largebutton&id=@Model.ApplicationIdFree" target="_blank" class="btn btn-info btn-large">@Model.DownloadFree
-                            </a></td>
+                            <a href="/download.html?source=largebutton&id=@Model.ApplicationId" target="_blank" class="btn btn-primary btn-large">@Model.Download</a>
                         </p>
-
+                        <div id="social" class="pagination-centered">
+                            <span class='st_facebook' displaytext='Facebook'></span>
+                            <span class='st_twitter' displaytext='Tweet'></span>
+                            <span class='st_googleplus' displaytext='Google +1'></span>
+                        </div>
                     </header>
                     <div class="marketing" id="reviews">
                         <p class="marketing-byline">@Model.ReviewsTitle</p>
@@ -149,170 +163,118 @@
                                     </h2>
                                     <blockquote>
                                         @review.Review
-                                        <small>@review.author</small>
-                                    </blockquote>
+                                        <small>@review.author</small> </blockquote>
                                 </div>
                             }
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <p class="pull-right">
-            <a href="#">Back to top</a>
-        </p>
-        <section id="options">
-            <div class="page-header">
-                <h2>Versions <small>This IRC app is available as Full and Free versions</small></h2>
-            </div>
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>Full </th>
-                        <th>Free </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Feature Rich </td>
-                        <td><span class="badge badge-success">Yes</span></td>
-                        <td><span class="badge badge-success">Yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Custom Aliases </td>
-                        <td><span class="badge badge-success">Yes</span></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Startup Scripts </td>
-                        <td><span class="badge badge-success">Yes</span></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Ad-Free </td>
-                        <td><span class="badge badge-success">Yes</span></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><a href="/download.html?source=featurebutton&id=@Model.ApplicationId" target="_blank" class="btn btn-primary btn-small">@Model.Download
-                            </a></td>
-                        <td><a href="/download.html?source=featurebutton&id=@Model.ApplicationIdFree" target="_blank" class="btn btn-primary btn-small">@Model.DownloadFree
-                            </a></td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        <div id="features">
-            <div class="page-header">
-                <h2>Features <small>@Model.FeaturesSubtitle</small></h2>
-            </div>
-            <div class="row marketing">
-                @foreach (var feature in Model.Features)
-                {
-                    <div class="span4">
-                        <img alt="Feature icon" class="bs-icon" src="@feature.Image">
-                        <h3>@feature.Title</h3>
-                        <p>@feature.Feature</p>
-                    </div>
-                        
-                }
-            </div>
-        </div>
-        <p class="pull-right">
-            <a href="#">Back to top</a>
-        </p>
-        <section class="row">
-            <div class="span8">
-                <section id="help">
-                    <div class="page-header">
-                        <h2>Help <small><a href="@Model.Contact" target="_blank">Please let us know</a>
-                            @Model.HelpSubtitle</small></h2>
-                    </div>
-                    @*@Model.HelpDocument*@
-                    @foreach (var helpPage in @Model.Help)
-                    {
-                        <h4><a href="@helpPage.Location">@helpPage.Title</a></h4>
-                        <p>@helpPage.Description</p>
-                    }
-                </section>
-                <p class="pull-right">
-                    <a href="#">Back to top</a>
-                </p>
-                <section id="news">
-                    <div class="page-header">
-                        <h2>News <small>@Model.NewsSubtitle</small></h2>
-                    </div>
-                    @foreach (var item in System.Linq.Enumerable.Take(@Model.News.Items, 5))
-                    {
-                        <h3>@item.Title.Text</h3>
-                        <p>@item.PublishDate.ToString("d")</p>
-                        @item.Content.Text
-                    }
-                </section>
-                <p class="pull-right">
-                    <a href="#">Back to top</a>
-                </p>
-            </div>
-            <div class="span4">
-                <section id="about">
-                    <div class="page-header">
-                        <h2>About <small>@Model.AboutSubtitle</small></h2>
-                    </div>
-                    <img src="assets/shots/marketplace_99.png" alt="logo" class="pull-right" />
-                    <h4>Current version:</h4>
-                    @Model.CurrentVersion
-                    <h4>First release:</h4>
-                    @Model.FirstRelease
-                    <h4>Average rating:</h4>
-                    @Model.AverageRating
-                </section>
-                <section id="feedback">
-                    <div class="page-header">
-                        <h2>Feedback <small>We value your feedback!</small></h2>
-                    </div>
-                    <p>@Model.Feedback</p>
-                    <a href="http://irc7.uservoice.com" target="_blank" class="btn btn-primary btn-large">
-                        Post your ideas</a>
-                </section>
-            </div>
-        </section>
-        <footer class="footer">
             <p class="pull-right">
-                <a href="#">Back to top</a>
-            </p>
-            <p>
-                Copyright <a href="@Model.Publisher.HomePage" target="_blank">@Model.Publisher.Publisher
-                </a>2012
-            </p>
-            <h6>Created with <a href="@Model.WP7Graze.Link">@Model.WP7Graze.WP7Graze</a> using the
-                <a href="@Model.Graze.Link">@Model.Graze.Graze.</a></h6>
-        </footer>
-    </div>
+                <a href="#">Back to top</a></p>
+            <div id="features">
+                <div class="page-header">
+                    <h2>Features <small>@Model.FeaturesSubtitle</small></h2>
+                </div>
+                <div class="row marketing">
+                    @foreach (var feature in Model.Features)
+                    {
+                        <div class="span4">
+                            <img alt="Feature icon" class="bs-icon" src="@feature.Image">
+                            <h3>@feature.Title</h3>
+                            <p>@feature.Feature</p>
+                        </div>
+                        
+                    }
+                </div>
+            </div>
+            <p class="pull-right">
+                <a href="#">Back to top</a></p>
+            <section class="row">
+                <div class="span8">
+                    <section id="help">
+                        <div class="page-header">
+                            <h2>Help <small>
+                                <a href="@Model.Contact" target="_blank">Please let us know</a>
+                                @Model.HelpSubtitle</small></h2>
+                        </div>
+                        @Model.Help
+                    </section>
+                    <p class="pull-right">
+                        <a href="#">Back to top</a></p>
+                    <section id="news">
+                        <div class="page-header">
+                            <h2>News <small>@Model.NewsSubtitle</small></h2>
+                        </div>
+                        @foreach (var item in System.Linq.Enumerable.Take(@Model.News.Items, 5))
+                        {
+                            <h3>@item.Title.Text</h3>
+                            <p>@item.PublishDate.ToString("d")</p>
+                            @item.Content.Text
+                        }
+                    </section>
+                    <p class="pull-right">
+                        <a href="#">Back to top</a></p>
+                </div>
+                <div class="span4">
+                    <section id="about">
+                        <div class="page-header">
+                            <h2>About <small>@Model.AboutSubtitle</small></h2>
+                        </div>
+                        <img src="assets/shots/marketplace_99.png" alt="logo" class="pull-right" />
+                        <h4>Current version:</h4>
+                        @Model.CurrentVersion
+                        <h4>First release:</h4>
+                        @Model.FirstRelease
+                        <h4>Average rating:</h4>
+                        @Model.AverageRating
+                    </section>
+                    <section id="feedback">
+                        <div class="page-header">
+                            <h2>Feedback <small>We value your feedback!</small></h2>
+                        </div>
+                        <p>@Model.Feedback</p>
+                        <a href="http://irc7.uservoice.com" target="_blank" class="btn btn-primary btn-large">Post your ideas</a>
+                    </section>
+                </div>
+            </section>
+            <footer class="footer">
+                <p class="pull-right">
+                    <a href="#">Back to top</a></p>
+                <p>Copyright
+                    <a href="@Model.Publisher.HomePage" target="_blank">@Model.Publisher.Publisher
+                    </a>
+                    2012 </p>
+                <h6>Created with
+                    <a href="@Model.WP7Graze.Link">@Model.WP7Graze.WP7Graze</a>
+                    using the
+                    <a href="@Model.Graze.Link">@Model.Graze.Graze.</a>
+                </h6>
+            </footer>
+        </div>
     </div>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="@Model.Assets/js/bootstrap.min.js"></script>
     <script src="@Model.Assets/js/easySlider1.7.min.js"></script>
     <script type="text/javascript">
-    $(document).ready(function () {
-        showSlider();
-        showScreenshots();
-    });
-
-    function showSlider() {
-        $("#slider").easySlider({
-            auto: true,
-            continuous: true,
-            pause: 5000,
-            controlsShow: false
+        $(document).ready(function () {
+            showSlider();
+            showScreenshots();
         });
-    }
 
-    function showScreenshots() {
-        $("#screenshotarea").css("visibility", "visible");
-    }
+        function showSlider() {
+            $("#slider").easySlider({
+                auto: true,
+                continuous: true,
+                pause: 5000,
+                controlsShow: false
+            });
+        }
 
+        function showScreenshots() {
+            $("#screenshotarea").css("visibility", "visible");
+        }
+        
     </script>
 </body>
 </html>

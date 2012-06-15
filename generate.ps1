@@ -27,7 +27,7 @@ try {
 
 	echo "All sites generated succesfully"
 
-    .\sitemapgenerator.exe public http://www.adafy.com
+  .\sitemapgenerator.exe public http://www.adafy.com
 	copy sitemap.xml public
 	copy robots.txt public
 	

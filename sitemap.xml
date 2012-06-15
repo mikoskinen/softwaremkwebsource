@@ -1,127 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.adafy.com/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/ampparit/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/futis/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/ipsnoop/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/alias/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/encoding/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/general/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/help/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/networks/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/irc/help/tags/perform/</loc>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/ssl/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/tls/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-alias-engine/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-disconnecting/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-encoding/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-getting-started/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-irc-networks/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-lock-screen/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-ssl-tls-support/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-startup-scripts-perform/</loc>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-raw-irc-commands/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/movieposters/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/tekstitv/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/viihde/</loc>
-    <lastmod>2012-05-31</lastmod>
+    <lastmod>2012-06-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
 </urlset>

@@ -1,3 +1,9 @@
+### Uusi versio piakkoin saatavilla ###
+###### 15.6.2012 ######
+
+Teksti-tv sovelluksesta on kohta saatavilla uusi versio. Mukana:
+* Korjauksia virheraporttien pohjalta.
+
 ### 3.5 versio saatavilla ###
 ###### 1.5.2012 ######
 

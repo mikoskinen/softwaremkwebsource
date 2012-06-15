@@ -35,6 +35,9 @@
 
     </script>
     
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">    stLight.options({ publisher: "7904eca5-3d12-407f-b8ca-bc1689bf461a" }); </script>
+
 </head>
 <body data-spy="scroll" data-target=".subnav" data-offset="50" id="home">
     @Model.TopNavigation
@@ -48,6 +51,11 @@
                         <a href="/download.html?source=largebutton&id=@Model.ApplicationId" target="_blank" class="btn btn-primary btn-small">@Model.Download</a>
                     </p>
                     
+                    <div id="social" class="pagination-centered">
+                        <span class='st_facebook' displaytext='Facebook'></span>
+                        <span class='st_twitter' displaytext='Tweet'></span>
+                        <span class='st_googleplus' displaytext='Google +1'></span>
+                    </div>
                     <br/>
 
                     <div id="myModalMini" class="modal hide fade">
@@ -129,6 +137,12 @@
                         <p class="download-info">
                             <a href="/download.html?source=largebutton&id=@Model.ApplicationId" target="_blank" class="btn btn-primary btn-large">@Model.Download</a>
                         </p>
+                        <div id="social" class="pagination-centered">
+                            <span class='st_facebook' displaytext='Facebook'></span>
+                            <span class='st_twitter' displaytext='Tweet'></span>
+                            <span class='st_googleplus' displaytext='Google +1'></span>
+                        </div>
+
                     </header>
                     <div class="marketing" id="reviews">
                         <p class="marketing-byline">@Model.ReviewsTitle</p>

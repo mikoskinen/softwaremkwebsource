@@ -1,3 +1,12 @@
+### 2.9 kohta markkinapaikalla ###
+###### 15.6.2012 ######
+
+Ampparit.com -lukijan uusin versio on saatavilla pian. Tässä versiossa:
+
+Uutta versiossa 2.9:
+* Lukutilan muokkaus: Vaihda värejä ja kirjasimen kokoa.
+* Pieniä parannuksia mobiililukutilaan.
+
 ### 2.8 versio saatavilla ###
 ###### 13.5.2012 ######
 
