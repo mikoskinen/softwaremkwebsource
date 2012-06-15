@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@Model.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="description" content="@Model.MetaDescription" />
+    <meta name="author" content="@Model.Publisher" />
+    <link href="@Model.Assets/css/mentor.min.css" rel="stylesheet"/>
+    <link href="@Model.Assets/css/skin_blue.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="@Model.Assets/favicon.jpg" />
+		<script type="text/javascript">
+
+		    var _gaq = _gaq || [];
+		    _gaq.push(['_setAccount', 'UA-31682941-1']);
+		    _gaq.push(['_trackPageview']);
+
+		    (function () {
+		        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		    })();
+
+		</script>
+</head>
+<body>
+    <!--header and menu-->
+    <header class="navbar navbar-fixed-top" id="top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="btnTitle">Menu</span>
+                <span class="icon-chevron-down icon-white"></span>
+                </a>
+                <div class="nav-collapse">
+                    <!--social media icons-->
+                    <div class="smedia">
+                        <span>www.adafy.com</span>
+                        <a href="https://twitter.com/#!/adafyoy" data-position="bottom" data-rel="tooltip" title="Follow Us" class="sm-icon sm-icon-twitter"></a>
+                    </div>
+                    <!--main nav-->
+                    <div class="central-nav">
+                        <ul class="nav">
+                            <li>
+                                <a href="index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#">Apps<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="http://www.adafy.com/irc" >IRC7</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.adafy.com/ipsnoop">IP Snoop</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.adafy.com/movieposters">Movie Posters</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.adafy.com/ampparit">Ampparit.com Reader</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.adafy.com/tekstitv">Teletext Finland</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.adafy.com/viihde">Viihde Manager</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.adafy.com/futis">SuomiFutis</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--end main nav-->
+                    </div>
+                </div>
+                <!--end main menu-->
+            </div>
+        </div>
+    </header>
+    <!--main tagline area-->
+    <section class="taglineWrap">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span12 pagination-centered">
+                    <a class="brand pagination-centered" href="index.html" title="Home">
+                    <img class="pagination-centered logo" src="@Model.Assets/img/content/Adafy_Hori.png" alt="Adafy" /></a>
+                </div>
+            </div>
+            <div class="row-fluid  tagline">
+                <div class="span8">
+                    <h2>@Model.Description</h2>
+                </div>
+                <div class="span4 action">
+                    <div>
+                        <a href="#contact" class="btn btn-info">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /container -->
+    </section>
+    <!--main content-->
+    <section class="mainContentWrap">
+        <div class="container mainContent">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="row-fluid featuredContent">
+                        <div class="span4">
+                            <h1>
+                                <span class="btn btn-inverse">01</span>
+                                Windows Phone</h1>
+                            <p>One of our main focuses is on Windows Phone application development. We do internal app development and also offer Windows Phone application development services and consulting. We have multiple highly reviewed applications available from the Windows Phone Marketplace. @*<a href="#">
+                                <span class="label">More</span></a>*@</p>
+                        </div>
+                        <div class="span4">
+                            <h1>
+                                <span class="btn btn-inverse">02</span>
+                                Windows 8</h1>
+                            <p>In addition to Windows Phone, we are also proud to offer Windows 8 development services. We're currently working with a selection of brand new Windows 8 Metro apps and aim to launch these in conjuction with the Windows 8. @*<a href="#">
+                                <span class="label">More</span></a>*@</p>
+                        </div>
+                        <div class="span4">
+                            <h1>
+                                <span class="btn btn-inverse">03</span>
+                                Windows Azure</h1>
+                            <p>In addition to Windows Phone and Windows 8 development we are skilled with other .NET-technologies, like Windows Azure. Almost every app requires a backend and Windows Azure is great a place to host it. @*<a href="#">
+                                <span class="label">More</span></a>*@</p>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="divider dotted clearfix">
+                            <span></span>
+                        </div>
+                    </div>
+                    <!-- carousel -->
+                    <div class="row-fluid relative">
+                        <div class="span12">
+                            <h1>Our Recent Windows Phone Apps <small>Scroll to see more</small></h1>
+                        </div>
+                        <div class="carousel-nav">
+                            <div class="pull-right">
+                                <a href="#" id="carouselPrev" class="prev-btn pull-left label"><i class="icon-chevron-left icon-white"></i></a>
+                                <a href="#" id="carouselNext" class="next-btn pull-left label"><i class="icon-chevron-right icon-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-fluid carouselBox" data-height="0,0" data-slidewidth="250">
+                        @foreach (var app in Model.Apps)
+                        {
+                            <div data-delay="0" style="width: 240px !important">
+                                <div class="portfolioItem">
+                                    <a href="@app.Link" class="peOver">
+                                    <img src="@app.Image" style="width: 220px;height: 200px;" alt="@app.Title" />
+                                    <span></span>
+                                    </a>
+                                    <div class="title">
+                                        <span class="icon-file"></span>
+                                        <a href="#">@app.Title</a>
+                                    </div>
+                                    <p>@app.App</p>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <!--footer testimonail-->
+        <section class="testimonial">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <blockquote>
+                            <p>Adafy is a Finnish software startup and we're available for hire. We are located in Finland and offer our services in Finnish and English. Adafy is a Microsoft Bizspark company and we have over a decade of experience working with Microsoft technologies.</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footerMain">
+            <div class="container">
+                <div class="row-fluid">
+                    <!--footer main columns-->
+                    <div class="span3">
+                        <!--newsletter widget-->
+                        <div class="widget widget_newsletter">
+                            <h3>Newsletter</h3>
+                            <p>Get informed when we release new apps and update our current ones.</p>
+                            <form class="form-inline newsletter" action="http://ec2-46-137-16-9.eu-west-1.compute.amazonaws.com:8080/signup" id="newsletterform" method="post" data-subscribed="Thank You">
+                            <div class="control-group">
+                                <div class="input-append">
+                                    <input type="text" name="email" class="input-medium span2" placeholder="Newsletter.." />
+                                    <button class="btn" type="submit">Signup</button>
+                                </div>
+                            </div>
+                            </form>
+                            <p class="outro">Don't worry, your details are safe with us.</p>
+                        </div>
+                        <!--end widget-->
+                    </div>
+                    <div class="span6">
+                        <!--recent posts widget-->
+                        <div class="widget widget_recent_entries">
+                            <h3>Recent News
+                                </h3>
+                            <ul>
+                                <li>
+                                    <div>
+                                        Welcome to Adafy.com!
+                                        <p>Welcome to our new site. From here you can find our apps and latest news. We're soon going to announce our first Windows 8 application and more, so remember to signup for our newsletter.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--end widget-->
+                    </div>
+                    <div id="contact" class="span3 last">
+                        <h3>Contact</h3>
+                        @Model.Address
+                        <h4>Address</h4>
+                        @Model.Phone
+                        <h4>Phone</h4>
+                        <a href="mailto:@Model.Email" class="btn btn-info">@Model.Email</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        @*        <section class="footerMain">
+            <div class="container">
+                <div class="row-fluid">
+                    <!--footer main columns-->
+                    <div class="span3 last">
+                        <!--footer logo-->
+                        <a href="index.html" class="logo-foot" title="Home">
+                        <h3>Contact</h3></a>
+                        @Model.Address
+                        <h4>Address</h4>
+                        @Model.Phone
+                        <h4>Phone</h4>
+                        <a href="mailto:@Model.Email" class="btn btn-info">@Model.Email</a>
+                        <!--links widget-->
+                    </div>
+                </div>
+            </div>
+        </section>
+*@
+        <!--footer lower-->
+        <section class="footerLower">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span3 copyright">
+                        <p>&copy; 2012 Adafy Oy</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--back to top button-->
+    <a href="#top" id="peBackToTop" class="label btt disabled">
+    <span class="icon-chevron-up icon-white"></span>
+    </a>
+    <!-- import minified javascript -->
+    <script type="text/javascript" src="@Model.Assets/js/mentor.min.js"></script>
+</body>
+</html>

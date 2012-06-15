@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <data>
   <site>
-    <Title>SoftwareMK | Windows Phone Application Development | Windows 8 Development</Title>
-    <Description>SoftwareMK provides &lt;strong&gt;Windows Phone Application Development&lt;/strong&gt; and Windows 8 development services.</Description>
+    <Title>Adafy | Windows Phone Application Development | Windows 8 Development</Title>
+    <Description>We &lt;strong&gt;create apps for Windows Platforms&lt;/strong&gt; and provide development services for Windows Phone, Windows 8 and Windows Azure. </Description>
     <Subtitle>Windows Phone Application Development.</Subtitle>
     <Contact>http://company.softwaremk.org/index.php/contact/</Contact>
     <CompanyInfo>http://company.softwaremk.org/index.php/services</CompanyInfo>
-    <MetaDescription>SoftwareMK provides Windows Phone Application Development, Windows 8 Development and Windows Azure development.</MetaDescription>
+    <MetaDescription>Adafy provides Windows Phone Application Development, Windows 8 Development and Windows Azure development.</MetaDescription>
     <MetaKeywords>Windows Phone Application Development, Windows 8 Development, windows phone, windows azure, windows 8 metro app, windows phone irc, silverlight, asp.net</MetaKeywords>
-    <GoogleAnalytics>UA-30222266-1</GoogleAnalytics>
-    <Publisher HomePage="http://www.softwaremk.org">SoftwareMK</Publisher>
+    <GoogleAnalytics>UA-31682941-1</GoogleAnalytics>
+    <Publisher HomePage="http://www.adafy.com">Adafy</Publisher>
     <Download>Download Free Trial</Download>
     <Reviews>
       <Review author="PierrTr" rating="5">Top IRC App. Ũbersichtlich und schnell.</Review>
@@ -27,9 +27,13 @@
     </Screenshots>
     <StaticScreenshot alt="Logo">static.png</StaticScreenshot>
     <Apps>
-      <App Image="http://assets.softwaremk.org/ico/apps/irc7.png" ImageSmall="http://assets.softwaremk.org/ico/apps/irc7_99.png" Id="345e96da-fa2a-457f-95ce-f09e6f3b28a3" Link="http://www.softwaremk.org/irc" Title="IRC7 - Windows Phone IRC application">IRC7 is the long waited &lt;strong&gt;Windows Phone IRC app&lt;/strong&gt;. IRC7 uses the pieces provided by the Windows Phone 7 Mango-update to provide you the ultimate IRC client for Windows Phone 7.</App>
-      <App Image="http://assets.softwaremk.org/ico/apps/movieposters.png" ImageSmall="http://assets.softwaremk.org/ico/apps/movieposters_99.png" Id="ce965250-1031-4de0-92b0-0d9bcdab69cb" Link="http://www.softwaremk.org/movieposters" Title="Movie Posters - HQ Windows Phone Wallpapers">Find great wallpapers with Movie Posters. Just enter the name of the movie and you will get a &lt;strong&gt;high resolution posters&lt;/strong&gt; provided by the extensive TMDb. Simple and fast to use.</App>
-      <App Image="http://assets.softwaremk.org/ico/apps/ipsnoop.png" ImageSmall="http://assets.softwaremk.org/ico/apps/ipsnoop_99.png" Id="317f8e9a-ac9f-4f33-ad2c-1e59e4e34783" Link="http://www.softwaremk.org/ipsnoop" Title="IP Snoop - Windows Phone IP Finder">What is my IP? IP Snoop answers this question. This light-weight app for Windows Phone 7 shows &lt;strong&gt;your current IP-address&lt;/strong&gt;. Supporting live tiles, IP Snoop allows you to keep up-to-date about your current IP-address.</App>
+      <App Image="http://assets.softwaremk.org/ico/apps/irc7.png" ImageSmall="http://assets.softwaremk.org/ico/apps/irc7_99.png" Id="345e96da-fa2a-457f-95ce-f09e6f3b28a3" Link="http://www.softwaremk.org/irc" Title="IRC7">IRC7 is the long waited &lt;strong&gt;Windows Phone IRC app&lt;/strong&gt;. IRC7 uses the pieces provided by the Windows Phone 7 Mango-update to provide you the ultimate IRC client for Windows Phone 7.</App>
+      <App Image="http://assets.softwaremk.org/ico/apps/ampparit.png" ImageSmall="http://assets.softwaremk.org/ico/apps/ampparit_99.png" Id="55f055be-f2a5-e011-986b-78e7d1fa76f8" Link="http://www.softwaremk.org/ampparit" Title="Ampparit.com lukija">Ampparit.com Reader tuo suositun &lt;strong&gt;Ampparit.com&lt;/strong&gt; -palvelun sisällön Windows Phone 7 -puhelimeesi. Urheilu, IT ja paikalliset uutiset ovat mukana tässä WP7-sovelluksessa.</App>
+      <App Image="http://assets.softwaremk.org/ico/apps/futis.png" ImageSmall="http://assets.softwaremk.org/ico/apps/futis_99.png" Id="3da629c0-143e-4aeb-8879-cd8bb1ef20ae" Link="http://www.softwaremk.org/futis" Title="SuomiFutis">Voit nyt seurata &lt;strong&gt;jalkapallokauden&lt;/strong&gt; jännittäviä hetkiä SuomiFutis-sovelluksen avulla. SuomiFutis tarjoaa otteluohjelman, tulokset ja uutiset vaivattomasti puhelimeesi. Kaikki Veikkausliigasta!</App>
+      <App Image="http://assets.softwaremk.org/ico/apps/tekstitv.png" ImageSmall="http://assets.softwaremk.org/ico/apps/tekstitv_99.png" Id="a995e1eb-9015-e011-9264-00237de2db9e" Link="http://www.softwaremk.org/tekstitv" Title="Teletext Finland">Nopea, toimiva ja erittäin suorittu&lt;strong&gt; Windows Phone teksti-tv&lt;/strong&gt;. Teletext Finland on erinomainen valinta suomalaisen teksti-tv:n ystävälle. Mukana Yle, MTV3 ja TekstiNelonen.</App>
+      <App Image="http://assets.softwaremk.org/ico/apps/viihde.png" ImageSmall="http://assets.softwaremk.org/ico/apps/viihde_99.png" Id="7546eadb-164b-4bf5-98bf-4be4b3d8912d" Link="http://www.softwaremk.org/viihde" Title="Viihde Manager">Viihde Manager tuo &lt;strong&gt;Elisa Viihde&lt;/strong&gt; -palvelun Windows Phone 7 -puhelimeesi. Ohjelman avulla voit tehdä ajastukset ja selata monipuolista ohjelmaopasta mistä tahansa.</App>
+      <App Image="http://assets.softwaremk.org/ico/apps/movieposters.png" ImageSmall="http://assets.softwaremk.org/ico/apps/movieposters_99.png" Id="ce965250-1031-4de0-92b0-0d9bcdab69cb" Link="http://www.softwaremk.org/movieposters" Title="Movie Posters">Find great wallpapers with Movie Posters. Just enter the name of the movie and you will get a &lt;strong&gt;high resolution posters&lt;/strong&gt; provided by the extensive TMDb. Simple and fast to use, easily get a nice wallpaper.</App>
+      <App Image="http://assets.softwaremk.org/ico/apps/ipsnoop.png" ImageSmall="http://assets.softwaremk.org/ico/apps/ipsnoop_99.png" Id="317f8e9a-ac9f-4f33-ad2c-1e59e4e34783" Link="http://www.softwaremk.org/ipsnoop" Title="IP Snoop">What is my IP? IP Snoop answers this question. This light-weight app for Windows Phone 7 shows &lt;strong&gt;your current IP-address&lt;/strong&gt;. The live tile shows your current IP and keeps you always up-to-date.</App>
     </Apps>
     <AppsSubtitle>Our High quality Windows Phone apps</AppsSubtitle>
     <FinnishApps>
@@ -43,14 +47,12 @@
     <StackSubtitle>How We Build Our Apps</StackSubtitle>
     <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
     <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
-    <Assets>http://assets.softwaremk.org</Assets>
-    <Email>mikael@softwaremk.org</Email>
+    <Assets>assets</Assets>
+    <Email>info@adafy.com</Email>
     <Address>Hietatie 34, 40530 Jyväskyla, Finland</Address>
     <Phone>(358) 40 592 8946</Phone>
   </site>
   <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>
   <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="250" Height="141">IntroductionVideoMini</Youtube>
   <Html Url="http://assets.softwaremk.org/navigation.html">TopNavigation</Html>
-  <Markdown Location="pages/services.md">Services</Markdown>
-  <Markdown Location="pages/stack.md">Stack</Markdown>
 </data>

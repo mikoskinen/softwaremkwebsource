@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{427B2FEE-8E91-4737-A845-D130E442FB93}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>adafy</RootNamespace>
+    <AssemblyName>adafy</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="template\pages\help.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="extras\graze.contracts.dll" />
+    <Content Include="extras\graze.extra.html.dll" />
+    <Content Include="extras\graze.extra.markdown.dll" />
+    <Content Include="extras\graze.extra.rss.dll" />
+    <Content Include="extras\graze.extra.youtube.dll" />
+    <Content Include="graze.contracts.dll" />
+    <Content Include="graze.exe" />
+    <Content Include="RazorEngine.dll" />
+    <Content Include="readme.txt" />
+    <Content Include="System.Web.Razor.dll" />
+    <Content Include="template\assets\css\bootstrap-responsive.css" />
+    <Content Include="template\assets\css\bootstrap.css" />
+    <Content Include="template\assets\css\docs.css" />
+    <Content Include="template\assets\css\mentor.min.css" />
+    <Content Include="template\assets\css\menu_layout.css" />
+    <Content Include="template\assets\css\menu_skin.css" />
+    <Content Include="template\assets\css\prettify.css" />
+    <Content Include="template\assets\css\skin_blue.css" />
+    <Content Include="template\assets\css\skin_default.css" />
+    <Content Include="template\assets\css\skin_orange.css" />
+    <Content Include="template\assets\css\slider_ui.css" />
+    <Content Include="template\assets\css\styles.css" />
+    <Content Include="template\assets\img\content\01.jpg" />
+    <Content Include="template\assets\img\content\02.jpg" />
+    <Content Include="template\assets\img\content\03.jpg" />
+    <Content Include="template\assets\img\content\avatar.jpg" />
+    <Content Include="template\assets\img\content\client_mug2.png" />
+    <Content Include="template\assets\img\content\elemgal1.jpg" />
+    <Content Include="template\assets\img\content\elemgal2.jpg" />
+    <Content Include="template\assets\img\content\elemgal3.jpg" />
+    <Content Include="template\assets\img\content\elemgal4.jpg" />
+    <Content Include="template\assets\img\content\fs01.jpg" />
+    <Content Include="template\assets\img\content\fs01bw.jpg" />
+    <Content Include="template\assets\img\content\fs01t.jpg" />
+    <Content Include="template\assets\img\content\fs02.jpg" />
+    <Content Include="template\assets\img\content\fs02bw.jpg" />
+    <Content Include="template\assets\img\content\fs02t.jpg" />
+    <Content Include="template\assets\img\content\fs03.jpg" />
+    <Content Include="template\assets\img\content\fs03bw.jpg" />
+    <Content Include="template\assets\img\content\fs03t.jpg" />
+    <Content Include="template\assets\img\content\fs04.jpg" />
+    <Content Include="template\assets\img\content\fs04bw.jpg" />
+    <Content Include="template\assets\img\content\fs04t.jpg" />
+    <Content Include="template\assets\img\content\fs05.jpg" />
+    <Content Include="template\assets\img\content\fs05bw.jpg" />
+    <Content Include="template\assets\img\content\fs05t.jpg" />
+    <Content Include="template\assets\img\content\fs06.jpg" />
+    <Content Include="template\assets\img\content\fs06bw.jpg" />
+    <Content Include="template\assets\img\content\fs06t.jpg" />
+    <Content Include="template\assets\img\content\fs_cover.jpg" />
+    <Content Include="template\assets\img\content\gal1.jpg" />
+    <Content Include="template\assets\img\content\gal2.jpg" />
+    <Content Include="template\assets\img\content\gal3.jpg" />
+    <Content Include="template\assets\img\content\gal4.jpg" />
+    <Content Include="template\assets\img\content\gal5.jpg" />
+    <Content Include="template\assets\img\content\gal6.jpg" />
+    <Content Include="template\assets\img\content\gal7.jpg" />
+    <Content Include="template\assets\img\content\gal8.jpg" />
+    <Content Include="template\assets\img\content\gmap.jpg" />
+    <Content Include="template\assets\img\content\gmap1.jpg" />
+    <Content Include="template\assets\img\content\homegal1.jpg" />
+    <Content Include="template\assets\img\content\homegal1bw.jpg" />
+    <Content Include="template\assets\img\content\homegal1t.jpg" />
+    <Content Include="template\assets\img\content\homegal2.jpg" />
+    <Content Include="template\assets\img\content\homegal2bw.jpg" />
+    <Content Include="template\assets\img\content\homegal2t.jpg" />
+    <Content Include="template\assets\img\content\homegal3.jpg" />
+    <Content Include="template\assets\img\content\homegal3bw.jpg" />
+    <Content Include="template\assets\img\content\homegal3t.jpg" />
+    <Content Include="template\assets\img\content\homegal4.jpg" />
+    <Content Include="template\assets\img\content\homegal4bw.jpg" />
+    <Content Include="template\assets\img\content\homegal4t.jpg" />
+    <Content Include="template\assets\img\content\homegal5.jpg" />
+    <Content Include="template\assets\img\content\homegal5bw.jpg" />
+    <Content Include="template\assets\img\content\homegal5t.jpg" />
+    <Content Include="template\assets\img\content\homep1lb1.jpg" />
+    <Content Include="template\assets\img\content\imgpost1.jpg" />
+    <Content Include="template\assets\img\content\imgpost2.jpg" />
+    <Content Include="template\assets\img\content\imgpost3.jpg" />
+    <Content Include="template\assets\img\content\imgpost4.jpg" />
+    <Content Include="template\assets\img\content\iphone1.png" />
+    <Content Include="template\assets\img\content\localvideocover.jpg" />
+    <Content Include="template\assets\img\content\logo.png" />
+    <Content Include="template\assets\img\content\logo_footer.png" />
+    <Content Include="template\assets\img\content\logo_sml.png" />
+    <Content Include="template\assets\img\content\p2lb1.jpg" />
+    <Content Include="template\assets\img\content\p2lb2.jpg" />
+    <Content Include="template\assets\img\content\port01.jpg" />
+    <Content Include="template\assets\img\content\port01t.jpg" />
+    <Content Include="template\assets\img\content\port02.jpg" />
+    <Content Include="template\assets\img\content\port02t.jpg" />
+    <Content Include="template\assets\img\content\port03.jpg" />
+    <Content Include="template\assets\img\content\port03t.jpg" />
+    <Content Include="template\assets\img\content\port04.jpg" />
+    <Content Include="template\assets\img\content\port04t.jpg" />
+    <Content Include="template\assets\img\content\port05.jpg" />
+    <Content Include="template\assets\img\content\port05t.jpg" />
+    <Content Include="template\assets\img\content\port06.jpg" />
+    <Content Include="template\assets\img\content\port06t.jpg" />
+    <Content Include="template\assets\img\content\port07.jpg" />
+    <Content Include="template\assets\img\content\port07t.jpg" />
+    <Content Include="template\assets\img\content\port08.jpg" />
+    <Content Include="template\assets\img\content\port08t.jpg" />
+    <Content Include="template\assets\img\content\port09.jpg" />
+    <Content Include="template\assets\img\content\port09t.jpg" />
+    <Content Include="template\assets\img\content\port1.jpg" />
+    <Content Include="template\assets\img\content\port10.jpg" />
+    <Content Include="template\assets\img\content\port10t.jpg" />
+    <Content Include="template\assets\img\content\port11.jpg" />
+    <Content Include="template\assets\img\content\port11t.jpg" />
+    <Content Include="template\assets\img\content\port12.jpg" />
+    <Content Include="template\assets\img\content\port12t.jpg" />
+    <Content Include="template\assets\img\content\port13.jpg" />
+    <Content Include="template\assets\img\content\port13t.jpg" />
+    <Content Include="template\assets\img\content\port14.jpg" />
+    <Content Include="template\assets\img\content\port14t.jpg" />
+    <Content Include="template\assets\img\content\port15.jpg" />
+    <Content Include="template\assets\img\content\port15t.jpg" />
+    <Content Include="template\assets\img\content\port16.jpg" />
+    <Content Include="template\assets\img\content\port16t.jpg" />
+    <Content Include="template\assets\img\content\port17.jpg" />
+    <Content Include="template\assets\img\content\port17t.jpg" />
+    <Content Include="template\assets\img\content\port18.jpg" />
+    <Content Include="template\assets\img\content\port18t.jpg" />
+    <Content Include="template\assets\img\content\port19.jpg" />
+    <Content Include="template\assets\img\content\port19t.jpg" />
+    <Content Include="template\assets\img\content\port2.jpg" />
+    <Content Include="template\assets\img\content\port20.jpg" />
+    <Content Include="template\assets\img\content\port20t.jpg" />
+    <Content Include="template\assets\img\content\port21.jpg" />
+    <Content Include="template\assets\img\content\port21t.jpg" />
+    <Content Include="template\assets\img\content\port22.jpg" />
+    <Content Include="template\assets\img\content\port22t.jpg" />
+    <Content Include="template\assets\img\content\port23.jpg" />
+    <Content Include="template\assets\img\content\port23t.jpg" />
+    <Content Include="template\assets\img\content\port24.jpg" />
+    <Content Include="template\assets\img\content\port24t.jpg" />
+    <Content Include="template\assets\img\content\port3.jpg" />
+    <Content Include="template\assets\img\content\port_lrg.jpg" />
+    <Content Include="template\assets\img\content\post1.jpg" />
+    <Content Include="template\assets\img\content\post_slide1.jpg" />
+    <Content Include="template\assets\img\content\post_thumb1.jpg" />
+    <Content Include="template\assets\img\content\pr1lb1.jpg" />
+    <Content Include="template\assets\img\content\pr1lb2.jpg" />
+    <Content Include="template\assets\img\content\proj01.jpg" />
+    <Content Include="template\assets\img\content\proj02.jpg" />
+    <Content Include="template\assets\img\content\proj03.jpg" />
+    <Content Include="template\assets\img\content\proj04.jpg" />
+    <Content Include="template\assets\img\content\project1.jpg" />
+    <Content Include="template\assets\img\content\project_03.jpg" />
+    <Content Include="template\assets\img\content\project_opt.jpg" />
+    <Content Include="template\assets\img\content\recent_thumb1.jpg" />
+    <Content Include="template\assets\img\content\recent_thumb2.jpg" />
+    <Content Include="template\assets\img\content\res1.jpg" />
+    <Content Include="template\assets\img\content\res2.jpg" />
+    <Content Include="template\assets\img\content\res3.jpg" />
+    <Content Include="template\assets\img\content\res4.jpg" />
+    <Content Include="template\assets\img\content\result.jpg" />
+    <Content Include="template\assets\img\content\slide1.jpg" />
+    <Content Include="template\assets\img\content\slide2.jpg" />
+    <Content Include="template\assets\img\content\slide3.jpg" />
+    <Content Include="template\assets\img\content\slide4.jpg" />
+    <Content Include="template\assets\img\content\slide5.jpg" />
+    <Content Include="template\assets\img\content\slide6.jpg" />
+    <Content Include="template\assets\img\content\slider_ui_layout.jpg" />
+    <Content Include="template\assets\img\glyphicons-halflings-white.png" />
+    <Content Include="template\assets\img\glyphicons-halflings.png" />
+    <Content Include="template\assets\img\skin\glyphicons-halflings-white.png" />
+    <Content Include="template\assets\img\skin\head_line_btm.jpg" />
+    <Content Include="template\assets\img\skin\icon-fullscreen.png" />
+    <Content Include="template\assets\img\skin\icon-quote.png" />
+    <Content Include="template\assets\img\skin\link.png" />
+    <Content Include="template\assets\img\skin\next.png" />
+    <Content Include="template\assets\img\skin\or_line.png" />
+    <Content Include="template\assets\img\skin\photo_num_bg.png" />
+    <Content Include="template\assets\img\skin\prev.png" />
+    <Content Include="template\assets\img\skin\project_triangle.png" />
+    <Content Include="template\assets\img\skin\search_dark.png" />
+    <Content Include="template\assets\img\skin\slide_btn.png" />
+    <Content Include="template\assets\img\skin\slide_btn_active.png" />
+    <Content Include="template\assets\img\skin\social_media_icons.png" />
+    <Content Include="template\assets\img\skin\speech_line.png" />
+    <Content Include="template\assets\img\skin\speech_line_horiz.png" />
+    <Content Include="template\assets\img\skin\tweet_icon.png" />
+    <Content Include="template\assets\img\skin\vid_start.png" />
+    <Content Include="template\assets\img\skin\view.png" />
+    <Content Include="template\assets\img\skin_blue\head_line_btm.jpg" />
+    <Content Include="template\assets\img\skin_blue\speech_line.png" />
+    <Content Include="template\assets\img\skin_orange\head_line_btm.jpg" />
+    <Content Include="template\assets\img\skin_orange\speech_line.png" />
+    <Content Include="template\assets\js\bootstrap\bootstrap-alert.js" />
+    <Content Include="template\assets\js\bootstrap\bootstrap-button.js" />
+    <Content Include="template\assets\js\bootstrap\bootstrap-carousel.js" />
+    <Content Include="template\assets\js\bootstrap\bootstrap-collapse.js" />
+    <Content Include="template\assets\js\bootstrap\bootstrap-dropdown.js" />
+    <Content Include="template\assets\js\bootstrap\bootstrap-modal.js" />
+    <Content Include="template\assets\js\bootstrap\bootstrap-popover.js" />
+    <Content Include="template\assets\js\bootstrap\bootstrap-scrollspy.js" />
+    <Content Include="template\assets\js\bootstrap\bootstrap-tab.js" />
+    <Content Include="template\assets\js\bootstrap\bootstrap-tooltip.js" />
+    <Content Include="template\assets\js\bootstrap\bootstrap-transition.js" />
+    <Content Include="template\assets\js\bootstrap\bootstrap-typeahead.js" />
+    <Content Include="template\assets\js\bootstrap\bootstrap.js" />
+    <Content Include="template\assets\js\bootstrap\bootstrap.min.js" />
+    <Content Include="template\assets\js\jquery.isotope.min.js" />
+    <Content Include="template\assets\js\jquery.js" />
+    <Content Include="template\assets\js\mentor.min.js" />
+    <Content Include="template\assets\js\pe.flare\jquery.pixelentity.flare.min.css" />
+    <Content Include="template\assets\js\pe.flare\jquery.pixelentity.flare.min.js" />
+    <Content Include="template\assets\js\pe.flare\src\froogaloop.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.mousewheel.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.backgroundSlider.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.flare.lightbox.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.flare.lightbox.render.gallery.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.flare.lightbox.render.image.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.simplethumb.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.transform.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.utils.browser.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.utils.easing.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.utils.geom.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.utils.preloader.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.utils.transition.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.utils.vimeo.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.utils.youtube.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.video.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.pixelentity.videoPlayer.js" />
+    <Content Include="template\assets\js\pe.flare\src\jquery.theme.utils.js" />
+    <Content Include="template\assets\js\pe.flare\themes\common.css" />
+    <Content Include="template\assets\js\pe.flare\themes\default\img\close.png" />
+    <Content Include="template\assets\js\pe.flare\themes\default\img\next.png" />
+    <Content Include="template\assets\js\pe.flare\themes\default\img\prev.png" />
+    <Content Include="template\assets\js\pe.flare\themes\default\img\spinner.gif" />
+    <Content Include="template\assets\js\pe.flare\themes\default\img\sprites.png" />
+    <Content Include="template\assets\js\pe.flare\themes\default\img\start.png" />
+    <Content Include="template\assets\js\pe.flare\themes\default\img\start_mob.png" />
+    <Content Include="template\assets\js\pe.flare\themes\default\img\thumbs.png" />
+    <Content Include="template\assets\js\pe.flare\themes\default\skin.css" />
+    <Content Include="template\assets\js\pe.flare\video\jarisplayer.swf" />
+    <Content Include="template\assets\js\pe.flare\video\layout-grid.gif" />
+    <Content Include="template\assets\js\pe.flare\video\license.txt" />
+    <Content Include="template\assets\js\pe.flare\video\projekktor.min.js" />
+    <Content Include="template\assets\js\pe.flare\video\theme\buffering.gif" />
+    <Content Include="template\assets\js\pe.flare\video\theme\greyscale_ui.png" />
+    <Content Include="template\assets\js\pe.flare\video\theme\greyscale_ui_bar_load.gif" />
+    <Content Include="template\assets\js\pe.flare\video\theme\start.png" />
+    <Content Include="template\assets\js\pe.flare\video\theme\style.css" />
+    <Content Include="template\assets\js\pe.volo\src\jquery.pixelentity.volo.js" />
+    <Content Include="template\assets\js\pe.volo\themes\common.css" />
+    <Content Include="template\assets\js\pe.volo\themes\default\style.css" />
+    <Content Include="template\assets\js\pe\boot.js" />
+    <Content Include="template\assets\js\pe\init.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.contactForm.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.effects.icon.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.effects.iconmove.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.flickr.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.isotope.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.newsletter.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.twitter.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.utils.browser.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.utils.easing.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.utils.geom.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.utils.preloader.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.volo.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.volo.simpleskin.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.bootstrap.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.bslinks.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.carousel.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.contact.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.flickr.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.gmap.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.isotope.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.newsletter.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.social.facebook.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.social.google.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.social.pinterest.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.social.twitter.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.twitter.js" />
+    <Content Include="template\assets\js\pe\jquery.pixelentity.widgets.volo.js" />
+    <Content Include="template\assets\js\pe\pixelentity.controller.js" />
+    <Content Include="template\assets\js\prettify\lang-apollo.js" />
+    <Content Include="template\assets\js\prettify\lang-clj.js" />
+    <Content Include="template\assets\js\prettify\lang-css.js" />
+    <Content Include="template\assets\js\prettify\lang-go.js" />
+    <Content Include="template\assets\js\prettify\lang-hs.js" />
+    <Content Include="template\assets\js\prettify\lang-lisp.js" />
+    <Content Include="template\assets\js\prettify\lang-lua.js" />
+    <Content Include="template\assets\js\prettify\lang-ml.js" />
+    <Content Include="template\assets\js\prettify\lang-n.js" />
+    <Content Include="template\assets\js\prettify\lang-proto.js" />
+    <Content Include="template\assets\js\prettify\lang-scala.js" />
+    <Content Include="template\assets\js\prettify\lang-sql.js" />
+    <Content Include="template\assets\js\prettify\lang-tex.js" />
+    <Content Include="template\assets\js\prettify\lang-vb.js" />
+    <Content Include="template\assets\js\prettify\lang-vhdl.js" />
+    <Content Include="template\assets\js\prettify\lang-wiki.js" />
+    <Content Include="template\assets\js\prettify\lang-xq.js" />
+    <Content Include="template\assets\js\prettify\lang-yaml.js" />
+    <Content Include="template\assets\js\prettify\prettify.js" />
+    <Content Include="template\configuration.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="template\index.cshtml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

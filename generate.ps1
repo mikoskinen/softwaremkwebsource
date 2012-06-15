@@ -27,12 +27,11 @@ try {
 
 	echo "All sites generated succesfully"
 
-    .\sitemapgenerator.exe public http://www.softwaremk.org
+    .\sitemapgenerator.exe public http://www.adafy.com
 	copy sitemap.xml public
 	copy robots.txt public
 	
 	copy root\template\download.html public
-	copy root\template\viihde_esittely.docx public
 
 	.\graze.exe -t .\root\template -tf .\root\template\404.cshtml -of .\public\404.html
 	if ($? -eq $False)

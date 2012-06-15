@@ -1,329 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>SoftwareMK | Windows Phone Application Development | Windows 8 Development</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Windows Apps. Windows Phone apps, Windows 8 apps and Windows Azure development.">
-        <meta name="keywords" content="Windows Phone Application Development, Windows 8 Development, windows phone, windows azure, windows 8 metro app, windows phone irc, silverlight, asp.net">
-        <meta name="author" content="SoftwareMK">
-        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-        <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <!-- Le styles -->
-        <link href="http://assets.softwaremk.org/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="http://assets.softwaremk.org/css/docs.css" rel="stylesheet">
-        <link href="http://assets.softwaremk.org/css/grazewp7.css" rel="stylesheet">
-        <link href="http://assets.softwaremk.org/js/google-code-prettify/prettify.css" rel="stylesheet">
-        <!-- Le fav and touch icons -->
-        <link rel="shortcut icon" href="http://assets.softwaremk.org/ico/favicon.ico">
-        <link rel="apple-touch-icon" href="http://assets.softwaremk.org/ico/bootstrap-apple-57x57.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="http://assets.softwaremk.org/ico/bootstrap-apple-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="http://assets.softwaremk.org/ico/bootstrap-apple-114x114.png">
-        <script type="text/javascript">
+<head>
+    <meta charset="utf-8" />
+    <title>Adafy | Windows Phone Application Development | Windows 8 Development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="description" content="Adafy provides Windows Phone Application Development, Windows 8 Development and Windows Azure development." />
+    <meta name="author" content="System.Dynamic.ExpandoObject" />
+    <link href="assets/css/mentor.min.css" rel="stylesheet"/>
+    <link href="assets/css/skin_blue.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="assets/favicon.jpg" />
+		<script type="text/javascript">
 
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-30222266-1']);
-            _gaq.push(['_trackPageview']);
+		    var _gaq = _gaq || [];
+		    _gaq.push(['_setAccount', 'UA-31682941-1']);
+		    _gaq.push(['_trackPageview']);
 
-            (function () {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
+		    (function () {
+		        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		    })();
 
-        </script>
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">    stLight.options({ publisher: "7904eca5-3d12-407f-b8ca-bc1689bf461a" }); </script>
-    </head>
-<body data-spy="scroll" data-target=".subnav" data-offset="50" id="home">
-        <div class="navbar navbar-fixed-top">
+		</script>
+</head>
+<body>
+    <!--header and menu-->
+    <header class="navbar navbar-fixed-top" id="top">
         <div class="navbar-inner">
             <div class="container">
                 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <span class="btnTitle">Menu</span>
+                <span class="icon-chevron-down icon-white"></span>
                 </a>
-                <a class="brand pull-left" href="http://www.softwaremk.org">SoftwareMK</a>
                 <div class="nav-collapse">
-                    <ul class="nav pull-right">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Windows Phone Apps <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
+                    <!--social media icons-->
+                    <div class="smedia">
+                        <span>www.adafy.com</span>
+                        <a href="https://twitter.com/#!/adafyoy" data-position="bottom" data-rel="tooltip" title="Follow Us" class="sm-icon sm-icon-twitter"></a>
+                    </div>
+                    <!--main nav-->
+                    <div class="central-nav">
+                        <ul class="nav">
+                            <li>
+                                <a href="index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#">Apps<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
                                     <li>
-                                        <a href="http://www.softwaremk.org/irc" >IRC7</a>
+                                        <a href="http://www.adafy.com/irc" >IRC7</a>
                                     </li>
                                     <li>
-                                        <a href="http://www.softwaremk.org/ipsnoop">IP Snoop</a>
+                                        <a href="http://www.adafy.com/ipsnoop">IP Snoop</a>
                                     </li>
                                     <li>
-                                        <a href="http://www.softwaremk.org/movieposters">Movie Posters</a>
+                                        <a href="http://www.adafy.com/movieposters">Movie Posters</a>
                                     </li>
                                     <li>
-                                        <a href="http://www.softwaremk.org/ampparit">Ampparit.com Reader</a>
+                                        <a href="http://www.adafy.com/ampparit">Ampparit.com Reader</a>
                                     </li>
                                     <li>
-                                        <a href="http://www.softwaremk.org/tekstitv">Teletext Finland</a>
+                                        <a href="http://www.adafy.com/tekstitv">Teletext Finland</a>
                                     </li>
                                     <li>
-                                        <a href="http://www.softwaremk.org/viihde">Viihde Manager</a>
+                                        <a href="http://www.adafy.com/viihde">Viihde Manager</a>
                                     </li>
                                     <li>
-                                        <a href="http://www.softwaremk.org/futis">SuomiFutis</a>
+                                        <a href="http://www.adafy.com/futis">SuomiFutis</a>
                                     </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="http://www.softwaremk.org/#contact"><i class="icon-inbox"></i> Email</a>
-                                    <a href="http://www.softwaremk.org/#services"><i class="icon-home"></i> Company Information</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--end main nav-->
+                    </div>
                 </div>
+                <!--end main menu-->
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="inner">
-            <div class="row" id="mobileheader">
-                <div class="jumbotron masthead">
-                    <h1 class="pagination-centered jumbotron">Windows Phone Application Development.</h1>
+    </header>
+    <!--main tagline area-->
+    <section class="taglineWrap">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span12 pagination-centered">
+                    <a class="brand pagination-centered" href="index.html" title="Home">
+                    <img class="pagination-centered logo" src="assets/img/content/Adafy_Hori.png" alt="Adafy" /></a>
                 </div>
             </div>
-            <div class="subnav subnav-fixed">
-                <ul class="nav nav-pills">
-                    <li>
-                        <a href="#home"><i class="icon-home"></i> Home</a>
-                    </li>
-                    <li>
-                        <a href="#apps"><i class="icon-star"></i> Apps</a>
-                    </li>
-                    <li>
-                        <a href="#finnishapps"><i class="icon-star"></i> Suomi Apps</a>
-                    </li>
-                    <li>
-                        <a href="#services"><i class="icon-check"></i> Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact"><i class="icon-question-sign"></i> Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="row">
-                <div class="span12">
-                    <header id="normalheader" class="jumbotron masthead topheading">
-                        <h1>Windows Phone Application Development.</h1>
-                        <p>SoftwareMK provides <strong>Windows Phone Application Development</strong> and Windows 8 development services.</p>
-                    </header>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div id="social" class="pagination-centered">
-<span class='st_facebook_hcount' displayText='Facebook'></span>
-<span class='st_twitter_hcount' displayText='Tweet'></span>
-                    <span class='st_googleplus_hcount' displayText='Google +1'></span>
-                               </div>
-            </div>
-            
-            <section id="apps">
-                <div class="page-header">
-                    <h2>Windows Phone Apps <small>Our High quality Windows Phone apps</small></h2>
-                </div>
-                <div class="row">
-                    <div class="span12">
-                        <ul class="thumbnails">
-                                <li class="span4">
-                                    <a href="http://www.softwaremk.org/irc">
-                                        <div class="pagination-centered">
-                                            <img alt="IRC7" src="http://assets.softwaremk.org/ico/apps/irc7.png" />
-                                        </div>
-                                        <h4 class="pagination-centered">
-                                            IRC7</h4>
-                                    </a>
-                                    <p class="pagination-centered">IRC7 is the long waited <strong>IRC app for Windows Phone</strong>. IRC7 uses the pieces provided by the Windows Phone 7 Mango-update to provide you the ultimate IRC client for Windows Phone 7.</p>
-                                </li>
-                                <li class="span4">
-                                    <a href="http://www.softwaremk.org/movieposters">
-                                        <div class="pagination-centered">
-                                            <img alt="Movie Posters" src="http://assets.softwaremk.org/ico/apps/movieposters.png" />
-                                        </div>
-                                        <h4 class="pagination-centered">
-                                            Movie Posters</h4>
-                                    </a>
-                                    <p class="pagination-centered">Find great wallpapers with Movie Posters. Just enter the name of the movie and you will get a <strong>high resolution posters</strong> provided by the extensive TMDb. Simple and fast to use.</p>
-                                </li>
-                                <li class="span4">
-                                    <a href="http://www.softwaremk.org/ipsnoop">
-                                        <div class="pagination-centered">
-                                            <img alt="IP Snoop" src="http://assets.softwaremk.org/ico/apps/ipsnoop.png" />
-                                        </div>
-                                        <h4 class="pagination-centered">
-                                            IP Snoop</h4>
-                                    </a>
-                                    <p class="pagination-centered">What is my IP? IP Snoop answers this question. This light-weight app for Windows Phone 7 shows <strong>your current IP-address</strong>. Supporting live tiles, IP Snoop allows you to keep up-to-date about your current IP-address.</p>
-                                </li>
-                        </ul>
-                    </div>
-                </div>
-                <p class="pull-right">
-                    <a href="#">Back to top</a></p>
-            </section>
-                        <section id="finnishapps">
-                <div class="page-header">
-                    <h2>Windows Phone Suomi Apps <small>The Following Apps Provide Local Content to Finnish Users</small></h2>
-                </div>
-                <div class="row">
-                    <div class="span12">
-                        <ul class="thumbnails">
-                                <li class="span4">
-                                    <a href="http://www.softwaremk.org/ampparit">
-                                    <div class="pagination-centered">
-                                        <img alt="Ampparit.com Reader" src="http://assets.softwaremk.org/ico/apps/ampparit.png" />
-                                    </div>
-                                    <h4 class="pagination-centered">
-                                        Ampparit.com Reader</h4>
-                                    </a>
-                                    <p class="pagination-centered">Ampparit.com Reader tuo suositun <strong>Ampparit.com</strong> -palvelun sisällön Windows Phone 7 -puhelimeesi. Urheilu, IT ja paikalliset uutiset ovat kaikki mukana tässä WP7-sovelluksessa.</p>
-                                </li>
-                                <li class="span4">
-                                    <a href="http://www.softwaremk.org/tekstitv">
-                                    <div class="pagination-centered">
-                                        <img alt="Teletext Finland" src="http://assets.softwaremk.org/ico/apps/tekstitv.png" />
-                                    </div>
-                                    <h4 class="pagination-centered">
-                                        Teletext Finland</h4>
-                                    </a>
-                                    <p class="pagination-centered">Nopein, toimivin ja suosituin <strong>WP7 teksti-tv</strong>. Teletext Finland on erinomainen valinta suomalaisen teksti-tv:n ystävälle.</p>
-                                </li>
-                                <li class="span4">
-                                    <a href="http://www.softwaremk.org/viihde">
-                                    <div class="pagination-centered">
-                                        <img alt="Viihde Manager" src="http://assets.softwaremk.org/ico/apps/viihde.png" />
-                                    </div>
-                                    <h4 class="pagination-centered">
-                                        Viihde Manager</h4>
-                                    </a>
-                                    <p class="pagination-centered">Viihde Manager tuo <strong>Elisa Viihde</strong> -palvelun Windows Phone 7 -puhelimeesi. Ohjelman avulla voit tehdä ajastukset ja selata monipuolista ohjelmaopasta mistä tahansa.</p>
-                                </li>
-                                <li class="span4">
-                                    <a href="http://www.softwaremk.org/futis">
-                                    <div class="pagination-centered">
-                                        <img alt="SuomiFutis" src="http://assets.softwaremk.org/ico/apps/futis.png" />
-                                    </div>
-                                    <h4 class="pagination-centered">
-                                        SuomiFutis</h4>
-                                    </a>
-                                    <p class="pagination-centered">Voit nyt seurata <strong>jalkapallokauden</strong> jännittäviä hetkiä SuomiFutis-sovelluksen avulla. SuomiFutis tarjoaa otteluohjelman, tulokset ja uutiset vaivattomasti puhelimeesi.</p>
-                                </li>
-                        </ul>
-                    </div>
-                </div>
-                <p class="pull-right">
-                    <a href="#">Back to top</a></p>
-            </section>
-            <section class="row">
+            <div class="row-fluid  tagline">
                 <div class="span8">
-                    <section id="services">
-                        <div class="page-header">
-                            <h2>Services <small>High Quality Windows Phone Application Development</small></h2>
-                        </div>
-                        <h3>We are available for hire</h3>
-
-<p>SoftwareMK is a micro-isv founded by <a href="http://mikaelkoskinen.net">Mikael Koskinen</a> and we're <strong>available for hire</strong>. We are located in Finland and offer our services in Finnish and English. SoftwareMK is a Microsoft Bizspark company and we have over a decade of experience working with Microsoft technologies. Our company was established in 2008.</p>
-
-<p>Blog: <a href="http://mikaelkoskinen.net">mikaelkoskinen.net</a></p>
-
-<p>Please contact us through email or phone if you are interested in our services.</p>
-
-<h3>Windows Phone Application Development</h3>
-
-<p>One of our main focuses is on Windows Phone application development. We do internal app development and also offer Windows Phone application development services and consulting. We have multiple highly reviewed applications available from the Windows Phone Marketplace.</p>
-
-<h3>Windows 8 Development</h3>
-
-<p>In addition to Windows Phone, we are also proud to offer Windows 8 development services. We're currently working with a selection of brand new Windows 8 Metro apps and aim to launch these in conjuction with the Windows 8. </p>
-
-<h3>Other .NET Development and Consulting</h3>
-
-<p>In addition to Windows Phone and Windows 8 development we are skilled with other .NET-technologies, like Windows Azure, ASP.NET MVC and Silverlight. Do not hesitate to contact us.</p>
-
-                        <img alt="Microsoft Certified Professional" class="pull-left" src="assets/shots/mcplogo.png" />
-                        <img alt="Microsoft Bizspark startup" class="pull-right" src="assets/shots/bizsparklogo.jpg" />
-                    </section>
+                    <h2>We <strong>create apps for Windows Platforms</strong> and provide development services for Windows Phone, Windows 8 and Windows Azure. </h2>
                 </div>
-                <div class="span4">
-                    <section id="about">
-                        <div class="page-header">
-                            <h2>Technologies <small>How We Build Our Apps</small></h2>
-                        </div>
-                        <ul>
-<li>Windows Phone</li>
-<li>Windows Azure</li>
-<li>Windows 8 Metro</li>
-<li>Silverlight</li>
-<li>ASP.NET and ASP.NET MVC</li>
-</ul>
-
-                    </section>
-                    <p class="pull-right">
-                        <a href="#">Back to top</a></p>
-                    <section id="contact">
-                        <div class="page-header">
-                            <h2>Contact <small>We would Like to Hear from You!</small></h2>
-                        </div>
-                        <h4>Address</h4>
-                        Hietatie 34, 40530 Jyväskyla, Finland
-                        <h4>Phone</h4>
-                        (358) 40 592 8946
-                        <h4>Email</h4>
-                        <a href="mailto:mikael@softwaremk.org" class="btn btn-info">mikael@softwaremk.org</a>
-                    </section>
+                <div class="span4 action">
+                    <div>
+                        <a href="#contact" class="btn btn-info">Contact Us</a>
+                    </div>
                 </div>
-            </section>
+            </div>
         </div>
-        <footer class="footer">
-            <p class="pull-right">
-                <a href="#">Back to top</a></p>
-            <p>Copyright
-                <a href="http://www.softwaremk.org" target="_blank">SoftwareMK
-                </a>
-                2012 | SoftwareMK | Windows Phone Application Development | Windows 8 Development </p>
-            <h6>Created with
-                <a href="https://github.com/mikoskinen/grazewp7">GrazeWP7</a>
-                using the
-                <a href="https://github.com/mikoskinen/graze">Graze templating engine.</a>
-            </h6>
-        </footer>
-    </div>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="http://assets.softwaremk.org/js/bootstrap.min.js"></script>
-    <script src="http://assets.softwaremk.org/js/easySlider1.7.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            showSlider();
-            showScreenshots();
-        });
-
-        function showSlider() {
-            $("#slider").easySlider({
-                auto: true,
-                continuous: true,
-                pause: 5000,
-                controlsShow: false
-            });
-        }
-
-        function showScreenshots() {
-            $("#screenshotarea").css("visibility", "visible");
-        }
+        <!-- /container -->
+    </section>
+    <!--main content-->
+    <section class="mainContentWrap">
+        <div class="container mainContent">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="row-fluid featuredContent">
+                        <div class="span4">
+                            <h1>
+                                <span class="btn btn-inverse">01</span>
+                                Windows Phone</h1>
+                            <p>One of our main focuses is on Windows Phone application development. We do internal app development and also offer Windows Phone application development services and consulting. We have multiple highly reviewed applications available from the Windows Phone Marketplace. </p>
+                        </div>
+                        <div class="span4">
+                            <h1>
+                                <span class="btn btn-inverse">02</span>
+                                Windows 8</h1>
+                            <p>In addition to Windows Phone, we are also proud to offer Windows 8 development services. We're currently working with a selection of brand new Windows 8 Metro apps and aim to launch these in conjuction with the Windows 8. </p>
+                        </div>
+                        <div class="span4">
+                            <h1>
+                                <span class="btn btn-inverse">03</span>
+                                Windows Azure</h1>
+                            <p>In addition to Windows Phone and Windows 8 development we are skilled with other .NET-technologies, like Windows Azure. Almost every app requires a backend and Windows Azure is great a place to host it. </p>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="divider dotted clearfix">
+                            <span></span>
+                        </div>
+                    </div>
+                    <!-- carousel -->
+                    <div class="row-fluid relative">
+                        <div class="span12">
+                            <h1>Our Recent Windows Phone Apps <small>Scroll to see more</small></h1>
+                        </div>
+                        <div class="carousel-nav">
+                            <div class="pull-right">
+                                <a href="#" id="carouselPrev" class="prev-btn pull-left label"><i class="icon-chevron-left icon-white"></i></a>
+                                <a href="#" id="carouselNext" class="next-btn pull-left label"><i class="icon-chevron-right icon-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-fluid carouselBox" data-height="0,0" data-slidewidth="250">
+                            <div data-delay="0" style="width: 240px !important">
+                                <div class="portfolioItem">
+                                    <a href="http://www.softwaremk.org/irc" class="peOver">
+                                    <img src="http://assets.softwaremk.org/ico/apps/irc7.png" style="width: 220px;height: 200px;" alt="IRC7" />
+                                    <span></span>
+                                    </a>
+                                    <div class="title">
+                                        <span class="icon-file"></span>
+                                        <a href="#">IRC7</a>
+                                    </div>
+                                    <p>IRC7 is the long waited <strong>Windows Phone IRC app</strong>. IRC7 uses the pieces provided by the Windows Phone 7 Mango-update to provide you the ultimate IRC client for Windows Phone 7.</p>
+                                </div>
+                            </div>
+                            <div data-delay="0" style="width: 240px !important">
+                                <div class="portfolioItem">
+                                    <a href="http://www.softwaremk.org/ampparit" class="peOver">
+                                    <img src="http://assets.softwaremk.org/ico/apps/ampparit.png" style="width: 220px;height: 200px;" alt="Ampparit.com lukija" />
+                                    <span></span>
+                                    </a>
+                                    <div class="title">
+                                        <span class="icon-file"></span>
+                                        <a href="#">Ampparit.com lukija</a>
+                                    </div>
+                                    <p>Ampparit.com Reader tuo suositun <strong>Ampparit.com</strong> -palvelun sisällön Windows Phone 7 -puhelimeesi. Urheilu, IT ja paikalliset uutiset ovat mukana tässä WP7-sovelluksessa.</p>
+                                </div>
+                            </div>
+                            <div data-delay="0" style="width: 240px !important">
+                                <div class="portfolioItem">
+                                    <a href="http://www.softwaremk.org/futis" class="peOver">
+                                    <img src="http://assets.softwaremk.org/ico/apps/futis.png" style="width: 220px;height: 200px;" alt="SuomiFutis" />
+                                    <span></span>
+                                    </a>
+                                    <div class="title">
+                                        <span class="icon-file"></span>
+                                        <a href="#">SuomiFutis</a>
+                                    </div>
+                                    <p>Voit nyt seurata <strong>jalkapallokauden</strong> jännittäviä hetkiä SuomiFutis-sovelluksen avulla. SuomiFutis tarjoaa otteluohjelman, tulokset ja uutiset vaivattomasti puhelimeesi. Kaikki Veikkausliigasta!</p>
+                                </div>
+                            </div>
+                            <div data-delay="0" style="width: 240px !important">
+                                <div class="portfolioItem">
+                                    <a href="http://www.softwaremk.org/tekstitv" class="peOver">
+                                    <img src="http://assets.softwaremk.org/ico/apps/tekstitv.png" style="width: 220px;height: 200px;" alt="Teletext Finland" />
+                                    <span></span>
+                                    </a>
+                                    <div class="title">
+                                        <span class="icon-file"></span>
+                                        <a href="#">Teletext Finland</a>
+                                    </div>
+                                    <p>Nopea, toimiva ja erittäin suorittu<strong> Windows Phone teksti-tv</strong>. Teletext Finland on erinomainen valinta suomalaisen teksti-tv:n ystävälle. Mukana Yle, MTV3 ja TekstiNelonen.</p>
+                                </div>
+                            </div>
+                            <div data-delay="0" style="width: 240px !important">
+                                <div class="portfolioItem">
+                                    <a href="http://www.softwaremk.org/viihde" class="peOver">
+                                    <img src="http://assets.softwaremk.org/ico/apps/viihde.png" style="width: 220px;height: 200px;" alt="Viihde Manager" />
+                                    <span></span>
+                                    </a>
+                                    <div class="title">
+                                        <span class="icon-file"></span>
+                                        <a href="#">Viihde Manager</a>
+                                    </div>
+                                    <p>Viihde Manager tuo <strong>Elisa Viihde</strong> -palvelun Windows Phone 7 -puhelimeesi. Ohjelman avulla voit tehdä ajastukset ja selata monipuolista ohjelmaopasta mistä tahansa.</p>
+                                </div>
+                            </div>
+                            <div data-delay="0" style="width: 240px !important">
+                                <div class="portfolioItem">
+                                    <a href="http://www.softwaremk.org/movieposters" class="peOver">
+                                    <img src="http://assets.softwaremk.org/ico/apps/movieposters.png" style="width: 220px;height: 200px;" alt="Movie Posters" />
+                                    <span></span>
+                                    </a>
+                                    <div class="title">
+                                        <span class="icon-file"></span>
+                                        <a href="#">Movie Posters</a>
+                                    </div>
+                                    <p>Find great wallpapers with Movie Posters. Just enter the name of the movie and you will get a <strong>high resolution posters</strong> provided by the extensive TMDb. Simple and fast to use, easily get a nice wallpaper.</p>
+                                </div>
+                            </div>
+                            <div data-delay="0" style="width: 240px !important">
+                                <div class="portfolioItem">
+                                    <a href="http://www.softwaremk.org/ipsnoop" class="peOver">
+                                    <img src="http://assets.softwaremk.org/ico/apps/ipsnoop.png" style="width: 220px;height: 200px;" alt="IP Snoop" />
+                                    <span></span>
+                                    </a>
+                                    <div class="title">
+                                        <span class="icon-file"></span>
+                                        <a href="#">IP Snoop</a>
+                                    </div>
+                                    <p>What is my IP? IP Snoop answers this question. This light-weight app for Windows Phone 7 shows <strong>your current IP-address</strong>. The live tile shows your current IP and keeps you always up-to-date.</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <!--footer testimonail-->
+        <section class="testimonial">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <blockquote>
+                            <p>Adafy is a Finnish software startup and we're available for hire. We are located in Finland and offer our services in Finnish and English. Adafy is a Microsoft Bizspark company and we have over a decade of experience working with Microsoft technologies.</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footerMain">
+            <div class="container">
+                <div class="row-fluid">
+                    <!--footer main columns-->
+                    <div class="span3">
+                        <!--newsletter widget-->
+                        <div class="widget widget_newsletter">
+                            <h3>Newsletter</h3>
+                            <p>Get informed when we release new apps and update our current ones.</p>
+                            <form class="form-inline newsletter" action="http://ec2-46-137-16-9.eu-west-1.compute.amazonaws.com:8080/signup" id="newsletterform" method="post" data-subscribed="Thank You">
+                            <div class="control-group">
+                                <div class="input-append">
+                                    <input type="text" name="email" class="input-medium span2" placeholder="Newsletter.." />
+                                    <button class="btn" type="submit">Signup</button>
+                                </div>
+                            </div>
+                            </form>
+                            <p class="outro">Don't worry, your details are safe with us.</p>
+                        </div>
+                        <!--end widget-->
+                    </div>
+                    <div class="span6">
+                        <!--recent posts widget-->
+                        <div class="widget widget_recent_entries">
+                            <h3>Recent News
+                                </h3>
+                            <ul>
+                                <li>
+                                    <div>
+                                        Welcome to Adafy.com!
+                                        <p>Welcome to our new site. From here you can find our apps and latest news. We're soon going to announce our first Windows 8 application and more, so remember to signup for our newsletter.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--end widget-->
+                    </div>
+                    <div id="contact" class="span3 last">
+                        <h3>Contact</h3>
+                        Hietatie 34, 40530 Jyväskyla, Finland
+                        <h4>Address</h4>
+                        (358) 40 592 8946
+                        <h4>Phone</h4>
+                        <a href="mailto:info@adafy.com" class="btn btn-info">info@adafy.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
         
-    </script>
+        <!--footer lower-->
+        <section class="footerLower">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span3 copyright">
+                        <p>&copy; 2012 Adafy Oy</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--back to top button-->
+    <a href="#top" id="peBackToTop" class="label btt disabled">
+    <span class="icon-chevron-up icon-white"></span>
+    </a>
+    <!-- import minified javascript -->
+    <script type="text/javascript" src="assets/js/mentor.min.js"></script>
 </body>
 </html>
