@@ -198,7 +198,11 @@
                                 <a href="@Model.Contact" target="_blank">Please let us know</a>
                                 @Model.HelpSubtitle</small></h2>
                         </div>
-                        @Model.Help
+                    @foreach (var helpPage in @Model.Help)
+                    {
+                        <h4><a href="@helpPage.Location">@helpPage.Title</a></h4>
+                        <p>@helpPage.Description</p>
+                    }
                     </section>
                     <p class="pull-right">
                         <a href="#">Back to top</a></p>
