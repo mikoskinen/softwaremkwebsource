@@ -2,7 +2,7 @@
 title: Versions 2.0 and 2.2
 permalink: versions-20-22
 description: This post describes the changes in the IRC7 versions 2.0 and 2.2
-time: 2012-07-16 09:37
+time: 2012-07-16 9:37
 tags: irc7
 ---
 
