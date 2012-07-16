@@ -11,3 +11,5 @@ Because the Windows Phone platform automatically disconnects the IRC-connection 
 Some of the bouncers require both a user name and a password but the IRC7 new connection page only shows a password-field. In order to connect to a bouncer like this, enter the user name and the password in the password field in the following format:
 
 _username_:_password_
+
+![usernamepasswordbnc](/irc/help/content/usernamepasswordbnc.png)

@@ -59,4 +59,5 @@
   <Markdown Location="pages/help.md">HelpDocument</Markdown>
   <Rss Url="http://feeds.feedburner.com/windowsphoneirc">News</Rss>
   <ChildPages Location="help" IndexLayoutFile="helppagesindex.cshtml" TagsIndexLayoutFile="tagsindex.cshtml" TagLayoutFile="tag.cshtml" RelativePathPrefix="irc">Help</ChildPages>
+  <ChildPages Location="blog" DefaultPageLayoutFile="blogpost.cshtml" IndexLayoutFile="helppagesindex.cshtml" TagsIndexLayoutFile="tagsindex.cshtml" TagLayoutFile="tag.cshtml" RelativePathPrefix="irc">Blog</ChildPages>
 </data>
