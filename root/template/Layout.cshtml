@@ -1,0 +1,218 @@
+@{
+    var pageTitle = "";
+
+    if (!string.IsNullOrWhiteSpace(@ViewBag.Title))
+    {
+        pageTitle = ViewBag.Title + " | " + @Model.Title;
+    }
+    else
+    {
+        pageTitle = @Model.Title;
+    }
+
+    var pageDescription = "";
+    if (!string.IsNullOrWhiteSpace(@ViewBag.Description))
+    {
+        pageDescription = ViewBag.Description + ". " + @Model.Description;
+    }
+    else
+    {
+        pageDescription = @Model.Description;
+    }
+    
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@pageTitle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="description" content="@pageDescription" />
+    <meta name="author" content="@Model.Publisher" />
+    <link href="@Model.Assets/css/css.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="@Model.Assets/favicon.jpg" />
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-31682941-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <style type="text/css">
+        p
+        {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!--header and menu-->
+    <header class="navbar navbar-fixed-top" id="top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="btnTitle">Menu</span>
+                    <span class="icon-chevron-down icon-white"></span>
+                </a>
+                <a class="brand" href="/" title="Home">
+                    <img style="margin-top: 39px" src="@Model.Assets/img/adafy_topbar.png" alt="Adafy Logo"/></a>
+
+                <div class="nav-collapse">
+                    <!--social media icons-->
+                    <div class="smedia">
+                        <span>www.adafy.com</span>
+                        <a href="https://twitter.com/#!/adafyoy" data-position="bottom" data-rel="tooltip" title="Follow Us" class="sm-icon sm-icon-twitter"></a>
+                    </div>
+                    <!--main nav-->
+                    <div class="central-nav">
+                        <ul class="nav">
+                            <li>
+                                <a href="http://www.adafy.com">Home</a></li>
+                            <li>
+                                <a href="http://www.adafy.com/news">News</a></li>
+                            <li class="dropdown">
+                                <a href="#">Windows 8 Apps<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="http://apps.microsoft.com/webpdp/fi-FI/app/viihde/8fb16caf-f1e3-4a36-b00e-3dbd33013c91">Viihde</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Windows Phone Apps<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="http://www.adafy.com/irc">IRC7</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.adafy.com/ipsnoop">IP Snoop</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.adafy.com/movieposters">Movie Posters</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.adafy.com/ampparit">Ampparit.com Reader</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.adafy.com/tekstitv">Teletext Finland</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.adafy.com/viihde">Viihde Manager</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.adafy.com/futis">SuomiFutis</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--end main nav-->
+                    </div>
+                </div>
+                <!--end main menu-->
+            </div>
+        </div>
+    </header>
+    <!--main tagline area-->
+
+    @if (IsSectionDefined("header"))
+    {
+        <section class="taglineWrap">
+            <div class="container">
+                @RenderSection("header", false)
+            </div>
+        </section>
+    }
+    <!--main content-->
+    <section class="mainContentWrap">
+        <div class="container mainContent">
+            <div class="row-fluid">
+                <div class="span12">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        @if (IsSectionDefined("testimonial"))
+        {
+          @RenderSection("testimonial", false)  
+        }
+     
+        <section class="footerMain">
+            <div class="container">
+                <div class="row">
+                    <!--footer main columns-->
+                    <div class="span3">
+                        <!--newsletter widget-->
+                        <div class="widget widget_newsletter">
+                            <h3>Newsletter</h3>
+                            <p>Get informed when we release new apps and update our current ones.</p>
+                            <form class="form-inline newsletter" action="http://ec2-46-137-16-9.eu-west-1.compute.amazonaws.com:8080/signup" id="newsletterform" method="post" data-subscribed="Thank You">
+                                <div class="control-group">
+                                    <div class="input-append">
+                                        <input type="text" name="email" class="input-medium span2" placeholder="Newsletter.." />
+                                        <button class="btn" type="submit">Signup</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <p class="outro">Don't worry, your details are safe with us.</p>
+                        </div>
+                        <!--end widget-->
+                    </div>
+                    <div id="contact" class="span3 offset6">
+                        <h3>Contact</h3>
+                        @Model.Address
+                        <h4>Address</h4>
+                        @Model.Phone
+                        <h4>Phone</h4>
+                        <a href="mailto:@Model.Email" class="btn btn-info">@Model.Email</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        @*        <section class="footerMain">
+            <div class="container">
+                <div class="row-fluid">
+                    <!--footer main columns-->
+                    <div class="span3 last">
+                        <!--footer logo-->
+                        <a href="index.html" class="logo-foot" title="Home">
+                        <h3>Contact</h3></a>
+                        @Model.Address
+                        <h4>Address</h4>
+                        @Model.Phone
+                        <h4>Phone</h4>
+                        <a href="mailto:@Model.Email" class="btn btn-info">@Model.Email</a>
+                        <!--links widget-->
+                    </div>
+                </div>
+            </div>
+        </section>
+*@
+        <!--footer lower-->
+        <section class="footerLower">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span3 copyright">
+                        <p>&copy; 2012 Adafy Oy</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--back to top button-->
+    <a href="#top" id="peBackToTop" class="label btt disabled">
+        <span class="icon-chevron-up icon-white"></span>
+    </a>
+    <!-- import minified javascript -->
+    <script type="text/javascript" src="@Model.Assets/js/mentor.min.js"></script>
+</body>
+</html>
