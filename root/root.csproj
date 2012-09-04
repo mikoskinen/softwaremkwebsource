@@ -37,8 +37,22 @@
     <None Include="packages.config" />
     <None Include="template\assets\js\README.md" />
     <None Include="template\404.cshtml" />
-    <None Include="template\index_spotlight.cshtml" />
     <None Include="template\index.cshtml" />
+    <None Include="template\Layout.cshtml" />
+    <None Include="template\index_spotlight.cshtml" />
+    <None Include="template\index2.cshtml" />
+    <None Include="template\news\templates\newspage.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="template\news\templates\newsindex.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="template\news\templates\tag.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="template\news\templates\tagsindex.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="template\pages\services.md" />
     <None Include="template\pages\stack.md" />
   </ItemGroup>
