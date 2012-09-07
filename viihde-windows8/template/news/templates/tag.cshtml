@@ -1,0 +1,21 @@
+﻿@{
+    _Layout = "./template/Layout.cshtml";
+    ViewBag.Title = "Uutisen Tag: " + @Model.Tag.Name;
+    ViewBag.Description = "Uutisen tag: " + @Model.Tag.Name;
+}
+
+@section header{
+    <h1 style="margin-top: 40px">News tagged: @Model.Tag.Name</h1>
+}
+
+<div class="row">
+    <div class="span12">
+        @foreach (var page in Model.Tag.Pages)
+        {
+            <h2 class="heading">
+                <a href="@page.Location">@page.Title</a></h2>
+            <p>@page.Description</p>
+        }
+
+    </div>
+</div>

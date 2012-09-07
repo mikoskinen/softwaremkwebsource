@@ -8,6 +8,7 @@ $sites = ("root\template","public"),
 		 ("tekstitv\template","public\tekstitv"),
 		 ("movieposters\template","public\movieposters"), 
 		 ("viihde\template","public\viihde"),
+		 ("viihde-windows8\template","public\viihde-windows8"),
 		 ("futis\template","public\futis")
 	
 try {

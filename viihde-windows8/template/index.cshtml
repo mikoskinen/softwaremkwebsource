@@ -1,0 +1,88 @@
+﻿@{
+    _Layout = "./template/Layout.cshtml";
+    ViewBag.Title = Model.Title;
+    ViewBag.Description = Model.MetaDescription;
+    var first = true;
+}
+@section header
+{
+    <section class="taglineWrap">
+        <div class="container">
+            <div class="row-fluid">
+                <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        @foreach (var screenshot in Model.Screenshots)
+                        {
+                            <div class="item @(first ? "active" : "")">
+                                <img src="@screenshot.Screenshot" alt="@screenshot.Caption"/>
+                                <div class="carousel-caption">
+                                    <h4>@screenshot.Caption</h4>
+                                    <p>@screenshot.Text</p>
+                                </div>
+                            </div>
+                            first = false;
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="row tagline pagination-centered">
+                <div class="span8">
+                    <h2>@Model.AppName <small>@Model.AppDescription</small></h2>
+                </div>
+                <div class="span4">
+                    <div>
+                        <a href="@Model.Download.Link" class="btn btn-primary btn-large">@Model.Download.Download</a>
+
+                    </div>
+                </div>
+            </div>
+@*            <div class="row-fluid tagline">
+                <div class="span8">
+                    <h2>@Model.AppName<small> @Model.AppDescription</small></h2>
+                </div>
+                <div class="span4 action">
+                </div>
+            </div>*@
+        </div>
+        <!-- /container -->
+    </section>
+}
+<div class="row featuredContent">
+    <div class="span12">
+        <ul class="thumbnails">
+            @foreach (var feature in Model.Features)
+            {
+                <li class="span4">
+                    <h4 class="pagination-centered">@feature.Title</h4>
+                    <p class="pagination-centered">@feature.Feature</p>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+<div class="row-fluid relative">
+    <div class="span12">
+        <h2>
+            Uutisia</h2>
+        @{
+            var index = 1;
+        }
+        @foreach (var page in Model.News.Pages)
+        {
+            <h2 class="heading">
+                <a href="@page.Location">@page.Title</a></h2>
+            <em>@page.Time.ToString("g")</em>
+            <p>@page.Content</p>
+                                
+            index = index + 1;
+        }
+    </div>
+</div>
+@section scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".carousel").carousel();
+        });
+    </script>
+}

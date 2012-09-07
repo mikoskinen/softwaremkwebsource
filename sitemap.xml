@@ -1,202 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.adafy.com/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/ampparit/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/futis/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/ipsnoop/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/blog/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/blog/tags/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/irc/blog/tags/alias/</loc>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/irc/blog/tags/bouncer/</loc>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/irc/blog/tags/encoding/</loc>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/irc/blog/tags/general/</loc>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/irc/blog/tags/help/</loc>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/blog/tags/irc7/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/irc/blog/tags/networks/</loc>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/irc/blog/tags/perform/</loc>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/irc/blog/tags/ssl/</loc>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/irc/blog/tags/tls/</loc>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/blog/versions-20-22/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/alias/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/bouncer/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/encoding/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/general/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/help/</loc>
-    <lastmod>2012-09-03</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>http://www.adafy.com/irc/help/tags/irc7/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/networks/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/perform/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/ssl/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/tls/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-alias-engine/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-bouncer-username-password/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-disconnecting/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-encoding/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-getting-started/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-irc-networks/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-lock-screen/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-ssl-tls-support/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-irc7-startup-scripts-perform/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/windows-phone-irc-client-raw-irc-commands/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/movieposters/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/news/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/news/tags/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/news/tags/company/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/news/tags/viihde-windows8/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/news/welcome-adafy/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/news/windows-8-viihde-app-release/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/tekstitv/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.adafy.com/viihde/</loc>
-    <lastmod>2012-09-03</lastmod>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/viihde-windows8/</loc>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/viihde-windows8/news/</loc>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/viihde-windows8/news/tags/</loc>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/viihde-windows8/news/tags/viihde-windows8/</loc>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/viihde-windows8/news/windows-8-viihde-saatavilla/</loc>
+    <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
 </urlset>

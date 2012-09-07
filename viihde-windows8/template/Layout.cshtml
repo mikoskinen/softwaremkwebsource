@@ -2,7 +2,6 @@
     var pageTitle = ViewBag.Title;
     var pageDescription = ViewBag.Description;
 }
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -101,7 +100,6 @@
         </div>
     </header>
     <!--main tagline area-->
-
     @if (IsSectionDefined("header"))
     {
         <section class="taglineWrap">
@@ -144,6 +142,7 @@
                                     </div>
                                 </div>
                             </form>
+
                             <p class="outro">Don't worry, your details are safe with us.</p>
                         </div>
                         <!--end widget-->
@@ -190,10 +189,13 @@
         </section>
     </footer>
     <!--back to top button-->
-    <a href="#top" id="peBackToTop" class="label btt disabled">
-        <span class="icon-chevron-up icon-white"></span>
-    </a>
+    <a href="#top" id="peBackToTop" class="label btt disabled"><span class="icon-chevron-up icon-white">
+    </span></a>
     <!-- import minified javascript -->
     <script type="text/javascript" src="@Model.Assets/js/mentor.min.js"></script>
+    @if (IsSectionDefined("scripts"))
+    {
+        @RenderSection("scripts", false)  
+    }
 </body>
 </html>
