@@ -195,5 +195,9 @@
     </a>
     <!-- import minified javascript -->
     <script type="text/javascript" src="@Model.Assets/js/mentor.min.js"></script>
+    @if (IsSectionDefined("scripts"))
+    {
+        @RenderSection("scripts", false)  
+    }
 </body>
 </html>
