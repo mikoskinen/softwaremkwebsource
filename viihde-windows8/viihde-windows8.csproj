@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>5a9d72a7-a6e3-43e2-998a-6c4fb852b459</ProjectGuid>
+    <ProjectGuid>{7F2AC940-D9CB-4E2F-9709-1940638849C4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>viihde_windows8</RootNamespace>
-    <AssemblyName>viihde_windows8</AssemblyName>
+    <AssemblyName>viihde-windows8</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,8 +40,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="extras\graze.contracts.dll" />
+    <Content Include="extras\graze.contracts.pdb" />
+    <Content Include="extras\graze.extra.childpages.dll" />
+    <Content Include="extras\graze.extra.childpages.pdb" />
+    <Content Include="extras\graze.extra.html.dll" />
+    <Content Include="extras\graze.extra.html.pdb" />
+    <Content Include="extras\graze.extra.markdown.dll" />
+    <Content Include="extras\graze.extra.markdown.pdb" />
+    <Content Include="extras\graze.extra.rss.dll" />
+    <Content Include="extras\graze.extra.rss.pdb" />
+    <Content Include="extras\graze.extra.youtube.dll" />
+    <Content Include="extras\graze.extra.youtube.pdb" />
+    <Content Include="graze.contracts.dll" />
+    <Content Include="graze.exe" />
+    <Content Include="RazorEngine.dll" />
+    <Content Include="System.Web.Razor.dll" />
+    <Content Include="template\configuration.xml" />
+    <Content Include="template\download.html" />
+    <Content Include="template\news\content\windows8-viihde-release.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="template\404.cshtml" />
+    <None Include="template\index.cshtml" />
+    <None Include="template\Layout.cshtml" />
+    <None Include="template\news\templates\newsindex.cshtml" />
+    <None Include="template\news\templates\newspage.cshtml" />
+    <None Include="template\news\templates\tag.cshtml" />
+    <None Include="template\news\templates\tagsindex.cshtml" />
+    <None Include="template\news\welcome.md" />
+    <None Include="template\news\windows8-viihde-release.md" />
+    <None Include="template\pages\help.md" />
+    <None Include="template\pages\services.md" />
+    <None Include="template\pages\stack.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="template\assets\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
