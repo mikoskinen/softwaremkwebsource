@@ -1,3 +1,10 @@
+### Ongelmia uutisten lukemisessa ###
+###### 14.9.2012 ######
+
+Valitettavasti Ampparit.com -palvelu muutti eilen julkisia syötteitään, aiheuttaen ongelmia sovelluksessa. Ongelmat ilmenevät niin, että uutiset eivät aukea mobiililaitteille optimoidussa tilassa. Päivitys sovellukseen on valmis, mutta sen saamisessa Marketplaceen saattaa mennä noin 5 päivää, riippuen Microsoftin sovellustestauksen ruuhkista.
+
+Tällä hetkellä ratkaisuna on kääntää asetuksista pois "Optimoi uutiset mobiililaitteille" -asetus. Pahoittelut tapahtuneesta!
+
 ### 2.9 kohta markkinapaikalla ###
 ###### 15.6.2012 ######
 

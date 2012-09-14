@@ -35,52 +35,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>http://www.adafy.com/irc/blog/tags/alias/</loc>
-    <lastmod>2012-09-07</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>http://www.adafy.com/irc/blog/tags/bouncer/</loc>
-    <lastmod>2012-09-07</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>http://www.adafy.com/irc/blog/tags/encoding/</loc>
-    <lastmod>2012-09-07</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>http://www.adafy.com/irc/blog/tags/general/</loc>
-    <lastmod>2012-09-07</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>http://www.adafy.com/irc/blog/tags/help/</loc>
-    <lastmod>2012-09-07</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>http://www.adafy.com/irc/blog/tags/irc7/</loc>
-    <lastmod>2012-09-07</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>http://www.adafy.com/irc/blog/tags/networks/</loc>
-    <lastmod>2012-09-07</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>http://www.adafy.com/irc/blog/tags/perform/</loc>
-    <lastmod>2012-09-07</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>http://www.adafy.com/irc/blog/tags/ssl/</loc>
-    <lastmod>2012-09-07</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>http://www.adafy.com/irc/blog/tags/tls/</loc>
     <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -121,6 +76,11 @@
   </url>
   <url>
     <loc>http://www.adafy.com/irc/help/tags/help/</loc>
+    <lastmod>2012-09-07</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/irc/help/tags/irc7/</loc>
     <lastmod>2012-09-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
