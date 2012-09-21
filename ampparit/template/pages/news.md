@@ -1,3 +1,12 @@
+### Uusi versio 4.2 ladattavissa ###
+###### 21.9.2012 ######
+
+Ampparit.com -lukijan uusi versio on nyt ladattavissa. Tärkein muutos päivityksessä on, että se korjaa uutisten mobiililukutilan.
+
+Päivityksen yhteydessä sovelluksen nimi muuttuu ja jatkossa se tunnetaankin nimellä "Aukio". Myös sovelluksen webbisivut päivittyvät lähiaikoina nimen osalta. Kriittisen bugikorjauksen ja uuden nimen lisäksi tässä versiossa on mukana myös uusia ominaisuuksia: 
+* "Oma etusivu": Voit korvata nykyisen oletusetusivun uudella mukautetulla sivulla, joka näyttää uutiset vain suosikkiaiheistasi. Jos suosikkejasi ovat esimerkiksi IT ja politiikka, voit muuttaa etusivusi näyttämään viimeisimmät uutiset vain näistä kahdesta aihealueesta. Oman etusivun saa käyttöön valitsemalla "Suosikit" -välilehdellä "Tee suosikeista oma etusivu". 
+* Päivitä uutiset vierittämällä uutislistauksen yläreunaa
+
 ### Ongelmia uutisten lukemisessa ###
 ###### 14.9.2012 ######
 
