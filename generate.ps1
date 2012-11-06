@@ -9,6 +9,7 @@ $sites = ("root\template","public"),
 		 ("movieposters\template","public\movieposters"), 
 		 ("viihde\template","public\viihde"),
 		 ("viihde-windows8\template","public\viihde-windows8"),
+		 ("aukio\template","public\aukio"),
 		 ("futis\template","public\futis")
 	
 try {

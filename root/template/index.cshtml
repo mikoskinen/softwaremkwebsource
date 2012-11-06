@@ -69,16 +69,20 @@
 <div class="row">
     <div class="span12">
         <ul class="thumbnails">
-            <li class="span4">
-                <a href="@Model.Win8App.Link">
-                    <div class="pagination-centered">
-                        <img alt="@Model.Win8App.Title" src="@Model.Win8App.Image" />
-                    </div>
-                    <h4 class="pagination-centered">
-                        @Model.Win8App.Title</h4>
-                </a>
-                <p class="pagination-centered">@Model.Win8App.Win8App</p>
-            </li>
+            @foreach (var app in Model.Win8Apps)
+            {
+                <li class="span4">
+                    <a href="@app.Link">
+                        <div class="pagination-centered">
+                            <img alt="@app.Title" src="@app.Image" />
+                        </div>
+                        <h4 class="pagination-centered">
+                            @app.Title</h4>
+                    </a>
+                    <p class="pagination-centered">@app.Win8App</p>
+                </li>
+                            
+            }            
         </ul>
     </div>
 </div>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>@Model.Title - 404 Page not found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="@Model.MetaDescription">
+    <meta name="keywords" content="@Model.MetaKeywords">
+    <meta name="author" content="@Model.Publisher.Publisher">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le styles -->
+    <link href="@Model.Assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="@Model.Assets/css/docs.css" rel="stylesheet">
+    <link href="@Model.Assets/css/grazewp7.css" rel="stylesheet">
+    <link href="@Model.Assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="@Model.Assets/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="@Model.Assets/ico/bootstrap-apple-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="@Model.Assets/ico/bootstrap-apple-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="@Model.Assets/ico/bootstrap-apple-114x114.png">
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '@Model.GoogleAnalytics']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</head>
+<body data-spy="scroll" data-target=".subnav" data-offset="50" id="home">
+    @Model.TopNavigation
+    <div class="container">
+        <div class="inner">
+            <div class="row" id="mobileheader">
+                <div class="jumbotron masthead">
+                    <h2 class="pagination-centered jumbotron">SoftwareMK</h2>
+                    <p>404 Page not found</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <header id="normalheader" class="jumbotron masthead topheading">
+                        <h1>404 Page not found</h1>
+                        <p>We're sorry! The requested page is not available.</p>
+                        <div class="pagination-centered"> <a class="btn btn-primary" href="http://www.softwaremk.org">Softwaremk.org homepage</a></div></header>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p class="pull-right">
+                <a href="#">Back to top</a></p>
+            <p>Copyright
+                <a href="@Model.Publisher.HomePage" target="_blank">@Model.Publisher.Publisher
+                </a>
+                2012 </p>
+            <h6>Created with
+                <a href="@Model.WP7Graze.Link">@Model.WP7Graze.WP7Graze</a>
+                using the
+                <a href="@Model.Graze.Link">@Model.Graze.Graze.</a>
+            </h6>
+        </footer>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="@Model.Assets/js/bootstrap.min.js"></script>
+    <script src="@Model.Assets/js/easySlider1.7.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            showSlider();
+            showScreenshots();
+        });
+
+        function showSlider() {
+            $("#slider").easySlider({
+                auto: true,
+                continuous: true,
+                pause: 5000,
+                controlsShow: false
+            });
+        }
+
+        function showScreenshots() {
+            $("#screenshotarea").css("visibility", "visible");
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿@{
+    _Layout = "./template/Layout.cshtml";
+    ViewBag.Title = @Model.Page.Title;
+    ViewBag.Description = @Model.Page.Description;
+}
+
+@section header{
+    <h1 style="margin-top: 40px">@Model.Page.Title</h1>
+}
+
+<div class="row">
+    <div class="span12">
+        @Model.Page.Content
+        <h6>@Model.Page.Time</h6>
+    </div>
+</div>

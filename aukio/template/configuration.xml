@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <site>
+    <Title>Aukio - Kattava suomalainen uutissovellus Windows 8 ja Windows RT -käyttöjärjestelmille</Title>
+    <Description>Aukio on nopea ja sulava suomalainen uutissovellus Windows 8 ja Windows RT -käyttöjärjestelmille</Description>
+    <MetaDescription>Aukio on nopea ja sulava suomalainen uutissovellus Windows 8 ja Windows RT -käyttöjärjestelmille.</MetaDescription>
+    <MetaKeywords>aukio, windows 8, windows rt, ampparit, uutiset</MetaKeywords>
+    <GoogleAnalytics>UA-31682941-1</GoogleAnalytics>
+    <Publisher HomePage="http://www.adafy.com">Adafy</Publisher>
+    <Download Link="http://apps.microsoft.com/webpdp/fi-fi/app/aukio/bdf4b8a4-d56f-449d-ba18-13e2955228ad">Lataa Windows Storesta</Download>
+    <AppName>Aukio</AppName>
+    <AppDescription>Nopea ja sulava suomalainen uutissovellus Windows 8 ja Windows RT -käyttöjärjestelmille.</AppDescription>
+    <WindowsPhone>duh</WindowsPhone>
+    <Screenshots>
+      <Screenshot Caption="Etusivulta päivän suosituimmat uutiset" Text="Etusivu näyttää eri aihealueiden tuoreimpia ja suosituimpia uutisia">assets/screenshot_10282012_223550.png</Screenshot>
+      <Screenshot Caption="Uutiset luettavassa muodossa" Text="Uutiset esitetään helposti luettavassa muodossa.">assets/screenshot_10282012_223642.png</Screenshot>
+      <Screenshot Caption="Useita kategorioita" Text="Uutiset on ryhmitelty eri kategorioihin, kuten IT ja talousuutisiin.">assets/screenshot_10282012_223717.png</Screenshot>
+      <Screenshot Caption="Selaile uutisen kuvia" Text="Uutisten kuvia on helppo selata kuvaa klikkaamalla.">assets/screenshot_10282012_223734.png</Screenshot>
+    </Screenshots>
+    <Features>
+      <Feature Title="Kattava sisältö">Yli 200 uutislähdettä.</Feature>
+      <Feature Title="Nopea">Erittäin nopea ja sulava uutisten selailu ja lukeminen.</Feature>
+      <Feature Title="Live tiilet">Voit kiinnittää käynnistysvalikkoosi eri uutiskategorioita. Näiden tiilet päivittyvät automattisesti näyttämään uutisia.</Feature>
+    </Features>
+    <Assets>http://assets.softwaremk.org/adafy</Assets>
+    <Email>info@adafy.com</Email>
+    <Address>Hietatie 34, 40530 Jyväskyla, Finland</Address>
+    <Phone>(358) 40 592 8946</Phone>
+  </site>
+  <Html Url="http://assets.softwaremk.org/navigation.html">TopNavigation</Html>
+  <ChildPages Location="news" DefaultPageLayoutFile="news/templates/newspage.cshtml" IndexLayoutFile="news/templates/newsindex.cshtml"
+            TagsIndexLayoutFile="news/templates/tagsindex.cshtml" TagLayoutFile="news/templates/tag.cshtml" RelativePathPrefix="viihde-windows8" RssGenerate="true" RssFeedName="Viihde uutiset"
+            RssUri="http://www.adafy.com" RssAuthor="info@adafy.com" RssDescription="Viihde on epävirallinen Windows 8 Elisa Viihde app.">News</ChildPages>
+</data>

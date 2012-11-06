@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2010
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "irc", "irc\irc.csproj", "{29FCA437-AB6D-42B9-8366-BE292BF840E4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ampparit", "ampparit\ampparit.csproj", "{5E7FC2DC-F5AA-4452-A3A0-AC86B5D13109}"
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "futis", "futis\futis.csproj", "{58331FE8-34B1-478E-BE93-5B089CD79021}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viihde-windows8", "viihde-windows8\viihde-windows8.csproj", "{7F2AC940-D9CB-4E2F-9709-1940638849C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aukio", "aukio\aukio.csproj", "{8083EFA5-5940-4882-8FED-C5167472C720}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +121,16 @@ Global
 		{7F2AC940-D9CB-4E2F-9709-1940638849C4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{7F2AC940-D9CB-4E2F-9709-1940638849C4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{7F2AC940-D9CB-4E2F-9709-1940638849C4}.Release|x86.ActiveCfg = Release|Any CPU
+		{8083EFA5-5940-4882-8FED-C5167472C720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8083EFA5-5940-4882-8FED-C5167472C720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8083EFA5-5940-4882-8FED-C5167472C720}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8083EFA5-5940-4882-8FED-C5167472C720}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8083EFA5-5940-4882-8FED-C5167472C720}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8083EFA5-5940-4882-8FED-C5167472C720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8083EFA5-5940-4882-8FED-C5167472C720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8083EFA5-5940-4882-8FED-C5167472C720}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8083EFA5-5940-4882-8FED-C5167472C720}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8083EFA5-5940-4882-8FED-C5167472C720}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,27 @@
+﻿@{
+    _Layout = "./template/Layout.cshtml";
+    ViewBag.Title = "Viihde-sovelluksen uutiset";
+    ViewBag.Description = "Viihde on epävirallinen Windows 8 Elisa Viihde app. Täältä löydät uutisia sovellukseen liittyen.";
+}
+
+@section header{
+        <h1 style="margin-top: 40px">Adafy news:</h1>
+}
+
+<div class="row">
+    <div class="span12">
+                    @{
+                        var index = 1;
+                    }
+                    @foreach (var page in Model.PagesDesc)
+                    {
+                        <h2 class="heading">
+                            <a href="@page.Location">@page.Title</a></h2>
+                        <em>@page.Time.ToString("g")</em>
+                        <p>@page.Content</p>
+                                
+                        index = index + 1;
+                    }
+
+    </div>
+</div>

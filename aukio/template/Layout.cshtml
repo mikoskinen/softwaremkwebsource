@@ -2,7 +2,6 @@
     var pageTitle = ViewBag.Title;
     var pageDescription = ViewBag.Description;
 }
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,11 +33,9 @@
         #social {
             margin-top: 10px;
         }
-		
     </style>
     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">    stLight.options({ publisher: "7904eca5-3d12-407f-b8ca-bc1689bf461a" }); </script>
-	
 </head>
 <body>
     <!--header and menu-->
@@ -68,9 +65,6 @@
                             <li class="dropdown">
                                 <a href="#">Windows 8 Apps<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="http://www.adafy.com/aukio">Aukio</a>
-                                    </li>
                                     <li>
                                         <a href="http://www.adafy.com/viihde-windows8">Viihde</a>
                                     </li>
@@ -111,7 +105,6 @@
         </div>
     </header>
     <!--main tagline area-->
-
     @if (IsSectionDefined("header"))
     {
         <section class="taglineWrap">
@@ -130,8 +123,7 @@
                     <span class='st_googleplus_large' displaytext='Google +1'></span>
                 </div>
             </div>
-        </div>        
-	
+        </div>
         <div class="container mainContent">
             <div class="row-fluid">
                 <div class="span12">
@@ -144,9 +136,9 @@
     <footer>
         @if (IsSectionDefined("testimonial"))
         {
-          @RenderSection("testimonial", false)  
+            @RenderSection("testimonial", false)  
         }
-     
+
         <section class="footerMain">
             <div class="container">
                 <div class="row">
@@ -164,6 +156,7 @@
                                     </div>
                                 </div>
                             </form>
+
                             <p class="outro">Don't worry, your details are safe with us.</p>
                         </div>
                         <!--end widget-->
@@ -210,9 +203,7 @@
         </section>
     </footer>
     <!--back to top button-->
-    <a href="#top" id="peBackToTop" class="label btt disabled">
-        <span class="icon-chevron-up icon-white"></span>
-    </a>
+    <a href="#top" id="peBackToTop" class="label btt disabled"><span class="icon-chevron-up icon-white"></span></a>
     <!-- import minified javascript -->
     <script type="text/javascript" src="@Model.Assets/js/mentor.min.js"></script>
     @if (IsSectionDefined("scripts"))
