@@ -200,6 +200,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://www.adafy.com/news/tags/aukio/</loc>
+    <lastmod>2012-11-06</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>http://www.adafy.com/news/tags/company/</loc>
     <lastmod>2012-11-06</lastmod>
     <changefreq>daily</changefreq>
@@ -211,6 +216,11 @@
   </url>
   <url>
     <loc>http://www.adafy.com/news/welcome-adafy/</loc>
+    <lastmod>2012-11-06</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/news/windows-8-aukio-app-release/</loc>
     <lastmod>2012-11-06</lastmod>
     <changefreq>daily</changefreq>
   </url>
