@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <data>
   <site>
-    <Title>Ampparit.com Reader</Title>
-    <Description>Ampparit.com puhelimessasi!</Description>
+    <Title>Aukio-uutislukija</Title>
+    <Description>Suomalaiset uutiset puhelimessasi!</Description>
     <ApplicationId>55f055be-f2a5-e011-986b-78e7d1fa76f8</ApplicationId>
-    <Subtitle>Ampparit.com Reader tuo suositun Ampparit.com -palvelun sisällön Windows Phone 7 -puhelimeesi.</Subtitle>
+    <Subtitle>Aukio tuo Ampparit.com -palvelun tyylisen uutissisällön Windows Phone -puhelimeesi.</Subtitle>
     <Download>Lataa ilmaiseksi</Download>
     <Contact>http://www.adafy.com/#contact</Contact>
     <CompanyInfo>http://softwaremk.org/index.php/services</CompanyInfo>
-    <MetaDescription>Ampparit.com -lukija Windows Phone 7 puhelimessa. Uutiset ja urheilutulokset helposti suoraan Windows puhelimeesi.</MetaDescription>
-    <MetaKeywords>wp7, windows phone, windows puhelin, windows phone apps, window phone app, apps, ampparit, ampparit.com, sovellus, windows puhelin sovellus</MetaKeywords>
+    <MetaDescription>Aukio-uutislukija tuo suomalaiset uutiset Windows Phone puhelimeen. Uutiset ja urheilutulokset helposti.</MetaDescription>
+    <MetaKeywords>wp7, windows phone, windows puhelin, windows phone apps, window phone app, apps, ampparit, aukio, sovellus, windows puhelin sovellus</MetaKeywords>
     <GoogleAnalytics>UA-31682941-1</GoogleAnalytics>
-    <CurrentVersion>2.6</CurrentVersion>
-    <AverageRating>4 (perustuu 258 arvosteluun)</AverageRating>
+    <CurrentVersion>5.0</CurrentVersion>
+    <AverageRating>4 (perustuu 1100 arvosteluun)</AverageRating>
     <Publisher HomePage="http://www.adafy.com">Adafy</Publisher>
     <ReviewsTitle>Katso mitä muut ovat mieltä.</ReviewsTitle>
     <Reviews>
@@ -22,24 +22,21 @@
       <Review author="Player651632291" rating="5">Näppärä apuohjelma, tiedät mitä maailmalla tapahtuu nopeasti</Review>
     </Reviews>
     <Screenshots>
-      <screenshot alt="My screenshot 1">new_details.PNG</screenshot>
-      <screenshot alt="My screenshot 2">new_reader.PNG</screenshot>
-      <screenshot alt="My screenshot 3">sections.PNG</screenshot>
-      <screenshot alt="My screenshot 4">new_timejump.PNG</screenshot>
-      <screenshot alt="My screenshot 5">new_author_group.PNG</screenshot>
-      <screenshot alt="My screenshot 6">new_author_jump.PNG</screenshot>
-      <screenshot alt="My screenshot 7">new_livetiles.PNG</screenshot>
+      <screenshot alt="My screenshot 1">fi_content.png</screenshot>
+      <screenshot alt="My screenshot 2">fi_home.png</screenshot>
+      <screenshot alt="My screenshot 3">reading.png</screenshot>
+      <screenshot alt="My screenshot 4">fi_sections.png</screenshot>
     </Screenshots>
-    <StaticScreenshot alt="Logo">new_livetiles.PNG</StaticScreenshot>
+    <StaticScreenshot alt="Logo">fi_home.png</StaticScreenshot>
     <Features>
       <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Paljon uutislähteitä">Yli 230 uutislähdettä. Seuraa niin urheilu, IT kuin paikallisuutisia. Uutiset on ryhmitelty aihealueittain.</Feature>
       <Feature Image="assets/img/glyphicons/glyphicons_266_book_open.png" Title="Suosikit">Valitse suosikkiaiheesi ja tee niistä mukautettu uutiskategoria. Kategoriassa näkyy vain ne uutiset, jotka sinua kiinnostavat.</Feature>
       <Feature Image="assets/img/glyphicons/glyphicons_155_show_thumbnails.png" Title="Live tiilet">Kiinnitä suosikkisi puhelimen käynnistysvalikkoon. Käynnistysvalikko päivittyy tasaisin väliajoin näyttämään tuoreimpia uutisotsikoita.</Feature>
     </Features>
-    <FeaturesSubtitle>Helppokäyttöinen ja sulava Ampparit.com uutisappis Windows puhelimeen</FeaturesSubtitle>
-    <HelpSubtitle>jos sinulla on murheita tämän Ampparit.com lukijan kanssa</HelpSubtitle>
-    <AboutSubtitle>Ampparit.com Reader - Ampparit.com Windows puhelimeesi</AboutSubtitle>
-    <NewsSubtitle>Uutisia Ampparit.com lukijan kehityksestä</NewsSubtitle>
+    <FeaturesSubtitle>Helppokäyttöinen ja sulava uutisappis Windows puhelimeen</FeaturesSubtitle>
+    <HelpSubtitle>jos sinulla on murheita tämän uutissovelluksen kanssa</HelpSubtitle>
+    <AboutSubtitle>Aukio - Suomalaiset uutiset Windows puhelimeesi</AboutSubtitle>
+    <NewsSubtitle>Uutisia Aukio-sovelluksen kehityksestä</NewsSubtitle>
     <Feedback>Otathan yhteyttä, jos sinulla on murheita tai uusia ideoita sovelluksen kehittämiseksi. Arvostamme palautetta suuresti!</Feedback>
     <FirstRelease>7/2011</FirstRelease>
     <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>

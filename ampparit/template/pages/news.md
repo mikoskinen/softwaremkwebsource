@@ -1,3 +1,19 @@
+### Aukio-sovelluksen versio 5.0 ###
+###### 1.2.2013 ######
+
+Voit tutustua Aukio-sovelluksen uusiin ominaisuuksiin [tämän linkin kautta.](http://www.adafy.com/news/aukio-5-uudet-ominaisuudet/)
+
+### Aukio-sovellus ja Windows Phone 8 ###
+###### 22.11.2012 ######
+
+Jos käytät Aukio-uutissovellusta uudella Windows Phone 8 -puhelimella, suosittelemme tekemään sovellukseen asetusmuutoksen, jotta sovellus toimisi oikein: Asetus **"Optimoi uutiset mobiililaiteille"** on käännettävä asentoon **"Pois päältä"**. Valikkoon pääsee sovelluksen etusivun alapalkista.
+
+![aukio-windows-phone-8](http://www.adafy.com/news/content/aukio-windows-phone-8.png)
+
+Windows Phone 8 -puhelimille suunnattu versio sovelluksesta on valmis ja on todennäköisesti ladattavissa ensi viikon aikana. Uuden version myötä myös Windows Phone 8:n kanssa voi hyödyntää Aukio-sovelluksen "Optimoi uutiset mobiililaitteille" -ominaisuutta.
+
+PS. Aukio on ladattavissa myös Windows 8 ja Windows RT -laitteisiin Windows Storesta hakusanalla "aukio".
+
 ### Uusi versio 4.2 ladattavissa ###
 ###### 21.9.2012 ######
 
