@@ -10,6 +10,8 @@ tags: aukio
 
 Suositun [Aukio-uutislukijan](http://windowsphone.com/s?appid=55f055be-f2a5-e011-986b-78e7d1fa76f8) uusi versio ilmestyy ladattavaksi lähipäivinä. Sovelluksen ensimmäinen versio ilmestyi heinäkuussa 2011 ja nyt julkaistava päivitys muuttaa sovellusta enemmän kuin yksikään päivitys tähän saakka. Alla on listattuna tärkeimpiä uudistuksia ja parannuksia.
 
+Päivitys 1.2.2013: [Versio 5.0 on nyt ladattavissa.](http://windowsphone.com/s?appid=55f055be-f2a5-e011-986b-78e7d1fa76f8)
+
 ## Nopeus
 
 Uudessa versiossa on panostettu erityisesti uutisten lukemisen nopeuteen. Uutiset aukeavat mobiililukutilassa salamannopeasti, ilman odottelua. 
