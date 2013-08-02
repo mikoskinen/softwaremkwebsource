@@ -1,3 +1,8 @@
+### Aukio-sovelluksen versio 5.4 ###
+###### 11.7.2013 ######
+
+Aukio-sovelluksen versio 5.4 on ladattavissa. Voit tutustua sen uusiin ominaisuuksiin [täältä.](http://www.adafy.com/news/aukio-54/)
+
 ### Aukio-sovelluksen versio 5.0 ###
 ###### 1.2.2013 ######
 
