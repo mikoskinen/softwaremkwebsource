@@ -11,7 +11,7 @@
     <MetaDescription>SuomiFutis tuo suomalaisen pääsarjatason jalkapallon Windows Phone -puhelimeesi. Uutiset, tilastot ja joukkue-esittelyt.</MetaDescription>
     <MetaKeywords>wp7, windows phone, windows puhelin, windows phone apps, window phone app, apps, veikkausliiga, jalkapallo, suomi, hjk</MetaKeywords>
     <GoogleAnalytics>UA-31682941-1</GoogleAnalytics>
-    <CurrentVersion>1.1</CurrentVersion>
+    <CurrentVersion>2.0</CurrentVersion>
     <AverageRating>Ei vielä arvosteltu</AverageRating>
     <Publisher HomePage="http://www.adafy.com">Adafy</Publisher>
     <ReviewsTitle>Katso mitä muut ovat mieltä.</ReviewsTitle>
@@ -30,7 +30,7 @@
     </Screenshots>
     <StaticScreenshot alt="Logo">start.PNG</StaticScreenshot>
     <Features>
-      <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Seuraa huippufutista">Uutiset, otteluohjelma ja tulokset. SuomiFutis-sovellus tarjoaa kattavan paketin tietoa suomalaisen huippufutiksen seurantaan.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Seuraa huippufutista">Live-tulosseuranta, uutiset, otteluohjelma ja tulokset. SuomiFutis-sovellus tarjoaa kattavan paketin tietoa suomalaisen huippufutiksen seurantaan.</Feature>
       <Feature Image="assets/img/glyphicons/glyphicons_266_book_open.png" Title="Suosikkisi">Valitse suosikkijoukkueesi ja ja kiinnitä se käynnistysvalikkoon. Käynnistysvalikon tiilen kautta pääset hyppäämään suoraan suosikkijoukkueesi tietoihin.</Feature>
       <Feature Image="assets/img/glyphicons/glyphicons_155_show_thumbnails.png" Title="Live tiilet">Kiinnitä sovellus puhelimen käynnistysvalikkoon. Tiili päivittyy näyttämään tuoreimpia uutisotsikoita ja päivän otteluita.</Feature>
     </Features>
