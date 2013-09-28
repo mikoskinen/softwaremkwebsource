@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <site>
+    <Title>ada.tv</Title>
+    <AppName>ada.tv</AppName>
+    <Description>Yle Areena ja MTV3 Katsomo Windows puhelimiin</Description>
+    <AppDescription>Yle Areena ja MTV3 Katsomo Windows puhelimiin</AppDescription>
+    <ApplicationId>81f08750-c544-45ab-aeee-7eebaa2f431f</ApplicationId>
+    <Subtitle>ada.tv tuo Yle Areena ja MTV3 Katsomo -palvelujen sisällön Windows puhelimiin.</Subtitle>
+    <Download Link="http://apps.microsoft.com/webpdp/fi-fi/app/aukio/bdf4b8a4-d56f-449d-ba18-13e2955228ad">Lataa Windows Storesta</Download>
+    <Contact>http://www.adafy.com/</Contact>
+    <CompanyInfo>http://www.adafy.com/</CompanyInfo>
+    <MetaDescription>ada.tv tuo Yle Areena ja MTV3 Katsomo -palvelujen sisällön Windows puhelimiin. Mukana suorat TV-lähetykset.</MetaDescription>
+    <MetaKeywords>wp7, windows phone, windows puhelin, lumia, ada.tv, mtv3, yle, katsomo, areena</MetaKeywords>
+    <AnalyticsCode>UA-31682941-2</AnalyticsCode>
+    <AnalyticsSite>adatv.fi</AnalyticsSite>
+    <CurrentVersion>1.3</CurrentVersion>
+    <AverageRating>Ei vielä arvosteltu</AverageRating>
+    <Publisher HomePage="http://www.adafy.com">Adafy</Publisher>
+    <ReviewsTitle>Katso mitä muut ovat mieltä.</ReviewsTitle>
+    <Reviews>
+      <Review author=" " rating="5">Ei vielä arvosteluja</Review>
+      <Review author=" " rating="5">Ei vielä arvosteluja</Review>
+    </Reviews>
+    <Screenshots>
+      <screenshot alt="My screenshot 1" Caption="" Text="">2.png</screenshot>
+      <screenshot alt="My screenshot 3" Caption="" Text="">4.png</screenshot>
+      <screenshot alt="My screenshot 2" Caption="" Text="">5.png</screenshot>
+      <screenshot alt="My screenshot 4" Caption="" Text="">6.png</screenshot>
+    </Screenshots>
+    <StaticScreenshot alt="Logo">1.png</StaticScreenshot>
+    <Features>
+      <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Seuraa huippufutista">Live-tulosseuranta, uutiset, otteluohjelma ja tulokset. SuomiFutis-sovellus tarjoaa kattavan paketin tietoa suomalaisen huippufutiksen seurantaan.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_266_book_open.png" Title="Suosikkisi">Valitse suosikkijoukkueesi ja ja kiinnitä se käynnistysvalikkoon. Käynnistysvalikon tiilen kautta pääset hyppäämään suoraan suosikkijoukkueesi tietoihin.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_155_show_thumbnails.png" Title="Live tiilet">Kiinnitä sovellus puhelimen käynnistysvalikkoon. Tiili päivittyy näyttämään tuoreimpia uutisotsikoita ja päivän otteluita.</Feature>
+    </Features>
+    <FeaturesSubtitle>Suomalainen huippufutis vaivattomasti Windows puhelimeen</FeaturesSubtitle>
+    <HelpSubtitle>jos sinulla on murheita tämän sovelluksen kanssa</HelpSubtitle>
+    <AboutSubtitle>SuomiFutis - Suomalaista huippufitusta Windows puhelimeesi</AboutSubtitle>
+    <NewsSubtitle>Uutisia SuomiFutis -sovellukse kehityksestä</NewsSubtitle>
+    <Feedback>Otathan yhteyttä, jos sinulla on murheita tai uusia ideoita sovelluksen kehittämiseksi. Arvostamme palautetta suuresti!</Feedback>
+    <FirstRelease>4/2012</FirstRelease>
+    <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
+    <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
+    <Assets>http://assets.softwaremk.org/adafy</Assets>
+    <Email>info@adafy.com</Email>
+    <Address>Hietatie 34, 40530 Jyväskyla, Finland</Address>
+    <Phone>(358) 40 592 8946</Phone>	
+  </site>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="250" Height="141">IntroductionVideoMini</Youtube>
+  <Html Url="http://assets.softwaremk.org/navigation.html">TopNavigation</Html>
+  <Markdown Location="pages/help.md">Help</Markdown>
+  <Markdown Location="pages/news.md">News</Markdown>
+</data>
