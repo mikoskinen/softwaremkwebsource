@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <data>
   <site>
-    <Title>ada.tv</Title>
+    <Title>ada.tv - Yle Areena ja MTV3 Katsomo Windows puhelimiin</Title>
     <AppName>ada.tv</AppName>
     <Description>Yle Areena ja MTV3 Katsomo Windows puhelimiin</Description>
     <AppDescription>Yle Areena ja MTV3 Katsomo Windows puhelimiin</AppDescription>
     <ApplicationId>81f08750-c544-45ab-aeee-7eebaa2f431f</ApplicationId>
     <Subtitle>ada.tv tuo Yle Areena ja MTV3 Katsomo -palvelujen sisällön Windows puhelimiin.</Subtitle>
-    <Download Link="http://apps.microsoft.com/webpdp/fi-fi/app/aukio/bdf4b8a4-d56f-449d-ba18-13e2955228ad">Lataa Windows Storesta</Download>
+    <Download Link="http://www.adafy.com/download.html?id=81f08750-c544-45ab-aeee-7eebaa2f431f&amp;utm_source=homesite&amp;utm_medium=button">Lataa Kaupasta</Download>
     <Contact>http://www.adafy.com/</Contact>
     <CompanyInfo>http://www.adafy.com/</CompanyInfo>
     <MetaDescription>ada.tv tuo Yle Areena ja MTV3 Katsomo -palvelujen sisällön Windows puhelimiin. Mukana suorat TV-lähetykset.</MetaDescription>
@@ -18,6 +18,8 @@
     <AverageRating>Ei vielä arvosteltu</AverageRating>
     <Publisher HomePage="http://www.adafy.com">Adafy</Publisher>
     <ReviewsTitle>Katso mitä muut ovat mieltä.</ReviewsTitle>
+	<ThemeColor>#D4850D</ThemeColor>
+	<ThemeFontColor>White</ThemeFontColor>
     <Reviews>
       <Review author=" " rating="5">Ei vielä arvosteluja</Review>
       <Review author=" " rating="5">Ei vielä arvosteluja</Review>
@@ -30,9 +32,9 @@
     </Screenshots>
     <StaticScreenshot alt="Logo">1.png</StaticScreenshot>
     <Features>
-      <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Seuraa huippufutista">Live-tulosseuranta, uutiset, otteluohjelma ja tulokset. SuomiFutis-sovellus tarjoaa kattavan paketin tietoa suomalaisen huippufutiksen seurantaan.</Feature>
-      <Feature Image="assets/img/glyphicons/glyphicons_266_book_open.png" Title="Suosikkisi">Valitse suosikkijoukkueesi ja ja kiinnitä se käynnistysvalikkoon. Käynnistysvalikon tiilen kautta pääset hyppäämään suoraan suosikkijoukkueesi tietoihin.</Feature>
-      <Feature Image="assets/img/glyphicons/glyphicons_155_show_thumbnails.png" Title="Live tiilet">Kiinnitä sovellus puhelimen käynnistysvalikkoon. Tiili päivittyy näyttämään tuoreimpia uutisotsikoita ja päivän otteluita.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Live-TV">ada.tv:n avulla voit seurata TV:n suoria lähetyksiä. Mukana on esimerkiksi Yle TV1 ja TV2 sekä MTV3 Areenan suorat lähetykset.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_266_book_open.png" Title="MTV3 Katsomo Max Sport">Jos olet MTV3 Katsomo Max Sportin tilaaja, voit ada.tv:n avulla katsoa suorana esimerkiksi Valioliigan ja Formula 1:n lähetykset.</Feature>
+      <Feature Image="assets/img/glyphicons/glyphicons_155_show_thumbnails.png" Title="Nopea ja helppo käyttää">ada.tv toimii nopeasti ja se on helppo käyttää. ada.tv toimii Windows Phone 7 ja Windows Phone 8 puhelimilla.</Feature>
     </Features>
     <FeaturesSubtitle>Suomalainen huippufutis vaivattomasti Windows puhelimeen</FeaturesSubtitle>
     <HelpSubtitle>jos sinulla on murheita tämän sovelluksen kanssa</HelpSubtitle>
@@ -44,7 +46,7 @@
     <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
     <Assets>http://assets.softwaremk.org/adafy</Assets>
     <Email>info@adafy.com</Email>
-    <Address>Hietatie 34, 40530 Jyväskyla, Finland</Address>
+    <Address>Ylistönmäentie 31, 40500 Jyväskylä, Finland</Address>
     <Phone>(358) 40 592 8946</Phone>	
   </site>
   <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>

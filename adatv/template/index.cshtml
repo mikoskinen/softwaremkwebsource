@@ -6,18 +6,8 @@
 }
 @section header
 {
-    <section class="taglineWrap">
+    <section class="taglineWrap" style="background: @Model.ThemeColor">
         <div class="container">
-            <div class="row tagline pagination-centered">
-                <div class="span8">
-                    <h2>@Model.AppName <small>@Model.AppDescription</small></h2>
-                </div>
-                <div class="span4">
-                    <div>
-                        <a href="@Model.Download.Link" class="btn btn-primary btn-large">@Model.Download.Download</a>
-                    </div>
-                </div>
-            </div>
 			<div class="row">
 				<div class="span5">
 				   <div id="screenshotarea">
@@ -40,20 +30,28 @@
 							<img src="assets/shots/@Model.StaticScreenshot.StaticScreenshot" alt="@Model.StaticScreenshot.alt" >
 						</div>
 
-						 <div id="myModal" class="modal hide fade">
-							<div class="modal-header">
-							   <a class="close" data-dismiss="modal">&times;</a>
-							   <h3>Esittely</h3>
-							</div>
-							<div class="modal-body">
-							   @Model.IntroductionVideo
-							</div>
-							<div class="modal-footer">
-							   <a href="#" class="btn" data-dismiss="modal">Sulje</a>
-							</div>
-						 </div>
 					  </div>
 				   </div>
+				</div>
+				<div class="span7 topheading headingarea">
+					<div class="row-fluid">
+						<div class="span12 pagination-centered">
+							<img src="assets/shots/logo.png" alt="logo" style="max-width:300px !important;"/>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="span12 pagination-centered">
+							<h1 style="color: @Model.ThemeFontColor; margin-bottom:50px !important;">@Model.Subtitle</h1>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="span12 pagination-centered" >
+							<a href="@Model.Download.Link" class="btn btn-primary btn-large" style="margin-bottom:25px !important;">@Model.Download.Download</a>
+						</div>
+
+					</div>
+					
+						
 				</div>
 			</div>
         </div>
